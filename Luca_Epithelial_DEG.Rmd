@@ -1,0 +1,146 @@
+---
+title: "Luca_Epithelial_DEG"
+output: html_document
+date: "2023-09-21"
+---
+
+
+```{r}
+library(Seurat)
+library(dplyr)
+library(tidyverse)
+
+LucaExEpi <- readRDS("C:/Users/ferid/Downloads/lucaExEpi.rds")
+```
+
+# Create a new column with donor_id and ann_fine (condition) information to create the pseudobulk
+```{r}
+LucaExEpi$samples <- paste0(LucaExEpi$ann_fine, LucaExEpi$donor_id)
+```
+
+# Create the pseudobulk samples: Group the cells by donor and condition
+```{r}
+DefaultAssay(LucaExEpi)
+cts <- AggregateExpression(LucaExEpi, 
+                           group.by = "samples",  # Categories for grouping; 'ident' by default
+                           assays = "RNA",        # Which assays to use. Default is all assays
+                           slot = "counts",       # Slot(s) to use; if multiple slots are given, assumed to follow the order of 'assays' (if specified) or object's assays
+                           return.seurat = FALSE) # Whether to return the data as a Seurat object. Default is FALSE
+
+cts <- as.data.frame(cts$RNA)
+```
+
+# Generate sample level meta data (colData) with sample names
+```{r}
+colData <- data.frame(samples = colnames(cts))
+```
+
+# Add a condition column to colData based on sample names
+```{r}
+colData <- colData %>% 
+  mutate(condition = ifelse(grepl("Cancer", samples), "Cancer", "Normal"))
+```
+
+# Add donor_id column to colData
+```{r}
+meta_data <- LucaExEpi@meta.data
+donor_ids <- str_extract(colData$samples, paste(meta_data$donor_id, collapse = "|"))
+colData$donor_id <- donor_ids
+```
+
+# Add rownames as samples
+```{r}
+rownames(colData) <- colData$samples
+```
+
+# Make sure all the column names of cts present in the row names of colData 
+```{r}
+all(colnames(cts) %in% rownames(colData))
+```
+
+# Make sure the column names of cts and the row names of colData are equal (in the same order)
+```{r}
+all(colnames(cts) == rownames(colData))
+```
+
+# Install DESeq2
+```{r}
+if (!require("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+
+BiocManager::install("DESeq2")
+
+library(DESeq2)
+```
+
+# Create DESeq2 object with donor_id as a correction factor
+```{r}
+dds <- DESeqDataSetFromMatrix(countData = cts,
+                              colData = colData,
+                              design = ~ donor_id + condition)
+```
+
+# Filter to remove all the genes that have lower than 100 reads 
+```{r}
+keep <- rowSums(counts(dds)) >= 100
+dds <- dds[keep,]
+```
+
+# Error in estimateSizeFactorsForMatrix(counts(object), locfunc = locfunc, 
+# every gene contains at least one zero, cannot compute log geometric means
+# To avoid the error above;
+# "Poscounts" considers only the counts that are greater than zero for each gene in each sample.
+```{r}
+dds <- estimateSizeFactors(dds, type = "poscounts")
+```
+
+# Reorder the levels of the "condition" factor variable to get the results of cancer compared to normal
+# (Default first level is the first in alphabetical order)
+```{r}
+dds$condition <- relevel(dds$condition, ref = "Normal")
+levels(dds$condition) # First level is the reference level
+```
+
+# Parallelization
+```{r}
+if (!requireNamespace("BiocParallel", quietly = TRUE))
+  BiocManager::install("BiocParallel")
+
+library(BiocParallel)
+```
+
+# Register the number of cores to use
+```{r}
+register(MulticoreParam(40))
+```
+
+# Enable parallelization for DESeq function and run
+```{r}
+dds <- DESeq(dds, parallel = TRUE)
+saveRDS(dds, file = "dds.rds")
+```
+
+# Check the coefficients for the comparison
+```{r}
+resultsNames(dds)
+```
+
+# Generate results object. Alpha is the padj value treshold (alpha is 1 to keep all the genes) 
+# Contrast is added to get the results of cancer compared to normal (if not specified before running DESeq)
+```{r}
+res <- results(dds, alpha = 0.99, contrast = c("condition", "Normal", "Cancer"))
+res_df <- as.data.frame(res)
+```
+
+# Add a gene names column based on Ensembl gene ids 
+```{r}
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install("org.Hs.eg.db")
+
+library(org.Hs.eg.db)
+
+ensembl_ids <- rownames(res_df)
+gene_names <- mapIds(org.Hs.eg.db, keys = ensembl_ids, column = "SYMBOL", keytype = "ENSEMBL")
+res_df$Gene_Name <- gene_names
+```

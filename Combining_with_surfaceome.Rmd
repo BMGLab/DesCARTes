@@ -1,0 +1,50 @@
+---
+title: "Combining_with_surfaceome"
+output: html_document
+date: "2023-09-21"
+---
+
+```{r}
+library(readxl)
+library(patchwork)
+```
+
+#Import surfaceome data
+```{r}
+surfaceome_data = read_excel("C:/Users/ferid/Downloads/table_S3_surfaceome.xlsx", sheet = 2, skip = 1)
+```
+
+# Change the "UniProt gene" column name to "Gene_Name"
+```{r}
+names(surfaceome_data)[names(surfaceome_data) == "UniProt gene"] <- "Gene_Name"
+```
+
+# Find duplicated genes
+```{r}
+duplicate_genes <- surfaceome_data$Gene_Name[duplicated(surfaceome_data$Gene_Name)]
+print(duplicate_genes)
+```
+
+# Remove HLA genes
+```{r}
+HLA_removed_surfaceome <- surfaceome_data %>%
+  filter(!Gene_Name %in% c("HLA-A", "HLA-B", "HLA-C", "HLA-DRB1"))
+```
+
+# Remove duplicated genes, keep the ones that have the highest machine learning score
+```{r}
+surfaceome_without_duplicates <- HLA_removed_surfaceome %>%
+  arrange(desc(`MachineLearning score`)) %>%
+  distinct(Gene_Name, .keep_all = TRUE)
+```
+
+# Combine the results with surfaceome data
+```{r}
+combined_data <- left_join(res_df, surfaceome_without_duplicates, by = "Gene_Name")
+```
+
+# Save combined_data
+```{r}
+saveRDS(combined_data, file = "C:/Users/ferid/Downloads/combined_data.rds")
+```
+
