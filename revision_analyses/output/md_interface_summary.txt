@@ -1,0 +1,55 @@
+======================================================================================
+INTERFACE-RESOLVED ANALYSIS OF THE 500 ns scFv-73-0 / CLDN4 MEMBRANE SIMULATION
+======================================================================================
+Trajectory: 501 frames at 1 ns spacing (250,000,000 steps x 2 fs).
+Summary window 100-500 ns (n = 400 frames). One frame (t = 449 ns) was
+excluded from the summary as a periodic-image artefact; it is retained in the
+deposited time series.
+
+All frames superposed on the CLDN4 backbone, so that motion of the scFv relative
+to its target is measured rather than absorbed by the fit.
+
+Metric                                   median               IQR             range
+CLDN4_backbone_rmsd                        2.13     2.02-2.26         1.66-2.56     A
+scFv_rmsd_antigen_aligned                  5.93     5.09-6.80         2.47-9.19     A
+interface_rmsd                             3.60     3.30-3.85         2.60-5.04     A
+complex_backbone_rmsd                      4.65     4.08-5.26         2.48-7.05     A
+atom_contacts                            337.50   307.00-364.00     200.00-462.00   
+residue_pairs                             67.50    61.00-73.00       37.00-89.00    
+interface_hbonds                          10.00     8.00-12.00        4.00-17.00    
+salt_bridges                               3.00     2.00-4.00         1.00-6.00     
+buried surface area (A^2)                1174.9   1060.5-1250.7      753.4-1367.0  
+
+Frames in the summary window with no interface contact: 0 / 400
+Heavy-atom contacts in the final 10 ns relative to the 100-500 ns median: 1.05
+
+EPITOPE COMPOSITION (contact occupancy = fraction of 501 frames in contact)
+        n_residues  mean_occupancy  summed_occupancy
+region                                              
+ECL1            35            0.51             17.74
+ECL2            10            0.54              5.42
+
+The persistent interface is dominated by ECL1 (35 residues, summed occupancy 17.7)
+rather than ECL2 (10 residues, summed occupancy 5.4). The most persistent contacts
+form a contiguous ECL1 segment (Lys65-Ala72, occupancy 0.89-1.00) together with the
+C-terminal half of the ECL2 NPLVA motif (Leu151, Val152, Ala153; occupancy 0.91-0.99)
+and Arg158 (0.79).
+
+RECOVERY OF THE DESIGNED HOTSPOTS
+  T45   TIW/ECL1     occupancy 0.00
+  I46   TIW/ECL1     occupancy 0.99
+  W47   TIW/ECL1     occupancy 0.00
+  D146  ECL2         occupancy 0.10
+  F147  ECL2         occupancy 0.00
+  N149  NPLVA/ECL2   occupancy 0.19
+  P150  NPLVA/ECL2   occupancy 0.02
+  L151  NPLVA/ECL2   occupancy 0.94
+  V152  NPLVA/ECL2   occupancy 0.91
+  A153  NPLVA/ECL2   occupancy 0.99
+  R158  ECL2         occupancy 0.79
+
+Five of the eleven designed hotspot residues are engaged for >75% of the trajectory
+(Ile46, Leu151, Val152, Ala153, Arg158). Thr45, Trp47 and Phe147 make no persistent
+contact, and Asp146, Asn149 and Pro150 are engaged in <20% of frames. The simulated
+binding mode therefore only partially reproduces the epitope that was specified
+during design.

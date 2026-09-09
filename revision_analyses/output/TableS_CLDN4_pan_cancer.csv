@@ -1,0 +1,21 @@
+ensembl,gene,cancer,high,medium,low,not_detected,prognostic_favorable,unprognostic_favorable,prognostic_unfavorable,unprognostic_unfavorable
+ENSG00000189143,CLDN4,breast cancer,2,9,1,0,,0.1137,,
+ENSG00000189143,CLDN4,carcinoid,0,2,1,1,,,,
+ENSG00000189143,CLDN4,cervical cancer,5,6,1,0,,0.02787,,
+ENSG00000189143,CLDN4,colorectal cancer,11,0,0,0,,0.2246,,
+ENSG00000189143,CLDN4,endometrial cancer,0,10,0,0,,,,0.01231
+ENSG00000189143,CLDN4,glioma,0,0,0,12,,,,0.01558
+ENSG00000189143,CLDN4,head and neck cancer,0,3,0,1,,0.1839,,
+ENSG00000189143,CLDN4,liver cancer,1,5,1,5,,,,0.01603
+ENSG00000189143,CLDN4,lung cancer,0,9,2,0,,,,0.07088
+ENSG00000189143,CLDN4,lymphoma,0,0,0,12,,,,
+ENSG00000189143,CLDN4,melanoma,0,0,0,11,,0.3066,,
+ENSG00000189143,CLDN4,ovarian cancer,5,7,0,0,,,0.0003277,
+ENSG00000189143,CLDN4,pancreatic cancer,3,8,1,0,,,,0.002159
+ENSG00000189143,CLDN4,prostate cancer,6,6,0,0,,,,0.5106
+ENSG00000189143,CLDN4,renal cancer,0,3,3,6,3.464e-10,,,
+ENSG00000189143,CLDN4,skin cancer,0,1,4,7,,,,
+ENSG00000189143,CLDN4,stomach cancer,3,8,0,0,,0.05771,,
+ENSG00000189143,CLDN4,testis cancer,0,0,2,10,,,,0.1366
+ENSG00000189143,CLDN4,thyroid cancer,2,2,0,0,,0.09379,,
+ENSG00000189143,CLDN4,urothelial cancer,8,4,0,0,,0.04627,,

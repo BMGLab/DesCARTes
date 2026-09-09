@@ -1,0 +1,10 @@
+mAb,cognate_target,cognate_score,top_antigen,top_score,cognate_rank_of_25
+eclutatug / lixudebart,CLDN1,0.512,CLDN6,0.662,4
+garetatug,CLDN18.2,0.887,CLDN18.2,0.887,1
+omectatug,CLDN18.2,0.839,CLDN18.2,0.839,1
+gresonitamab,CLDN18.2,0.398,CLDN3,0.779,16
+osemitamab,CLDN18.2,0.378,CLDN9,0.735,21
+sonesitamab,CLDN18.2,0.363,CLDN11,0.544,21
+tecotabart,CLDN18.2,0.354,CLDN5,0.727,15
+zolbetuximab,CLDN18.2,0.273,CLDN5,0.805,24
+ixotatug,CLDN6,0.445,CLDN25,0.738,9

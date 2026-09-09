@@ -1,0 +1,7 @@
+job_name,chain,region,start,end
+*,A,L1,24,34
+*,A,L2,50,56
+*,A,L3,89,97
+*,B,H1,26,35
+*,B,H2,50,65
+*,B,H3,95,102

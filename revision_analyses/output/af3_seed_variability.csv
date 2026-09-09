@@ -1,0 +1,6 @@
+pair,iptm_AbAg_seed10,iptm_AbAg_seed42,pae_interface_seed10,pae_interface_seed42,ptm_seed10,ptm_seed42,STRIVE_struct_scaled_seed10,STRIVE_struct_scaled_seed42,iptm_AbAg_delta,pae_interface_delta,ptm_delta,STRIVE_struct_scaled_delta
+ab_0_cld1_human,0.15,0.13,14.44,12.14,0.55,0.55,0.1533,0.1427,0.02,2.3,0.0,0.0107
+ab_17_cld15_human,0.645,0.585,3.59,5.01,0.63,0.6,0.7613,0.7249,0.06,1.42,0.03,0.0365
+ab_1_cld8_human,0.68,0.71,2.52,2.37,0.75,0.77,0.796,0.8147,0.03,0.15,0.02,0.0187
+ab_3_cld2_human,0.23,0.27,10.53,9.56,0.56,0.56,0.2673,0.3349,0.04,0.97,0.0,0.0675
+ab_4_cld24_human,0.14,0.12,22.86,21.83,0.51,0.51,0.1427,0.132,0.02,1.03,0.0,0.0107

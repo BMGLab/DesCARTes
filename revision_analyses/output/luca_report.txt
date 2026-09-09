@@ -1,0 +1,29 @@
+========================================================================================
+LuCA PSEUDOBULK CLDN4 -- CORRECTED STAGE COMPARISONS
+========================================================================================
+                             unit     stage  n  n_ref  median  median_ref       U  p_raw   p_BH signif_BH
+sample x cell_type (as submitted)         I 68    928  6.0770      5.8290 34341.0 0.2233 0.3721        ns
+sample x cell_type (as submitted)        II 50    928  5.7137      5.8290 22129.0 0.5822 0.7277        ns
+sample x cell_type (as submitted)       III 28    928  5.8634      5.8290 13247.0 0.8597 0.8597        ns
+sample x cell_type (as submitted) III or IV 42    928  6.3287      5.8290 25501.0 0.0007 0.0018        **
+sample x cell_type (as submitted)        IV 59    928  6.5638      5.8290 39723.0 0.0000 0.0000       ***
+                    patient-level         I 59    162  6.0185      5.7606  5561.0 0.0631 0.1052        ns
+                    patient-level        II 25    162  5.8030      5.7606  2413.5 0.1235 0.1543        ns
+                    patient-level       III 21    162  5.9365      5.7606  1880.0 0.4345 0.4345        ns
+                    patient-level III or IV 42    162  6.3287      5.7606  4737.0 0.0001 0.0002       ***
+                    patient-level        IV 46    162  6.5084      5.7606  5595.5 0.0000 0.0000       ***
+
+[sample x cell_type] trend across tumour stages only: Spearman rho = 0.271 (p = 1.53e-05); Kruskal-Wallis H = 26.63 (p = 2.36e-05)
+[patient-level] trend across tumour stages only: Spearman rho = 0.243 (p = 0.000673); Kruskal-Wallis H = 13.29 (p = 0.00995)
+
+Study-of-origin composition per group (patient level):
+study                     Adams_Kaminski_2020  Chen_Zhang_2020  Goveia_Carmeliet_2020  Habermann_Kropski_2020  He_Fan_2021  Kim_Lee_2020  Lambrechts_Thienpont_2018  Laughney_Massague_2020  Leader_Merad_2021  Madissoon_Meyer_2020  Maynard_Bivona_2020  Mayr_Schiller_2020  Reyfman_Misharin_2018  Travaglini_Krasnow_2020  UKIM-V  Vieira_Teichmann_2019  Wu_Zhou_2021  Zilionis_Klein_2019
+group                                                                                                                                                                                                                                                                                                                                                                                          
+Epithelial (normal lung)                   46                0                      6                      10            5            12                          7                       4                 26                     5                    0                   9                      8                        3      17                      4             0                    0
+I                                           0                5                      3                       0            3             7                          2                       7                 17                     0                    3                   0                      0                        0      10                      0             0                    2
+II                                          0                0                      4                       0            2             1                          4                       1                  9                     0                    0                   0                      0                        0       3                      0             0                    1
+III                                         0                5                      0                       0            0             4                          2                       0                  3                     0                    2                   0                      0                        0       3                      0             0                    2
+III or IV                                   0                0                      0                       0            0             0                          0                       0                  0                     0                    0                   0                      0                        0       0                      0            42                    0
+IV                                          0                0                      0                       0            0            20                          0                       5                  0                     0                   18                   0                      0                        0       1                      0             0                    2
+
+Number of contributing studies: normal reference = 14; stage I = 10; stage II = 8; stage III = 7; stage III or IV = 1; stage IV = 5

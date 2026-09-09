@@ -1,0 +1,21 @@
+"ensembl","gene","cancer","high","medium","low","not_detected","prognostic_favorable","unprognostic_favorable","prognostic_unfavorable","unprognostic_unfavorable"
+"ENSG00000189143","CLDN4","breast cancer",2,9,1,0,NA,"1.137e-1",NA,NA
+"ENSG00000189143","CLDN4","carcinoid",0,2,1,1,NA,NA,NA,NA
+"ENSG00000189143","CLDN4","cervical cancer",5,6,1,0,NA,"2.787e-2",NA,NA
+"ENSG00000189143","CLDN4","colorectal cancer",11,0,0,0,NA,"2.246e-1",NA,NA
+"ENSG00000189143","CLDN4","endometrial cancer",0,10,0,0,NA,NA,NA,"1.231e-2"
+"ENSG00000189143","CLDN4","glioma",0,0,0,12,NA,NA,NA,"1.558e-2"
+"ENSG00000189143","CLDN4","head and neck cancer",0,3,0,1,NA,"1.839e-1",NA,NA
+"ENSG00000189143","CLDN4","liver cancer",1,5,1,5,NA,NA,NA,"1.603e-2"
+"ENSG00000189143","CLDN4","lung cancer",0,9,2,0,NA,NA,NA,"7.088e-2"
+"ENSG00000189143","CLDN4","lymphoma",0,0,0,12,NA,NA,NA,NA
+"ENSG00000189143","CLDN4","melanoma",0,0,0,11,NA,"3.066e-1",NA,NA
+"ENSG00000189143","CLDN4","ovarian cancer",5,7,0,0,NA,NA,"3.277e-4",NA
+"ENSG00000189143","CLDN4","pancreatic cancer",3,8,1,0,NA,NA,NA,"2.159e-3"
+"ENSG00000189143","CLDN4","prostate cancer",6,6,0,0,NA,NA,NA,"5.106e-1"
+"ENSG00000189143","CLDN4","renal cancer",0,3,3,6,"3.464e-10",NA,NA,NA
+"ENSG00000189143","CLDN4","skin cancer",0,1,4,7,NA,NA,NA,NA
+"ENSG00000189143","CLDN4","stomach cancer",3,8,0,0,NA,"5.771e-2",NA,NA
+"ENSG00000189143","CLDN4","testis cancer",0,0,2,10,NA,NA,NA,"1.366e-1"
+"ENSG00000189143","CLDN4","thyroid cancer",2,2,0,0,NA,"9.379e-2",NA,NA
+"ENSG00000189143","CLDN4","urothelial cancer",8,4,0,0,NA,"4.627e-2",NA,NA

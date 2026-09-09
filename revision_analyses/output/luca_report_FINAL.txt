@@ -1,0 +1,38 @@
+============================================================================================
+LuCA PSEUDOBULK CLDN4 -- REPRODUCTION AND CORRECTION
+============================================================================================
+
+sample-level (published design): 458 profiles
+  Epithelial (normal lung) n=211; I n=68; II n=50; III n=28; III or IV n=42; IV n=59
+
+donor-level: 355 profiles
+  Epithelial (normal lung) n=162; I n=59; II n=25; III n=21; III or IV n=42; IV n=46
+
+                           unit     stage  n  n_ref  median  median_ref  log2FC      U  rank_biserial  p_raw   p_BH signif_BH
+sample-level (published design)         I 68    211  6.0770      5.7216  0.3555 8343.5         0.1630 0.0433 0.0722        ns
+sample-level (published design)        II 50    211  5.7137      5.7216 -0.0079 5413.5         0.0263 0.7737 0.7737        ns
+sample-level (published design)       III 28    211  5.8634      5.7216  0.1419 3189.5         0.0797 0.4942 0.6177        ns
+sample-level (published design) III or IV 42    211  6.3287      5.7216  0.6071 6190.0         0.3970 0.0000 0.0001       ***
+sample-level (published design)        IV 59    211  6.5638      5.7216  0.8423 9549.5         0.5342 0.0000 0.0000       ***
+                    donor-level         I 59    162  6.0185      5.7606  0.2578 5561.0         0.1636 0.0631 0.1052        ns
+                    donor-level        II 25    162  5.8030      5.7606  0.0424 2413.5         0.1919 0.1235 0.1543        ns
+                    donor-level       III 21    162  5.9365      5.7606  0.1759 1880.0         0.1052 0.4345 0.4345        ns
+                    donor-level III or IV 42    162  6.3287      5.7606  0.5681 4737.0         0.3924 0.0001 0.0002       ***
+                    donor-level        IV 46    162  6.5084      5.7606  0.7477 5595.5         0.5017 0.0000 0.0000       ***
+
+[sample-level] monotonic trend across tumour stages: Spearman rho = 0.271 (p = 1.53e-05); Kruskal-Wallis H = 26.63 (p = 2.36e-05)
+[donor-level] monotonic trend across tumour stages: Spearman rho = 0.243 (p = 0.000673); Kruskal-Wallis H = 13.29 (p = 0.00995)
+
+Median log1p(CPM) by group (sample-level):
+group
+Epithelial (normal lung)    5.722
+I                           6.077
+II                          5.714
+III                         5.863
+III or IV                   6.329
+IV                          6.564
+
+Cohorts contributing to each group (donor-level):
+  Epithelial (normal lung): 14 studies; I: 10 studies; II: 8 studies; III: 7 studies; III or IV: 1 studies; IV: 5 studies
+  NOTE: the 'III or IV' group is contributed entirely by a single cohort
+  (Wu_Zhou_2021), so that comparison is confounded with study of origin.

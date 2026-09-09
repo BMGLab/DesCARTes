@@ -1,0 +1,130 @@
+organ_system,tissue,cell_type,level,reliability
+CNS,caudate,glial cells,Not detected,Enhanced
+CNS,caudate,neuronal cells,Not detected,Enhanced
+CNS,cerebellum,Purkinje cells,Low,Enhanced
+CNS,cerebellum,cells in granular layer,Not detected,Enhanced
+CNS,cerebellum,cells in molecular layer,Not detected,Enhanced
+CNS,cerebral cortex,neuronal cells,Low,Enhanced
+CNS,cerebral cortex,endothelial cells,Not detected,Enhanced
+CNS,cerebral cortex,glial cells,Not detected,Enhanced
+CNS,cerebral cortex,neuropil,Not detected,Enhanced
+CNS,hippocampus,neuronal cells,Low,Enhanced
+CNS,hippocampus,glial cells,Not detected,Enhanced
+Cardiac/muscle,heart muscle,cardiomyocytes,Not detected,Enhanced
+Cardiac/muscle,skeletal muscle,myocytes,Not detected,Enhanced
+Cardiac/muscle,smooth muscle,smooth muscle cells,Not detected,Enhanced
+Connective/other,adipose tissue,adipocytes,Not detected,Enhanced
+Connective/other,soft tissue 1,chondrocytes,Not detected,Enhanced
+Connective/other,soft tissue 1,fibroblasts,Not detected,Enhanced
+Connective/other,soft tissue 2,fibroblasts,Not detected,Enhanced
+Endocrine,adrenal gland,glandular cells,Not detected,Enhanced
+Endocrine,parathyroid gland,glandular cells,Low,Enhanced
+Endocrine,thyroid gland,glandular cells,Medium,Enhanced
+Gastrointestinal,appendix,endocrine cells,High,Enhanced
+Gastrointestinal,appendix,enterocytes,High,Enhanced
+Gastrointestinal,appendix,goblet cells,High,Enhanced
+Gastrointestinal,appendix,germinal center cells,Low,Enhanced
+Gastrointestinal,appendix,enterocytes - Microvilli,Not detected,Enhanced
+Gastrointestinal,appendix,non-germinal center cells,Not detected,Enhanced
+Gastrointestinal,colon,endocrine cells,High,Enhanced
+Gastrointestinal,colon,enterocytes,High,Enhanced
+Gastrointestinal,colon,goblet cells,High,Enhanced
+Gastrointestinal,colon,endothelial cells,Not detected,Enhanced
+Gastrointestinal,colon,enterocytes - Microvilli,Not detected,Enhanced
+Gastrointestinal,colon,fibroblasts,Not detected,Enhanced
+Gastrointestinal,colon,mucosal lymphoid cells,Not detected,Enhanced
+Gastrointestinal,duodenum,endocrine cells,High,Enhanced
+Gastrointestinal,duodenum,enterocytes,High,Enhanced
+Gastrointestinal,duodenum,goblet cells,High,Enhanced
+Gastrointestinal,duodenum,paneth cells,High,Enhanced
+Gastrointestinal,duodenum,enterocytes - Microvilli,Not detected,Enhanced
+Gastrointestinal,esophagus,squamous epithelial cells,Medium,Enhanced
+Gastrointestinal,oral mucosa,squamous epithelial cells,Medium,Enhanced
+Gastrointestinal,rectum,endocrine cells,High,Enhanced
+Gastrointestinal,rectum,enterocytes,High,Enhanced
+Gastrointestinal,rectum,goblet cells,High,Enhanced
+Gastrointestinal,rectum,endothelial cells,Not detected,Enhanced
+Gastrointestinal,rectum,enterocytes - Microvilli,Not detected,Enhanced
+Gastrointestinal,rectum,fibroblasts,Not detected,Enhanced
+Gastrointestinal,rectum,mucosal lymphoid cells,Not detected,Enhanced
+Gastrointestinal,rectum,peripheral nerve/ganglion,Not detected,Enhanced
+Gastrointestinal,salivary gland,glandular cells,Medium,Enhanced
+Gastrointestinal,small intestine,endocrine cells,High,Enhanced
+Gastrointestinal,small intestine,enterocytes,High,Enhanced
+Gastrointestinal,small intestine,goblet cells,High,Enhanced
+Gastrointestinal,small intestine,paneth cells,High,Enhanced
+Gastrointestinal,small intestine,enterocytes - Microvilli,Not detected,Enhanced
+Gastrointestinal,stomach 1,glandular cells,Not detected,Enhanced
+Gastrointestinal,stomach 2,glandular cells,Medium,Enhanced
+Haematopoietic/lymphoid,bone marrow,hematopoietic cells,Not detected,Enhanced
+Haematopoietic/lymphoid,lymph node,germinal center cells,Not detected,Enhanced
+Haematopoietic/lymphoid,lymph node,non-germinal center cells,Not detected,Enhanced
+Haematopoietic/lymphoid,spleen,cells in red pulp,Not detected,Enhanced
+Haematopoietic/lymphoid,spleen,cells in white pulp,Not detected,Enhanced
+Haematopoietic/lymphoid,tonsil,squamous epithelial cells,Medium,Enhanced
+Haematopoietic/lymphoid,tonsil,germinal center cells,Not detected,Enhanced
+Haematopoietic/lymphoid,tonsil,non-germinal center cells,Not detected,Enhanced
+Hepatobiliary/pancreas,gallbladder,glandular cells,Medium,Enhanced
+Hepatobiliary/pancreas,liver,cholangiocytes,Not detected,Enhanced
+Hepatobiliary/pancreas,liver,hepatocytes,Not detected,Enhanced
+Hepatobiliary/pancreas,pancreas,exocrine glandular cells,High,Enhanced
+Hepatobiliary/pancreas,pancreas,pancreatic endocrine cells,Not detected,Enhanced
+Renal/urinary,kidney,distal tubules,High,Enhanced
+Renal/urinary,kidney,collecting ducts,Medium,Enhanced
+Renal/urinary,kidney,proximal tubules (cell body),Medium,Enhanced
+Renal/urinary,kidney,bowman's capsule,Not detected,Enhanced
+Renal/urinary,kidney,cells in glomeruli,Not detected,Enhanced
+Renal/urinary,kidney,proximal tubules (microvilli),Not detected,Enhanced
+Renal/urinary,urinary bladder,urothelial cells,High,Enhanced
+Reproductive/breast,breast,glandular cells,Medium,Enhanced
+Reproductive/breast,breast,myoepithelial cells,Medium,Enhanced
+Reproductive/breast,breast,adipocytes,Not detected,Enhanced
+Reproductive/breast,cervix,glandular cells,Low,Enhanced
+Reproductive/breast,cervix,squamous epithelial cells,Low,Enhanced
+Reproductive/breast,endometrium 1,glandular cells,Medium,Enhanced
+Reproductive/breast,endometrium 1,cells in endometrial stroma,Not detected,Enhanced
+Reproductive/breast,endometrium 2,glandular cells,Low,Enhanced
+Reproductive/breast,endometrium 2,cells in endometrial stroma,Not detected,Enhanced
+Reproductive/breast,epididymis,glandular cells,Medium,Enhanced
+Reproductive/breast,fallopian tube,glandular cells,Medium,Enhanced
+Reproductive/breast,ovary,follicle cells,Not detected,Enhanced
+Reproductive/breast,ovary,ovarian stroma cells,Not detected,Enhanced
+Reproductive/breast,placenta,cytotrophoblasts,High,Enhanced
+Reproductive/breast,placenta,syncytiotrophoblasts - cell body,High,Enhanced
+Reproductive/breast,placenta,syncytiotrophoblasts - microvilli,High,Enhanced
+Reproductive/breast,placenta,decidual cells,Not detected,Enhanced
+Reproductive/breast,placenta,endothelial cells,Not detected,Enhanced
+Reproductive/breast,placenta,hofbauer cells,Not detected,Enhanced
+Reproductive/breast,prostate,glandular cells,Medium,Enhanced
+Reproductive/breast,seminal vesicle,glandular cells,Medium,Enhanced
+Reproductive/breast,testis,cells in seminiferous ducts,Not detected,Enhanced
+Reproductive/breast,testis,Leydig cells,Not detected,Enhanced
+Reproductive/breast,vagina,squamous epithelial cells,Low,Enhanced
+Respiratory,bronchus,respiratory epithelial cells,Medium,Enhanced
+Respiratory,lung,alveolar cells type I,Low,Enhanced
+Respiratory,lung,alveolar cells type II,Not detected,Enhanced
+Respiratory,lung,endothelial cells,Not detected,Enhanced
+Respiratory,lung,macrophages,Not detected,Enhanced
+Skin,skin 1,cells in granular layer,High,Enhanced
+Skin,skin 1,arrector pili muscle cells,Not detected,Enhanced
+Skin,skin 1,cells in basal layer,Not detected,Enhanced
+Skin,skin 1,cells in corneal layer,Not detected,Enhanced
+Skin,skin 1,cells in spinous layer,Not detected,Enhanced
+Skin,skin 1,endothelial cells,Not detected,Enhanced
+Skin,skin 1,extracellular matrix,Not detected,Enhanced
+Skin,skin 1,fibrohistiocytic cells,Not detected,Enhanced
+Skin,skin 1,langerhans cells,Not detected,Enhanced
+Skin,skin 1,lymphocytes,Not detected,Enhanced
+Skin,skin 1,melanocytes,Not detected,Enhanced
+Skin,skin 1,vascular mural cells,Not detected,Enhanced
+Skin,skin 2,cells in granular layer,High,Enhanced
+Skin,skin 2,cells in basal layer,Not detected,Enhanced
+Skin,skin 2,cells in corneal layer,Not detected,Enhanced
+Skin,skin 2,cells in spinous layer,Not detected,Enhanced
+Skin,skin 2,endothelial cells,Not detected,Enhanced
+Skin,skin 2,extracellular matrix,Not detected,Enhanced
+Skin,skin 2,fibrohistiocytic cells,Not detected,Enhanced
+Skin,skin 2,langerhans cells,Not detected,Enhanced
+Skin,skin 2,lymphocytes,Not detected,Enhanced
+Skin,skin 2,melanocytes,Not detected,Enhanced
+Skin,skin 2,vascular mural cells,Not detected,Enhanced

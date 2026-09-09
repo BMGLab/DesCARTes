@@ -1,0 +1,107 @@
+======================================================================================
+CLDN4 PROTEIN EXPRESSION ACROSS NORMAL HUMAN TISSUES (HPA v22.0, IHC, Enhanced)
+======================================================================================
+48 tissues, 129 tissue x cell-type entries
+
+Staining level distribution:
+  High             25 (19.4%)
+  Medium           17 (13.2%)
+  Low              10 ( 7.8%)
+  Not detected     77 (59.7%)
+
+Cell types with MEDIUM or HIGH CLDN4 staining: 42 across 25 tissues
+
+--- HIGH staining ---
+  Gastrointestinal           appendix           endocrine cells
+  Gastrointestinal           appendix           enterocytes
+  Gastrointestinal           appendix           goblet cells
+  Gastrointestinal           colon              endocrine cells
+  Gastrointestinal           colon              enterocytes
+  Gastrointestinal           colon              goblet cells
+  Gastrointestinal           duodenum           endocrine cells
+  Gastrointestinal           duodenum           enterocytes
+  Gastrointestinal           duodenum           goblet cells
+  Gastrointestinal           duodenum           paneth cells
+  Gastrointestinal           rectum             endocrine cells
+  Gastrointestinal           rectum             enterocytes
+  Gastrointestinal           rectum             goblet cells
+  Gastrointestinal           small intestine    endocrine cells
+  Gastrointestinal           small intestine    enterocytes
+  Gastrointestinal           small intestine    goblet cells
+  Gastrointestinal           small intestine    paneth cells
+  Hepatobiliary/pancreas     pancreas           exocrine glandular cells
+  Renal/urinary              kidney             distal tubules
+  Renal/urinary              urinary bladder    urothelial cells
+  Reproductive/breast        placenta           cytotrophoblasts
+  Reproductive/breast        placenta           syncytiotrophoblasts - cell body
+  Reproductive/breast        placenta           syncytiotrophoblasts - microvilli
+  Skin                       skin 1             cells in granular layer
+  Skin                       skin 2             cells in granular layer
+
+--- MEDIUM staining ---
+  Endocrine                  thyroid gland      glandular cells
+  Gastrointestinal           esophagus          squamous epithelial cells
+  Gastrointestinal           oral mucosa        squamous epithelial cells
+  Gastrointestinal           salivary gland     glandular cells
+  Gastrointestinal           stomach 2          glandular cells
+  Haematopoietic/lymphoid    tonsil             squamous epithelial cells
+  Hepatobiliary/pancreas     gallbladder        glandular cells
+  Renal/urinary              kidney             collecting ducts
+  Renal/urinary              kidney             proximal tubules (cell body)
+  Reproductive/breast        breast             glandular cells
+  Reproductive/breast        breast             myoepithelial cells
+  Reproductive/breast        endometrium 1      glandular cells
+  Reproductive/breast        epididymis         glandular cells
+  Reproductive/breast        fallopian tube     glandular cells
+  Reproductive/breast        prostate           glandular cells
+  Reproductive/breast        seminal vesicle    glandular cells
+  Respiratory                bronchus           respiratory epithelial cells
+
+--- Per organ system: maximum CLDN4 level observed ---
+                         n_entries     max_level  n_medium_or_high
+organ_system                                                      
+Gastrointestinal                36          High                21
+Hepatobiliary/pancreas           5          High                 2
+Renal/urinary                    7          High                 4
+Reproductive/breast             24          High                10
+Skin                            23          High                 2
+Endocrine                        3        Medium                 1
+Haematopoietic/lymphoid          8        Medium                 1
+Respiratory                      5        Medium                 1
+CNS                             11           Low                 0
+Cardiac/muscle                   3  Not detected                 0
+Connective/other                 4  Not detected                 0
+
+Tissues where CLDN4 is NOT detected in any assessed cell type:
+  adipose tissue, adrenal gland, bone marrow, caudate, heart muscle, liver, lymph node, ovary, skeletal muscle, smooth muscle, soft tissue 1, soft tissue 2, spleen, stomach 1, testis
+
+NOTE: HPA reports total cellular immunoreactivity and does not distinguish
+membrane-accessible antigen from junction-sequestered or intracellular protein.
+These data therefore bound the on-target/off-tumour risk from above; they do
+not establish that CLDN4 is accessible to a CAR on these cells.
+
+======================================================================================
+CLDN4 IHC ACROSS 20 CANCER TYPES (HPA v22.0 pathology)
+======================================================================================
+                      high  medium  low  not_detected  n_patients  pct_med_high
+cancer                                                                         
+colorectal cancer       11       0    0             0          11         100.0
+urothelial cancer        8       4    0             0          12         100.0
+ovarian cancer           5       7    0             0          12         100.0
+endometrial cancer       0      10    0             0          10         100.0
+stomach cancer           3       8    0             0          11         100.0
+thyroid cancer           2       2    0             0           4         100.0
+prostate cancer          6       6    0             0          12         100.0
+breast cancer            2       9    1             0          12          92.0
+pancreatic cancer        3       8    1             0          12          92.0
+cervical cancer          5       6    1             0          12          92.0
+lung cancer              0       9    2             0          11          82.0
+head and neck cancer     0       3    0             1           4          75.0
+carcinoid                0       2    1             1           4          50.0
+liver cancer             1       5    1             5          12          50.0
+renal cancer             0       3    3             6          12          25.0
+skin cancer              0       1    4             7          12           8.0
+melanoma                 0       0    0            11          11           0.0
+lymphoma                 0       0    0            12          12           0.0
+glioma                   0       0    0            12          12           0.0
+testis cancer            0       0    2            10          12           0.0

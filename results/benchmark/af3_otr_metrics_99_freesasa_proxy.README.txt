@@ -1,0 +1,14 @@
+AF3 OTR pipeline output notes
+=============================
+
+Key fixes in this version:
+- chain_pair_iptm and chain_pair_pae_min matrix outputs are indexed by chain_order.
+- chain_order is inferred from token_chain_ids in confidences.json where available.
+- pae_mean_* is computed from the full token-level PAE matrix.
+- otr_original_noaff and otr_fab_noaff are provided when no phi_affinity is supplied.
+
+Recommended score columns while affinity is absent:
+- otr_original_noaff for original OTR without affinity.
+- otr_fab_noaff for Fab-aware OTR without affinity.
+
+If you later add affinity values, provide --affinity_csv with job_name,phi_affinity.

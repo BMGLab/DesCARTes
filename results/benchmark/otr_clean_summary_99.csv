@@ -1,0 +1,10 @@
+group_id,positive_job,positive_OTR_clean,positive_rank_OTR_clean,delta_OTR_clean,selectivity_call
+1ahw,1ahw_lh_vs_1ahw_c_positive,0.572749778903888,1,0.024922195620100784,borderline_off_target_risk
+1mlc,1mlc_lh_vs_1mlc_e_positive,0.3851354768206581,6,-0.036348252024892225,decoy_scores_above_cognate
+1vfb,1vfb_lh_vs_1vfb_c_positive,0.31464242539375065,6,-0.10468515789003652,decoy_scores_above_cognate
+1yy9,1yy9_lh_vs_1yy9_a_positive,0.6931361190233649,1,0.24386202349745334,clean_selectivity
+2vis,2vis_lh_vs_2vis_c_positive,0.258746878121841,10,-0.20978183940301165,decoy_scores_above_cognate
+4g6m,4g6m_lh_vs_4g6m_a_positive,0.38084844593386935,3,-0.02120362257181685,decoy_scores_above_cognate
+6dca,6dca_lh_vs_6dca_p_positive,0.762200375948219,1,0.3329431462282546,clean_selectivity
+6nmt,6nmt_lh_vs_6nmt_c_positive,0.28652183417477506,11,-0.20878216241667547,decoy_scores_above_cognate
+6o3b,6o3b_lh_vs_6o3b_c_positive,0.3581309467873496,4,-0.03899032620946391,decoy_scores_above_cognate

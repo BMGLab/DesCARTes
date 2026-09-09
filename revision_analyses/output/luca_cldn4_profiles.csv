@@ -1,0 +1,1176 @@
+sample,donor_id,study,cell_type,group,g,tot,cpm,expr
+Adams_Kaminski_2020_001C,Adams_Kaminski_2020_001C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),13.0,43112.0,301.54017442939323,5.712214076683742
+Adams_Kaminski_2020_001C,Adams_Kaminski_2020_001C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),7.0,17279.0,405.1160368076856,6.006638923712318
+Adams_Kaminski_2020_001C,Adams_Kaminski_2020_001C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),30.0,83743.0,358.2388975794992,5.883987620040383
+Adams_Kaminski_2020_001C,Adams_Kaminski_2020_001C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),1.0,7296.0,137.06140350877192,4.927698539157105
+Adams_Kaminski_2020_001C,Adams_Kaminski_2020_001C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),10.0,51343.0,194.76851761681243,5.276932928694668
+Adams_Kaminski_2020_002C,Adams_Kaminski_2020_002C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),5.0,18985.0,263.3658151171978,5.577333807323546
+Adams_Kaminski_2020_002C,Adams_Kaminski_2020_002C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),4.0,10017.0,399.32115403813515,5.992267110063498
+Adams_Kaminski_2020_002C,Adams_Kaminski_2020_002C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),36.0,166125.0,216.70428893905193,5.383137669190451
+Adams_Kaminski_2020_003C,Adams_Kaminski_2020_003C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),46.0,107008.0,429.8744019138756,6.06581663676267
+Adams_Kaminski_2020_003C,Adams_Kaminski_2020_003C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),7.0,40748.0,171.78757239619122,5.152062934780137
+Adams_Kaminski_2020_003C,Adams_Kaminski_2020_003C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),3.0,8231.0,364.47576236180294,5.901199963343388
+Adams_Kaminski_2020_003C,Adams_Kaminski_2020_003C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),6.0,75617.0,79.3472367324808,4.386357701206108
+Adams_Kaminski_2020_003C,Adams_Kaminski_2020_003C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),69.0,227137.0,303.7814182629867,5.719594858250017
+Adams_Kaminski_2020_8CO,Adams_Kaminski_2020_8CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),3.0,51762.0,57.9575750550597,4.076818118389748
+Adams_Kaminski_2020_8CO,Adams_Kaminski_2020_8CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),16.0,82143.0,194.78226994387833,5.277003174126466
+Adams_Kaminski_2020_8CO,Adams_Kaminski_2020_8CO,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),29.0,126172.0,229.8449735281996,5.441746374958959
+Adams_Kaminski_2020_022C-a,Adams_Kaminski_2020_222C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),49.0,108438.0,451.8711152916874,6.115607571296447
+Adams_Kaminski_2020_022C-a,Adams_Kaminski_2020_222C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),20.0,58860.0,339.78933061501874,5.831264487584276
+Adams_Kaminski_2020_022C-a,Adams_Kaminski_2020_222C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),32.0,93688.0,341.5592178293912,5.836444541528955
+Adams_Kaminski_2020_022C-a,Adams_Kaminski_2020_222C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),122.0,378517.0,322.31049067809374,5.778613132946336
+Adams_Kaminski_2020_022C-a,Adams_Kaminski_2020_222C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),63.0,144772.0,435.1670212472025,6.07802524624911
+Adams_Kaminski_2020_022C-b,Adams_Kaminski_2020_222C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),34.0,60782.0,559.3761310914415,6.328608220928069
+Adams_Kaminski_2020_022C-b,Adams_Kaminski_2020_222C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),5.0,18428.0,271.32624267419146,5.607000769160857
+Adams_Kaminski_2020_022C-b,Adams_Kaminski_2020_222C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),41.0,114627.0,357.6818725082223,5.882435846623979
+Adams_Kaminski_2020_022C-b,Adams_Kaminski_2020_222C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),184.0,386434.0,476.14857905877847,6.167827928882885
+Adams_Kaminski_2020_022C-b,Adams_Kaminski_2020_222C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),53.0,130507.0,406.1084846023585,6.009079696859814
+Adams_Kaminski_2020_23CO,Adams_Kaminski_2020_23CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),7.0,26221.0,266.9615956675947,5.590843670494686
+Adams_Kaminski_2020_23CO,Adams_Kaminski_2020_23CO,Adams_Kaminski_2020,club cell,Epithelial (normal lung),9.0,21969.0,409.6681687832855,6.017785513170173
+Adams_Kaminski_2020_23CO,Adams_Kaminski_2020_23CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),57.0,100931.0,564.7422496557055,6.338138585181111
+Adams_Kaminski_2020_23CO,Adams_Kaminski_2020_23CO,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),8.0,12262.0,652.42211710977,6.482223347859126
+Adams_Kaminski_2020_23CO,Adams_Kaminski_2020_23CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),37.0,73167.0,505.6924569819727,6.227904225814857
+Adams_Kaminski_2020_034C,Adams_Kaminski_2020_034C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),4.0,16292.0,245.51927326295115,5.507440178105562
+Adams_Kaminski_2020_034C,Adams_Kaminski_2020_034C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),0.0,918.0,0.0,0.0
+Adams_Kaminski_2020_034C,Adams_Kaminski_2020_034C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),16.0,55249.0,289.59800177378776,5.6719408749039655
+Adams_Kaminski_2020_052CO-a,Adams_Kaminski_2020_052CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),21.0,110766.0,189.58886300850443,5.250118558287876
+Adams_Kaminski_2020_052CO-a,Adams_Kaminski_2020_052CO,Adams_Kaminski_2020,club cell,Epithelial (normal lung),2.0,10280.0,194.5525291828794,5.27582903480686
+Adams_Kaminski_2020_052CO-a,Adams_Kaminski_2020_052CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),169.0,406140.0,416.1126705077067,6.033356378367274
+Adams_Kaminski_2020_052CO-a,Adams_Kaminski_2020_052CO,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),64.0,382954.0,167.1218997581955,5.12468931008613
+Adams_Kaminski_2020_052CO-a,Adams_Kaminski_2020_052CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),15.0,63474.0,236.31723225257585,5.469397778810113
+Adams_Kaminski_2020_056CO,Adams_Kaminski_2020_056CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),18.0,180233.0,99.87072289758258,4.613839725667242
+Adams_Kaminski_2020_056CO,Adams_Kaminski_2020_056CO,Adams_Kaminski_2020,club cell,Epithelial (normal lung),1.0,14959.0,66.8493883280968,4.217290371179031
+Adams_Kaminski_2020_056CO,Adams_Kaminski_2020_056CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),12.0,40050.0,299.62546816479403,5.705865198163742
+Adams_Kaminski_2020_056CO,Adams_Kaminski_2020_056CO,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),8.0,56652.0,141.2130198404293,4.957326073237052
+Adams_Kaminski_2020_056CO,Adams_Kaminski_2020_056CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),79.0,471425.0,167.57702709869014,5.127392779455303
+Adams_Kaminski_2020_065C,Adams_Kaminski_2020_065C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),1.0,22321.0,44.800860176515386,3.8243028720903998
+Adams_Kaminski_2020_065C,Adams_Kaminski_2020_065C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),0.0,8477.0,0.0,0.0
+Adams_Kaminski_2020_065C,Adams_Kaminski_2020_065C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),22.0,131117.0,167.78907388057993,5.12864985187128
+Adams_Kaminski_2020_081C,Adams_Kaminski_2020_081C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),2.0,10268.0,194.77989871445266,5.276991062489462
+Adams_Kaminski_2020_081C,Adams_Kaminski_2020_081C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),0.0,10593.0,0.0,0.0
+Adams_Kaminski_2020_081C,Adams_Kaminski_2020_081C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),0.0,14349.0,0.0,0.0
+Adams_Kaminski_2020_081C,Adams_Kaminski_2020_081C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),2.0,8300.0,240.96385542168673,5.48878835724008
+Adams_Kaminski_2020_084C,Adams_Kaminski_2020_084C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),0.0,1650.0,0.0,0.0
+Adams_Kaminski_2020_084C,Adams_Kaminski_2020_084C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),0.0,4168.0,0.0,0.0
+Adams_Kaminski_2020_084C,Adams_Kaminski_2020_084C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),3.0,13210.0,227.1006813020439,5.429787116142716
+Adams_Kaminski_2020_084C,Adams_Kaminski_2020_084C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),4.0,8333.0,480.0192007680307,6.175907187745696
+Adams_Kaminski_2020_092C,Adams_Kaminski_2020_092C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),0.0,3745.0,0.0,0.0
+Adams_Kaminski_2020_92C,Adams_Kaminski_2020_192C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),0.0,952.0,0.0,0.0
+Adams_Kaminski_2020_92C,Adams_Kaminski_2020_192C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),5.0,25789.0,193.88111210205903,5.272389691104485
+Adams_Kaminski_2020_098C-a,Adams_Kaminski_2020_098C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),31.0,83354.0,371.9077668738153,5.921331115269868
+Adams_Kaminski_2020_098C-a,Adams_Kaminski_2020_098C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),45.0,40335.0,1115.6563778356265,7.018094122230011
+Adams_Kaminski_2020_098C-a,Adams_Kaminski_2020_098C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),1.0,18984.0,52.67593763168985,3.9829648122976877
+Adams_Kaminski_2020_098C-a,Adams_Kaminski_2020_098C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),80.0,177271.0,451.2864484320616,6.114315714575872
+Adams_Kaminski_2020_098C-a,Adams_Kaminski_2020_098C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),170.0,361717.0,469.9806755004603,6.154817064513276
+Adams_Kaminski_2020_098C-b,Adams_Kaminski_2020_098C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),21.0,65580.0,320.2195791399817,5.772124936441444
+Adams_Kaminski_2020_098C-b,Adams_Kaminski_2020_098C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),35.0,66139.0,529.1885271927305,6.273232654980163
+Adams_Kaminski_2020_098C-b,Adams_Kaminski_2020_098C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),8.0,6800.0,1176.470588235294,7.07112384743449
+Adams_Kaminski_2020_098C-b,Adams_Kaminski_2020_098C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),45.0,138134.0,325.7706285201326,5.789258482937371
+Adams_Kaminski_2020_098C-b,Adams_Kaminski_2020_098C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),169.0,353326.0,478.3118140187815,6.1723513543466515
+Adams_Kaminski_2020_133C-a,Adams_Kaminski_2020_133C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),143.0,551712.0,259.19320225044953,5.561424440642786
+Adams_Kaminski_2020_133C-a,Adams_Kaminski_2020_133C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),31.0,114347.0,271.1046201474459,5.60618662523875
+Adams_Kaminski_2020_133C-a,Adams_Kaminski_2020_133C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),75.0,316983.0,236.60574857326733,5.470612781527745
+Adams_Kaminski_2020_133C-a,Adams_Kaminski_2020_133C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),3474.0,10907938.0,318.48365841463345,5.766706125137479
+Adams_Kaminski_2020_133C-a,Adams_Kaminski_2020_133C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),238.0,481100.0,494.69964664310953,6.205970192182033
+Adams_Kaminski_2020_137C,Adams_Kaminski_2020_137C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),2.0,18192.0,109.93843447669306,4.708975403086139
+Adams_Kaminski_2020_137C,Adams_Kaminski_2020_137C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),0.0,3549.0,0.0,0.0
+Adams_Kaminski_2020_137C,Adams_Kaminski_2020_137C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),4.0,15921.0,251.24049996859492,5.530382997349474
+Adams_Kaminski_2020_137C,Adams_Kaminski_2020_137C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),21.0,35123.0,597.8988127437862,6.395092656873705
+Adams_Kaminski_2020_137C-a,Adams_Kaminski_2020_1372C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),57.0,149484.0,381.3117122902786,5.9462362766188495
+Adams_Kaminski_2020_137C-a,Adams_Kaminski_2020_1372C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),7.0,15621.0,448.1147173676461,6.107278350359783
+Adams_Kaminski_2020_137C-a,Adams_Kaminski_2020_1372C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),20.0,70859.0,282.25066681720034,5.646332254070217
+Adams_Kaminski_2020_137C-a,Adams_Kaminski_2020_1372C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),68.0,216738.0,313.7428600430012,5.7517559881334055
+Adams_Kaminski_2020_137C-a,Adams_Kaminski_2020_1372C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),70.0,228446.0,306.41814695814327,5.728208863058052
+Adams_Kaminski_2020_137C-b,Adams_Kaminski_2020_1372C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),42.0,109803.0,382.5032102948007,5.949347991814779
+Adams_Kaminski_2020_137C-b,Adams_Kaminski_2020_1372C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),6.0,10862.0,552.3844595838704,6.316052985252474
+Adams_Kaminski_2020_137C-b,Adams_Kaminski_2020_1372C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),28.0,75281.0,371.9397988868373,5.921417009531678
+Adams_Kaminski_2020_137C-b,Adams_Kaminski_2020_1372C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),116.0,299575.0,387.21522156388215,5.96155988058928
+Adams_Kaminski_2020_137C-b,Adams_Kaminski_2020_1372C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),119.0,266908.0,445.846508909437,6.102215155129179
+Adams_Kaminski_2020_137CO,Adams_Kaminski_2020_137CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),1.0,16818.0,59.46010227137591,4.10198368090423
+Adams_Kaminski_2020_137CO,Adams_Kaminski_2020_137CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),5.0,20816.0,240.19984627209837,5.4856258275066345
+Adams_Kaminski_2020_152CO,Adams_Kaminski_2020_152CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),3.0,20775.0,144.4043321299639,4.979518359222034
+Adams_Kaminski_2020_152CO-a,Adams_Kaminski_2020_152CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),41.0,138680.0,295.6446495529276,5.692534956313875
+Adams_Kaminski_2020_152CO-a,Adams_Kaminski_2020_152CO,Adams_Kaminski_2020,club cell,Epithelial (normal lung),34.0,53233.0,638.7015573046793,6.461001750882829
+Adams_Kaminski_2020_152CO-a,Adams_Kaminski_2020_152CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),26.0,77912.0,333.7098264708902,5.813263966826917
+Adams_Kaminski_2020_152CO-a,Adams_Kaminski_2020_152CO,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),90.0,350741.0,256.599599134404,5.551406438073724
+Adams_Kaminski_2020_152CO-a,Adams_Kaminski_2020_152CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),7.0,32498.0,215.39787063819313,5.377118706989501
+Adams_Kaminski_2020_153CO-a,Adams_Kaminski_2020_153CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),8.0,30857.0,259.2604595391645,5.5616828970396845
+Adams_Kaminski_2020_153CO-a,Adams_Kaminski_2020_153CO,Adams_Kaminski_2020,club cell,Epithelial (normal lung),2.0,2787.0,717.6175098672408,6.57732924102219
+Adams_Kaminski_2020_153CO-a,Adams_Kaminski_2020_153CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),3.0,5311.0,564.865373752589,6.338356194350266
+Adams_Kaminski_2020_153CO-a,Adams_Kaminski_2020_153CO,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),5.0,10233.0,488.615264340858,6.193619907878904
+Adams_Kaminski_2020_153CO-a,Adams_Kaminski_2020_153CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),36.0,62515.0,575.8617931696393,6.357602711247947
+Adams_Kaminski_2020_153CO-b,Adams_Kaminski_2020_153CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),9.0,25550.0,352.2504892367906,5.867177406522745
+Adams_Kaminski_2020_153CO-b,Adams_Kaminski_2020_153CO,Adams_Kaminski_2020,club cell,Epithelial (normal lung),9.0,25140.0,357.99522673031026,5.883309092384037
+Adams_Kaminski_2020_153CO-b,Adams_Kaminski_2020_153CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),0.0,6206.0,0.0,0.0
+Adams_Kaminski_2020_153CO-b,Adams_Kaminski_2020_153CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),24.0,70542.0,340.2228459641065,5.832535771066774
+Adams_Kaminski_2020_160C,Adams_Kaminski_2020_160C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),72.0,181431.0,396.8450816012699,5.986062687302161
+Adams_Kaminski_2020_160C,Adams_Kaminski_2020_160C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),4.0,17504.0,228.51919561243145,5.4359866670156585
+Adams_Kaminski_2020_160C,Adams_Kaminski_2020_160C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),7.0,27559.0,254.000508001016,5.5412655373172885
+Adams_Kaminski_2020_160C,Adams_Kaminski_2020_160C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),34.0,103682.0,327.92577303678553,5.795832111440781
+Adams_Kaminski_2020_160C,Adams_Kaminski_2020_160C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),96.0,322281.0,297.87669766446055,5.700031105944575
+Adams_Kaminski_2020_178CO,Adams_Kaminski_2020_178CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),21.0,117441.0,178.81319130456995,5.191918485890097
+Adams_Kaminski_2020_178CO,Adams_Kaminski_2020_178CO,Adams_Kaminski_2020,club cell,Epithelial (normal lung),3.0,17404.0,172.37416685819352,5.155452073191256
+Adams_Kaminski_2020_178CO,Adams_Kaminski_2020_178CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),11.0,62928.0,174.80294940249172,5.169363762143858
+Adams_Kaminski_2020_178CO,Adams_Kaminski_2020_178CO,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),10.0,74318.0,134.55690411475013,4.909391508729099
+Adams_Kaminski_2020_178CO,Adams_Kaminski_2020_178CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),44.0,145947.0,301.4793041309517,5.712012859034381
+Adams_Kaminski_2020_184CO-a,Adams_Kaminski_2020_184CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),31.0,133420.0,232.34897316744116,5.45253507198949
+Adams_Kaminski_2020_184CO-a,Adams_Kaminski_2020_184CO,Adams_Kaminski_2020,club cell,Epithelial (normal lung),12.0,33841.0,354.5994503708519,5.873804957999781
+Adams_Kaminski_2020_184CO-a,Adams_Kaminski_2020_184CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),3.0,20922.0,143.38973329509605,4.972516124866636
+Adams_Kaminski_2020_184CO-a,Adams_Kaminski_2020_184CO,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),12.0,79922.0,150.1463927329146,5.018248855462115
+Adams_Kaminski_2020_184CO-a,Adams_Kaminski_2020_184CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),72.0,277813.0,259.1671376069514,5.561324261434175
+Adams_Kaminski_2020_184CO-b,Adams_Kaminski_2020_184CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),15.0,32472.0,461.93643754619364,6.137589760744426
+Adams_Kaminski_2020_184CO-b,Adams_Kaminski_2020_184CO,Adams_Kaminski_2020,club cell,Epithelial (normal lung),14.0,24976.0,560.5381165919282,6.33067965538641
+Adams_Kaminski_2020_184CO-b,Adams_Kaminski_2020_184CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),7.0,10387.0,673.9193222297101,6.514593161106481
+Adams_Kaminski_2020_184CO-b,Adams_Kaminski_2020_184CO,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),10.0,91162.0,109.69482898576162,4.706777126661147
+Adams_Kaminski_2020_184CO-b,Adams_Kaminski_2020_184CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),68.0,223956.0,303.6310703888264,5.7191014391619275
+Adams_Kaminski_2020_186CO-b,Adams_Kaminski_2020_186CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),1.0,6945.0,143.98848092152627,4.976654297344389
+Adams_Kaminski_2020_186CO-b,Adams_Kaminski_2020_186CO,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),1.0,2078.0,481.23195380173246,6.178425230249441
+Adams_Kaminski_2020_186CO-b,Adams_Kaminski_2020_186CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),51.0,185981.0,274.22156026690897,5.617576446983587
+Adams_Kaminski_2020_192C-a,Adams_Kaminski_2020_192C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),65.0,333560.0,194.86749010672744,5.277438359707497
+Adams_Kaminski_2020_192C-a,Adams_Kaminski_2020_192C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),13.0,26885.0,483.54100799702434,6.183202067577812
+Adams_Kaminski_2020_192C-a,Adams_Kaminski_2020_192C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),56.0,168543.0,332.2594234112363,5.808921235962058
+Adams_Kaminski_2020_192C-a,Adams_Kaminski_2020_192C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),41.0,73021.0,561.4823133071309,6.332359690574688
+Adams_Kaminski_2020_192C-a,Adams_Kaminski_2020_192C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),197.0,463673.0,424.86838785092084,6.054130349828128
+Adams_Kaminski_2020_192CO,Adams_Kaminski_2020_192CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),18.0,32223.0,558.6072060329578,6.327235119822351
+Adams_Kaminski_2020_192CO,Adams_Kaminski_2020_192CO,Adams_Kaminski_2020,club cell,Epithelial (normal lung),4.0,25714.0,155.55728396982187,5.053421974762977
+Adams_Kaminski_2020_192CO,Adams_Kaminski_2020_192CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),26.0,49444.0,525.8474233476256,6.266910987358101
+Adams_Kaminski_2020_192CO,Adams_Kaminski_2020_192CO,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),5.0,16713.0,299.1683120923832,5.704343357639872
+Adams_Kaminski_2020_192CO,Adams_Kaminski_2020_192CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),33.0,82189.0,401.5135845429437,5.9977288467063365
+Adams_Kaminski_2020_192CO-a,Adams_Kaminski_2020_192CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),16.0,62999.0,253.97228527436943,5.541154854053211
+Adams_Kaminski_2020_192CO-a,Adams_Kaminski_2020_192CO,Adams_Kaminski_2020,club cell,Epithelial (normal lung),23.0,39198.0,586.7646308485126,6.3763265800895335
+Adams_Kaminski_2020_192CO-a,Adams_Kaminski_2020_192CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),13.0,35668.0,364.472356173601,5.901190643425556
+Adams_Kaminski_2020_192CO-a,Adams_Kaminski_2020_192CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),150.0,352299.0,425.7746970613031,6.056256232434224
+Adams_Kaminski_2020_192CO-b,Adams_Kaminski_2020_192CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),19.0,63108.0,301.0711795651898,5.7106626835278895
+Adams_Kaminski_2020_192CO-b,Adams_Kaminski_2020_192CO,Adams_Kaminski_2020,club cell,Epithelial (normal lung),15.0,41962.0,357.4662790143463,5.881834594288843
+Adams_Kaminski_2020_192CO-b,Adams_Kaminski_2020_192CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),24.0,32339.0,742.137975818671,6.610881728444724
+Adams_Kaminski_2020_192CO-b,Adams_Kaminski_2020_192CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),85.0,344669.0,246.6134175107132,5.511868729611641
+Adams_Kaminski_2020_193CO-a,Adams_Kaminski_2020_193CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),50.0,174309.0,286.84692127199395,5.662428815466197
+Adams_Kaminski_2020_193CO-a,Adams_Kaminski_2020_193CO,Adams_Kaminski_2020,club cell,Epithelial (normal lung),9.0,25334.0,355.25380911028657,5.8756434237651
+Adams_Kaminski_2020_193CO-a,Adams_Kaminski_2020_193CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),12.0,34502.0,347.8059242942438,5.854515676679128
+Adams_Kaminski_2020_193CO-a,Adams_Kaminski_2020_193CO,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),3.0,23414.0,128.12847014606646,4.860807801394795
+Adams_Kaminski_2020_193CO-a,Adams_Kaminski_2020_193CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),112.0,459905.0,243.52855481023255,5.499332090685578
+Adams_Kaminski_2020_193CO-b,Adams_Kaminski_2020_193CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),49.0,168045.0,291.5885625874022,5.678767398920468
+Adams_Kaminski_2020_193CO-b,Adams_Kaminski_2020_193CO,Adams_Kaminski_2020,club cell,Epithelial (normal lung),3.0,11987.0,250.27112705430886,5.52653254361645
+Adams_Kaminski_2020_193CO-b,Adams_Kaminski_2020_193CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),14.0,49331.0,283.7972066246377,5.651777371289712
+Adams_Kaminski_2020_193CO-b,Adams_Kaminski_2020_193CO,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),8.0,70528.0,113.43012704174228,4.739964392542608
+Adams_Kaminski_2020_193CO-b,Adams_Kaminski_2020_193CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),159.0,473378.0,335.8837968811394,5.819738054513085
+Adams_Kaminski_2020_194CO-a,Adams_Kaminski_2020_194CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),5.0,18091.0,276.380520700901,5.625390284437837
+Adams_Kaminski_2020_194CO-a,Adams_Kaminski_2020_194CO,Adams_Kaminski_2020,club cell,Epithelial (normal lung),14.0,43339.0,323.03468008029716,5.780850547349115
+Adams_Kaminski_2020_194CO-a,Adams_Kaminski_2020_194CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),15.0,43596.0,344.06826314340765,5.843742261642614
+Adams_Kaminski_2020_194CO-a,Adams_Kaminski_2020_194CO,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),5.0,18106.0,276.1515519717221,5.624564475603778
+Adams_Kaminski_2020_194CO-a,Adams_Kaminski_2020_194CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),184.0,705020.0,260.9855039573346,5.568289173823304
+Adams_Kaminski_2020_207CO,Adams_Kaminski_2020_207CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),78.0,311429.0,250.45837092884733,5.52727745269359
+Adams_Kaminski_2020_207CO,Adams_Kaminski_2020_207CO,Adams_Kaminski_2020,club cell,Epithelial (normal lung),5.0,35400.0,141.24293785310735,4.9575364257501855
+Adams_Kaminski_2020_207CO,Adams_Kaminski_2020_207CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),14.0,30896.0,453.1330916623511,6.118390308521576
+Adams_Kaminski_2020_207CO,Adams_Kaminski_2020_207CO,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),42.0,143745.0,292.1840759678597,5.680800657377495
+Adams_Kaminski_2020_207CO,Adams_Kaminski_2020_207CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),25.0,142505.0,175.43244096698362,5.172938032372633
+Adams_Kaminski_2020_208C,Adams_Kaminski_2020_208C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),2.0,4343.0,460.5111673958093,6.134506251690896
+Adams_Kaminski_2020_208C,Adams_Kaminski_2020_208C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),2.0,14495.0,137.97861331493618,4.9343200602492425
+Adams_Kaminski_2020_208C,Adams_Kaminski_2020_208C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),0.0,32684.0,0.0,0.0
+Adams_Kaminski_2020_208C,Adams_Kaminski_2020_208C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),75.0,390689.0,191.96854787311648,5.262527211236749
+Adams_Kaminski_2020_217CO-a,Adams_Kaminski_2020_217CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),104.0,304573.0,341.461652871397,5.836159689014742
+Adams_Kaminski_2020_217CO-a,Adams_Kaminski_2020_217CO,Adams_Kaminski_2020,club cell,Epithelial (normal lung),10.0,49727.0,201.09799505298932,5.3087527037912885
+Adams_Kaminski_2020_217CO-a,Adams_Kaminski_2020_217CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),64.0,57000.0,1122.8070175438595,7.024477323136141
+Adams_Kaminski_2020_217CO-a,Adams_Kaminski_2020_217CO,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),19.0,122538.0,155.05394245050513,5.050201732418838
+Adams_Kaminski_2020_217CO-a,Adams_Kaminski_2020_217CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),203.0,429780.0,472.3346828609986,6.1598027130379185
+Adams_Kaminski_2020_218C-a,Adams_Kaminski_2020_218C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),71.0,68316.0,1039.2880145207566,6.947252890834624
+Adams_Kaminski_2020_218C-a,Adams_Kaminski_2020_218C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),9.0,14928.0,602.8938906752412,6.403398504811684
+Adams_Kaminski_2020_218C-a,Adams_Kaminski_2020_218C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),13.0,6747.0,1926.7822736030828,7.564125540164467
+Adams_Kaminski_2020_218C-a,Adams_Kaminski_2020_218C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),17.0,19439.0,874.530582848912,6.7748300829820645
+Adams_Kaminski_2020_218C-a,Adams_Kaminski_2020_218C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),68.0,180756.0,376.1977472393724,5.932769578417429
+Adams_Kaminski_2020_218C-b,Adams_Kaminski_2020_218C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),36.0,79865.0,450.76065861140677,6.113152523242496
+Adams_Kaminski_2020_218C-b,Adams_Kaminski_2020_218C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),9.0,28049.0,320.8670540839246,5.774138584772083
+Adams_Kaminski_2020_218C-b,Adams_Kaminski_2020_218C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),2.0,2523.0,792.7070947284979,6.6767144948605806
+Adams_Kaminski_2020_218C-b,Adams_Kaminski_2020_218C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),8.0,13305.0,601.2777151446824,6.40071865977142
+Adams_Kaminski_2020_218C-b,Adams_Kaminski_2020_218C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),92.0,196923.0,467.1876824951885,6.148869246498843
+Adams_Kaminski_2020_219C-a,Adams_Kaminski_2020_218C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),19.0,44886.0,423.2945684623268,6.050427950953416
+Adams_Kaminski_2020_219C-a,Adams_Kaminski_2020_218C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),16.0,36667.0,436.35966945755035,6.080755898819014
+Adams_Kaminski_2020_219C-a,Adams_Kaminski_2020_218C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),60.0,111472.0,538.2517582890771,6.2901825458834715
+Adams_Kaminski_2020_219C-b,Adams_Kaminski_2020_218C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),12.0,31701.0,378.5369546701997,5.938951969354905
+Adams_Kaminski_2020_219C-b,Adams_Kaminski_2020_218C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),0.0,3293.0,0.0,0.0
+Adams_Kaminski_2020_219C-b,Adams_Kaminski_2020_218C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),2.0,7075.0,282.6855123674912,5.647866273776598
+Adams_Kaminski_2020_219C-b,Adams_Kaminski_2020_218C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),39.0,93835.0,415.62316832738315,6.032182140164314
+Adams_Kaminski_2020_222C,Adams_Kaminski_2020_222C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),22.0,31614.0,695.8942240779402,6.546633640388804
+Adams_Kaminski_2020_222C,Adams_Kaminski_2020_222C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),26.0,55438.0,468.9923878927811,6.1527164986001415
+Adams_Kaminski_2020_222C,Adams_Kaminski_2020_222C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),8.0,8784.0,910.7468123861566,6.815362333533686
+Adams_Kaminski_2020_222C,Adams_Kaminski_2020_222C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),35.0,120732.0,289.89828711526354,5.672973677258532
+Adams_Kaminski_2020_226C-a,Adams_Kaminski_2020_226C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),132.0,249031.0,530.054491207922,6.274864635954123
+Adams_Kaminski_2020_226C-a,Adams_Kaminski_2020_226C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),8.0,27093.0,295.2792234156424,5.691302332025285
+Adams_Kaminski_2020_226C-a,Adams_Kaminski_2020_226C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),1.0,4968.0,201.28824476650564,5.30969363455905
+Adams_Kaminski_2020_226C-a,Adams_Kaminski_2020_226C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),55.0,108841.0,505.3242803722862,6.2271773343187515
+Adams_Kaminski_2020_226C-a,Adams_Kaminski_2020_226C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),135.0,298788.0,451.82537451303267,6.115506564437728
+Adams_Kaminski_2020_226C-b,Adams_Kaminski_2020_226C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),107.0,211212.0,506.6000037876636,6.229693743302139
+Adams_Kaminski_2020_226C-b,Adams_Kaminski_2020_226C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),1.0,6032.0,165.78249336870024,5.116690528593258
+Adams_Kaminski_2020_226C-b,Adams_Kaminski_2020_226C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),21.0,10457.0,2008.224156067706,7.605503934532916
+Adams_Kaminski_2020_226C-b,Adams_Kaminski_2020_226C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),49.0,112159.0,436.87978673133676,6.081944413188044
+Adams_Kaminski_2020_226C-b,Adams_Kaminski_2020_226C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),174.0,408664.0,425.777655971654,6.056263165600868
+Adams_Kaminski_2020_235CO,Adams_Kaminski_2020_235CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),99.0,449309.0,220.33834176479883,5.3996924890077205
+Adams_Kaminski_2020_235CO,Adams_Kaminski_2020_235CO,Adams_Kaminski_2020,club cell,Epithelial (normal lung),28.0,60839.0,460.2311017603839,6.133899222722165
+Adams_Kaminski_2020_235CO,Adams_Kaminski_2020_235CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),3.0,3654.0,821.0180623973727,6.711762368534193
+Adams_Kaminski_2020_235CO,Adams_Kaminski_2020_235CO,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),33.0,123011.0,268.26869141784067,5.595709733934692
+Adams_Kaminski_2020_235CO,Adams_Kaminski_2020_235CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),124.0,280167.0,442.59316764643944,6.094907853298175
+Adams_Kaminski_2020_237CO,Adams_Kaminski_2020_237CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),22.0,235566.0,93.392085445268,4.547457229014473
+Adams_Kaminski_2020_237CO,Adams_Kaminski_2020_237CO,Adams_Kaminski_2020,club cell,Epithelial (normal lung),3.0,8050.0,372.67080745341616,5.923375215841534
+Adams_Kaminski_2020_237CO,Adams_Kaminski_2020_237CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),17.0,95063.0,178.82877670597395,5.19200515765146
+Adams_Kaminski_2020_237CO,Adams_Kaminski_2020_237CO,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),13.0,79027.0,164.50074025333114,5.10897566763691
+Adams_Kaminski_2020_237CO,Adams_Kaminski_2020_237CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),59.0,246004.0,239.83349864229848,5.4841058177222495
+Adams_Kaminski_2020_238CO,Adams_Kaminski_2020_238CO,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),77.0,164659.0,467.6331084240764,6.149820177491774
+Adams_Kaminski_2020_238CO,Adams_Kaminski_2020_238CO,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),19.0,42094.0,451.3707416733977,6.114502068572727
+Adams_Kaminski_2020_238CO,Adams_Kaminski_2020_238CO,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),35.0,123891.0,282.50639675198363,5.6472346864123155
+Adams_Kaminski_2020_238CO,Adams_Kaminski_2020_238CO,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),49.0,137339.0,356.7813949424417,5.8799221712386975
+Adams_Kaminski_2020_244C,Adams_Kaminski_2020_244C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),38.0,91613.0,414.7882942377173,6.030176222641185
+Adams_Kaminski_2020_244C,Adams_Kaminski_2020_244C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),18.0,82356.0,218.5633105056098,5.391640621476607
+Adams_Kaminski_2020_253C,Adams_Kaminski_2020_253C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),1.0,998.0,1002.004008016032,6.9107547839819
+Adams_Kaminski_2020_253C,Adams_Kaminski_2020_253C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),4.0,9033.0,442.82076829403303,6.095420805920094
+Adams_Kaminski_2020_253C,Adams_Kaminski_2020_253C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),10.0,21622.0,462.49190639163817,6.138788922915235
+Adams_Kaminski_2020_253C,Adams_Kaminski_2020_253C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),9.0,35267.0,255.19607565145884,5.545943071825643
+Adams_Kaminski_2020_296C,Adams_Kaminski_2020_296C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),85.0,356912.0,238.1539427085668,5.477107456331895
+Adams_Kaminski_2020_296C,Adams_Kaminski_2020_296C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),8.0,11310.0,707.3386383731212,6.562922282130297
+Adams_Kaminski_2020_296C,Adams_Kaminski_2020_296C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),6.0,32147.0,186.64261050797896,5.2345391456848365
+Adams_Kaminski_2020_296C,Adams_Kaminski_2020_296C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),7.0,10260.0,682.2612085769981,6.526877229469812
+Adams_Kaminski_2020_296C,Adams_Kaminski_2020_296C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),46.0,112732.0,408.0474044636838,6.013831052660719
+Adams_Kaminski_2020_388C,Adams_Kaminski_2020_388C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),6.0,33710.0,177.98872738059924,5.187322828330335
+Adams_Kaminski_2020_388C,Adams_Kaminski_2020_388C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),15.0,28417.0,527.8530457120738,6.270710596880242
+Adams_Kaminski_2020_388C,Adams_Kaminski_2020_388C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),8.0,18478.0,432.9472886676047,6.072923072041249
+Adams_Kaminski_2020_388C,Adams_Kaminski_2020_388C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),1.0,5599.0,178.6033220217896,5.190750652477601
+Adams_Kaminski_2020_388C,Adams_Kaminski_2020_388C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),36.0,100398.0,358.5728799378474,5.8849168824504545
+Adams_Kaminski_2020_396C,Adams_Kaminski_2020_396C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),83.0,389415.0,213.1402231552457,5.366631048829356
+Adams_Kaminski_2020_396C,Adams_Kaminski_2020_396C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),4.0,17204.0,232.50406882120438,5.453199502315609
+Adams_Kaminski_2020_396C,Adams_Kaminski_2020_396C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),7.0,16821.0,416.1464835622139,6.033437439640287
+Adams_Kaminski_2020_396C,Adams_Kaminski_2020_396C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),13.0,33780.0,384.8431024274719,5.955430816438197
+Adams_Kaminski_2020_439C,Adams_Kaminski_2020_439C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),5.0,39109.0,127.84780996701528,4.858631940190367
+Adams_Kaminski_2020_439C,Adams_Kaminski_2020_439C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),3.0,24998.0,120.00960076806145,4.795869887639668
+Adams_Kaminski_2020_439C,Adams_Kaminski_2020_439C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),85.0,97939.0,867.8871542490734,6.7672132598126105
+Adams_Kaminski_2020_439C-b,Adams_Kaminski_2020_439C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),10.0,67020.0,149.20919128618323,5.012028931107468
+Adams_Kaminski_2020_439C-b,Adams_Kaminski_2020_439C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),4.0,23361.0,171.22554685159028,5.148804936690304
+Adams_Kaminski_2020_439C-b,Adams_Kaminski_2020_439C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),9.0,20789.0,432.9212564336909,6.072863080850029
+Adams_Kaminski_2020_439C-b,Adams_Kaminski_2020_439C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),13.0,35655.0,364.6052447062123,5.901554184953611
+Adams_Kaminski_2020_439C-b,Adams_Kaminski_2020_439C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),142.0,251916.0,563.6799568110006,6.33625912253197
+Adams_Kaminski_2020_454C,Adams_Kaminski_2020_454C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),76.0,243248.0,312.43833453923565,5.74760264069065
+Adams_Kaminski_2020_454C,Adams_Kaminski_2020_454C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),1.0,4875.0,205.1282051282051,5.328498330198315
+Adams_Kaminski_2020_454C,Adams_Kaminski_2020_454C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),54.0,169948.0,317.7442511827147,5.764389060804786
+Adams_Kaminski_2020_454C,Adams_Kaminski_2020_454C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),53.0,149006.0,355.6903748842328,5.876868108216737
+Adams_Kaminski_2020_454C,Adams_Kaminski_2020_454C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),11.0,10577.0,1039.9924364186443,6.947929802900432
+Adams_Kaminski_2020_465C,Adams_Kaminski_2020_465C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),14.0,30284.0,462.2903183199049,6.138353894988421
+Adams_Kaminski_2020_465C,Adams_Kaminski_2020_465C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),43.0,272103.0,158.02839365975385,5.06908276275379
+Adams_Kaminski_2020_465C,Adams_Kaminski_2020_465C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),56.0,108113.0,517.9765615605893,6.251858721376533
+Adams_Kaminski_2020_483C,Adams_Kaminski_2020_483C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),31.0,47271.0,655.7931924435701,6.487369193351816
+Adams_Kaminski_2020_483C,Adams_Kaminski_2020_483C,Adams_Kaminski_2020,club cell,Epithelial (normal lung),4.0,3695.0,1082.5439783491206,6.987992409307399
+Adams_Kaminski_2020_483C,Adams_Kaminski_2020_483C,Adams_Kaminski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),5.0,21377.0,233.89624362632736,5.459143900163344
+Adams_Kaminski_2020_483C,Adams_Kaminski_2020_483C,Adams_Kaminski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),48.0,98325.0,488.1769641495042,6.192724313884812
+Adams_Kaminski_2020_483C,Adams_Kaminski_2020_483C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),58.0,176737.0,328.1712374884716,5.796578094051683
+Adams_Kaminski_2020_484C,Adams_Kaminski_2020_484C,Adams_Kaminski_2020,epithelial cell of lung,Epithelial (normal lung),1.0,4724.0,211.68501270110076,5.359812257575525
+Adams_Kaminski_2020_484C,Adams_Kaminski_2020_484C,Adams_Kaminski_2020,multiciliated epithelial cell,Epithelial (normal lung),11.0,12610.0,872.323552735924,6.7723061088669825
+Chen_Zhang_2020_NSCLC-2,Chen_Zhang_2020_NSCLC-2,Chen_Zhang_2020,malignant cell,I,15.0,54495.0,275.25461051472615,5.621322942338759
+Chen_Zhang_2020_NSCLC-3,Chen_Zhang_2020_NSCLC-3,Chen_Zhang_2020,malignant cell,I,6.0,59215.0,101.32567761546905,4.628160644545341
+Chen_Zhang_2020_NSCLC-4,Chen_Zhang_2020_NSCLC-4,Chen_Zhang_2020,malignant cell,III,10.0,85472.0,116.99737925870461,4.770662414547031
+Chen_Zhang_2020_NSCLC-5,Chen_Zhang_2020_NSCLC-5,Chen_Zhang_2020,malignant cell,III,1488.0,1829783.0,813.2111840584375,6.702219772229066
+Chen_Zhang_2020_NSCLC-6,Chen_Zhang_2020_NSCLC-6,Chen_Zhang_2020,malignant cell,I,1033.0,1268740.0,814.1936094077589,6.703425642584067
+Chen_Zhang_2020_NSCLC-7,Chen_Zhang_2020_NSCLC-7,Chen_Zhang_2020,malignant cell,I,3.0,2055407.0,1.459564942612339,0.8999844817073968
+Chen_Zhang_2020_NSCLC-8,Chen_Zhang_2020_NSCLC-8,Chen_Zhang_2020,malignant cell,III,1106.0,2928865.0,377.62068241451897,5.9365348659532815
+Chen_Zhang_2020_NSCLC-9,Chen_Zhang_2020_NSCLC-9,Chen_Zhang_2020,malignant cell,III,496.0,13040701.0,38.034765155646156,3.6644526633032575
+Chen_Zhang_2020_NSCLC-10,Chen_Zhang_2020_NSCLC-10,Chen_Zhang_2020,malignant cell,III,1694.0,6951973.0,243.67183244238723,5.499917853248262
+Chen_Zhang_2020_NSCLC-11,Chen_Zhang_2020_NSCLC-11,Chen_Zhang_2020,malignant cell,I,48.0,509744.0,94.1649141529866,4.5556113250533485
+Goveia_Carmeliet_2020_patient_32_tumor_primary,Goveia_Carmeliet_2020_patient_32,Goveia_Carmeliet_2020,malignant cell,I,19.0,118098.0,160.88333418008773,5.086875916410876
+Goveia_Carmeliet_2020_patient_40_normal_adjacent,Goveia_Carmeliet_2020_patient_40,Goveia_Carmeliet_2020,epithelial cell of lung,Epithelial (normal lung),0.0,1634.0,0.0,0.0
+Goveia_Carmeliet_2020_patient_40_normal_adjacent,Goveia_Carmeliet_2020_patient_40,Goveia_Carmeliet_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),0.0,848.0,0.0,0.0
+Goveia_Carmeliet_2020_patient_40_normal_adjacent,Goveia_Carmeliet_2020_patient_40,Goveia_Carmeliet_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),10.0,32108.0,311.4488600971721,5.744440808095662
+Goveia_Carmeliet_2020_patient_40_normal_adjacent,Goveia_Carmeliet_2020_patient_40,Goveia_Carmeliet_2020,multiciliated epithelial cell,Epithelial (normal lung),16.0,10008.0,1598.7210231814547,7.377584532513721
+Goveia_Carmeliet_2020_patient_40_tumor_primary,Goveia_Carmeliet_2020_patient_40,Goveia_Carmeliet_2020,malignant cell,I,126.0,206146.0,611.2172925984496,6.417087272761272
+Goveia_Carmeliet_2020_patient_41_normal_adjacent,Goveia_Carmeliet_2020_patient_41,Goveia_Carmeliet_2020,epithelial cell of lung,Epithelial (normal lung),1.0,1102.0,907.4410163339383,6.8117299614951365
+Goveia_Carmeliet_2020_patient_41_normal_adjacent,Goveia_Carmeliet_2020_patient_41,Goveia_Carmeliet_2020,club cell,Epithelial (normal lung),6.0,7534.0,796.3897000265463,6.681343517916936
+Goveia_Carmeliet_2020_patient_41_normal_adjacent,Goveia_Carmeliet_2020_patient_41,Goveia_Carmeliet_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),1.0,3956.0,252.78058645096058,5.536470060829683
+Goveia_Carmeliet_2020_patient_41_normal_adjacent,Goveia_Carmeliet_2020_patient_41,Goveia_Carmeliet_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),3.0,7117.0,421.5259238443164,6.0462508031262905
+Goveia_Carmeliet_2020_patient_41_normal_adjacent,Goveia_Carmeliet_2020_patient_41,Goveia_Carmeliet_2020,multiciliated epithelial cell,Epithelial (normal lung),20.0,5174.0,3865.481252415926,8.260100135315216
+Goveia_Carmeliet_2020_patient_41_tumor_primary,Goveia_Carmeliet_2020_patient_41,Goveia_Carmeliet_2020,malignant cell,II,1047.0,4022544.0,260.28304475973414,5.565604282398799
+Goveia_Carmeliet_2020_patient_42_normal_adjacent,Goveia_Carmeliet_2020_patient_42,Goveia_Carmeliet_2020,epithelial cell of lung,Epithelial (normal lung),15.0,47615.0,315.02677727606846,5.755826948212239
+Goveia_Carmeliet_2020_patient_42_normal_adjacent,Goveia_Carmeliet_2020_patient_42,Goveia_Carmeliet_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),16.0,36580.0,437.39748496446146,6.083125998766213
+Goveia_Carmeliet_2020_patient_42_normal_adjacent,Goveia_Carmeliet_2020_patient_42,Goveia_Carmeliet_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),26.0,58885.0,441.5385921711811,6.092527674591241
+Goveia_Carmeliet_2020_patient_42_normal_adjacent,Goveia_Carmeliet_2020_patient_42,Goveia_Carmeliet_2020,multiciliated epithelial cell,Epithelial (normal lung),6.0,11019.0,544.5140212360468,6.301728508400261
+Goveia_Carmeliet_2020_patient_42_tumor_primary,Goveia_Carmeliet_2020_patient_42,Goveia_Carmeliet_2020,malignant cell,II,0.0,3112.0,0.0,0.0
+Goveia_Carmeliet_2020_patient_45_normal_adjacent,Goveia_Carmeliet_2020_patient_45,Goveia_Carmeliet_2020,epithelial cell of lung,Epithelial (normal lung),0.0,4686.0,0.0,0.0
+Goveia_Carmeliet_2020_patient_45_normal_adjacent,Goveia_Carmeliet_2020_patient_45,Goveia_Carmeliet_2020,club cell,Epithelial (normal lung),25.0,45921.0,544.4132314191764,6.3015437301450445
+Goveia_Carmeliet_2020_patient_45_normal_adjacent,Goveia_Carmeliet_2020_patient_45,Goveia_Carmeliet_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),2.0,5004.0,399.6802557953637,5.993163742146484
+Goveia_Carmeliet_2020_patient_45_normal_adjacent,Goveia_Carmeliet_2020_patient_45,Goveia_Carmeliet_2020,multiciliated epithelial cell,Epithelial (normal lung),47.0,73471.0,639.7081841815138,6.462574102375649
+Goveia_Carmeliet_2020_patient_45_tumor_primary,Goveia_Carmeliet_2020_patient_45,Goveia_Carmeliet_2020,malignant cell,II,98.0,203108.0,482.50192016070264,6.181055286262304
+Goveia_Carmeliet_2020_patient_46_normal_adjacent,Goveia_Carmeliet_2020_patient_46,Goveia_Carmeliet_2020,epithelial cell of lung,Epithelial (normal lung),10.0,20604.0,485.34265191225,6.186913420559902
+Goveia_Carmeliet_2020_patient_46_normal_adjacent,Goveia_Carmeliet_2020_patient_46,Goveia_Carmeliet_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),71.0,221324.0,320.7966601001247,5.7739198556980975
+Goveia_Carmeliet_2020_patient_46_normal_adjacent,Goveia_Carmeliet_2020_patient_46,Goveia_Carmeliet_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),213.0,1077991.0,197.58977579590183,5.291241268895638
+Goveia_Carmeliet_2020_patient_46_normal_adjacent,Goveia_Carmeliet_2020_patient_46,Goveia_Carmeliet_2020,multiciliated epithelial cell,Epithelial (normal lung),3.0,17353.0,172.88076989569527,5.158369833852308
+Goveia_Carmeliet_2020_patient_46_tumor_primary,Goveia_Carmeliet_2020_patient_46,Goveia_Carmeliet_2020,malignant cell,I,175.0,426889.0,409.9426314568893,6.018453621923691
+Goveia_Carmeliet_2020_patient_50_normal_adjacent,Goveia_Carmeliet_2020_patient_50,Goveia_Carmeliet_2020,epithelial cell of lung,Epithelial (normal lung),1.0,7993.0,125.10947078693857,4.837150345518875
+Goveia_Carmeliet_2020_patient_50_normal_adjacent,Goveia_Carmeliet_2020_patient_50,Goveia_Carmeliet_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),28.0,12841.0,2180.5155361731954,7.687775114322946
+Goveia_Carmeliet_2020_patient_50_normal_adjacent,Goveia_Carmeliet_2020_patient_50,Goveia_Carmeliet_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),66.0,175364.0,376.3600282840264,5.933199713928373
+Goveia_Carmeliet_2020_patient_50_normal_adjacent,Goveia_Carmeliet_2020_patient_50,Goveia_Carmeliet_2020,multiciliated epithelial cell,Epithelial (normal lung),9.0,17141.0,525.0568811621259,6.265409345982594
+Goveia_Carmeliet_2020_patient_50_tumor_primary,Goveia_Carmeliet_2020_patient_50,Goveia_Carmeliet_2020,malignant cell,II,68.0,106020.0,641.3884172797585,6.4651931320835745
+Habermann_Kropski_2020_THD0001,Habermann_Kropski_2020_THD0001,Habermann_Kropski_2020,epithelial cell of lung,Epithelial (normal lung),130.0,219709.0,591.6917377076041,6.3846744286048525
+Habermann_Kropski_2020_THD0001,Habermann_Kropski_2020_THD0001,Habermann_Kropski_2020,club cell,Epithelial (normal lung),22.0,38448.0,572.2014148980442,6.351237164370447
+Habermann_Kropski_2020_THD0001,Habermann_Kropski_2020_THD0001,Habermann_Kropski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),68.0,75828.0,896.7663659861792,6.7999098629441255
+Habermann_Kropski_2020_THD0001,Habermann_Kropski_2020_THD0001,Habermann_Kropski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),6197.0,14057996.0,440.81674230096525,6.090895185924322
+Habermann_Kropski_2020_THD0001,Habermann_Kropski_2020_THD0001,Habermann_Kropski_2020,multiciliated epithelial cell,Epithelial (normal lung),63.0,61518.0,1024.0905100946063,6.932536190205393
+Habermann_Kropski_2020_THD0002,Habermann_Kropski_2020_THD0002,Habermann_Kropski_2020,epithelial cell of lung,Epithelial (normal lung),186.0,203529.0,913.8746812493551,6.8187870955123735
+Habermann_Kropski_2020_THD0002,Habermann_Kropski_2020_THD0002,Habermann_Kropski_2020,club cell,Epithelial (normal lung),206.0,163752.0,1257.9999022912698,7.138072956436139
+Habermann_Kropski_2020_THD0002,Habermann_Kropski_2020_THD0002,Habermann_Kropski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),204.0,416298.0,490.03358171309975,6.196512519983419
+Habermann_Kropski_2020_THD0002,Habermann_Kropski_2020_THD0002,Habermann_Kropski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),5210.0,8440641.0,617.2516992489078,6.426895654879605
+Habermann_Kropski_2020_THD0002,Habermann_Kropski_2020_THD0002,Habermann_Kropski_2020,multiciliated epithelial cell,Epithelial (normal lung),344.0,153355.0,2243.1612924260703,7.716087141254763
+Habermann_Kropski_2020_THD0005,Habermann_Kropski_2020_THD0005,Habermann_Kropski_2020,epithelial cell of lung,Epithelial (normal lung),9.0,37146.0,242.28719108383137,5.494242601810219
+Habermann_Kropski_2020_THD0005,Habermann_Kropski_2020_THD0005,Habermann_Kropski_2020,club cell,Epithelial (normal lung),0.0,1044.0,0.0,0.0
+Habermann_Kropski_2020_THD0005,Habermann_Kropski_2020_THD0005,Habermann_Kropski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),145.0,243851.0,594.6254064982305,6.389611956881653
+Habermann_Kropski_2020_THD0005,Habermann_Kropski_2020_THD0005,Habermann_Kropski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),223.0,170450.0,1308.3015547081256,7.177249109667605
+Habermann_Kropski_2020_THD0005,Habermann_Kropski_2020_THD0005,Habermann_Kropski_2020,multiciliated epithelial cell,Epithelial (normal lung),794.0,693903.0,1144.252150516715,7.043380110535632
+Habermann_Kropski_2020_VUHD65,Habermann_Kropski_2020_VUHD65,Habermann_Kropski_2020,epithelial cell of lung,Epithelial (normal lung),263.0,504540.0,521.2668965790622,6.258178753343783
+Habermann_Kropski_2020_VUHD65,Habermann_Kropski_2020_VUHD65,Habermann_Kropski_2020,club cell,Epithelial (normal lung),625.0,1096683.0,569.9003267124593,6.347214635246209
+Habermann_Kropski_2020_VUHD65,Habermann_Kropski_2020_VUHD65,Habermann_Kropski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),104.0,143879.0,722.8295998721148,6.584556005391712
+Habermann_Kropski_2020_VUHD65,Habermann_Kropski_2020_VUHD65,Habermann_Kropski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),1644.0,3434824.0,478.6271436323957,6.173009017949666
+Habermann_Kropski_2020_VUHD65,Habermann_Kropski_2020_VUHD65,Habermann_Kropski_2020,multiciliated epithelial cell,Epithelial (normal lung),1497.0,3936527.0,380.28444870313353,5.943545681093771
+Habermann_Kropski_2020_VUHD66,Habermann_Kropski_2020_VUHD66,Habermann_Kropski_2020,epithelial cell of lung,Epithelial (normal lung),830.0,1308520.0,634.3044049766148,6.454104261943735
+Habermann_Kropski_2020_VUHD66,Habermann_Kropski_2020_VUHD66,Habermann_Kropski_2020,club cell,Epithelial (normal lung),511.0,877564.0,582.293713051128,6.3686908554589685
+Habermann_Kropski_2020_VUHD66,Habermann_Kropski_2020_VUHD66,Habermann_Kropski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),622.0,361861.0,1718.8920607636635,7.450016812468335
+Habermann_Kropski_2020_VUHD66,Habermann_Kropski_2020_VUHD66,Habermann_Kropski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),2688.0,2797048.0,961.0131824695178,6.869028153762586
+Habermann_Kropski_2020_VUHD66,Habermann_Kropski_2020_VUHD66,Habermann_Kropski_2020,multiciliated epithelial cell,Epithelial (normal lung),4212.0,4217434.0,998.711538817205,6.907466776186412
+Habermann_Kropski_2020_VUHD67,Habermann_Kropski_2020_VUHD67,Habermann_Kropski_2020,epithelial cell of lung,Epithelial (normal lung),626.0,1044694.0,599.2185271476625,6.397293800819859
+Habermann_Kropski_2020_VUHD67,Habermann_Kropski_2020_VUHD67,Habermann_Kropski_2020,club cell,Epithelial (normal lung),209.0,713851.0,292.77818480327124,5.682825009122084
+Habermann_Kropski_2020_VUHD67,Habermann_Kropski_2020_VUHD67,Habermann_Kropski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),966.0,987489.0,978.2387449379182,6.886775478926577
+Habermann_Kropski_2020_VUHD67,Habermann_Kropski_2020_VUHD67,Habermann_Kropski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),5562.0,13903626.0,400.03952925661264,5.9940599991479875
+Habermann_Kropski_2020_VUHD67,Habermann_Kropski_2020_VUHD67,Habermann_Kropski_2020,multiciliated epithelial cell,Epithelial (normal lung),543.0,1861205.0,291.7464760732966,5.679306965081028
+Habermann_Kropski_2020_VUHD68,Habermann_Kropski_2020_VUHD68,Habermann_Kropski_2020,epithelial cell of lung,Epithelial (normal lung),75.0,150411.0,498.63374354269297,6.213875317088904
+Habermann_Kropski_2020_VUHD68,Habermann_Kropski_2020_VUHD68,Habermann_Kropski_2020,club cell,Epithelial (normal lung),72.0,182811.0,393.8493854308548,5.978504389480063
+Habermann_Kropski_2020_VUHD68,Habermann_Kropski_2020_VUHD68,Habermann_Kropski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),14.0,37118.0,377.1754943693087,5.935358358697514
+Habermann_Kropski_2020_VUHD68,Habermann_Kropski_2020_VUHD68,Habermann_Kropski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),131.0,366123.0,357.80325191260863,5.8827741934451545
+Habermann_Kropski_2020_VUHD68,Habermann_Kropski_2020_VUHD68,Habermann_Kropski_2020,multiciliated epithelial cell,Epithelial (normal lung),67.0,196436.0,341.0780101407074,5.835038810878425
+Habermann_Kropski_2020_VUHD69,Habermann_Kropski_2020_VUHD69,Habermann_Kropski_2020,epithelial cell of lung,Epithelial (normal lung),4.0,7174.0,557.5689991636465,6.325378154591244
+Habermann_Kropski_2020_VUHD69,Habermann_Kropski_2020_VUHD69,Habermann_Kropski_2020,club cell,Epithelial (normal lung),14.0,31560.0,443.59949302915084,6.097173861244135
+Habermann_Kropski_2020_VUHD69,Habermann_Kropski_2020_VUHD69,Habermann_Kropski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),36.0,12098.0,2975.6984625557943,7.998570066855059
+Habermann_Kropski_2020_VUHD69,Habermann_Kropski_2020_VUHD69,Habermann_Kropski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),20.0,13028.0,1535.1550506601166,7.337037853053251
+Habermann_Kropski_2020_VUHD69,Habermann_Kropski_2020_VUHD69,Habermann_Kropski_2020,multiciliated epithelial cell,Epithelial (normal lung),34.0,57750.0,588.7445887445888,6.379689542738421
+Habermann_Kropski_2020_VUHD70,Habermann_Kropski_2020_VUHD70,Habermann_Kropski_2020,epithelial cell of lung,Epithelial (normal lung),59.0,166475.0,354.40756870400963,5.873265211790945
+Habermann_Kropski_2020_VUHD70,Habermann_Kropski_2020_VUHD70,Habermann_Kropski_2020,club cell,Epithelial (normal lung),113.0,255272.0,442.6650788178884,6.095069950797732
+Habermann_Kropski_2020_VUHD70,Habermann_Kropski_2020_VUHD70,Habermann_Kropski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),37.0,220239.0,167.99930984067308,5.1298946311317355
+Habermann_Kropski_2020_VUHD70,Habermann_Kropski_2020_VUHD70,Habermann_Kropski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),50.0,105495.0,473.9561116640599,6.163222403269106
+Habermann_Kropski_2020_VUHD70,Habermann_Kropski_2020_VUHD70,Habermann_Kropski_2020,multiciliated epithelial cell,Epithelial (normal lung),1387.0,2402842.0,577.2331264394413,6.359977120295722
+Habermann_Kropski_2020_VUHD071,Habermann_Kropski_2020_VUHD071,Habermann_Kropski_2020,epithelial cell of lung,Epithelial (normal lung),12.0,40898.0,293.4128808254682,5.6849831387014955
+Habermann_Kropski_2020_VUHD071,Habermann_Kropski_2020_VUHD071,Habermann_Kropski_2020,club cell,Epithelial (normal lung),48.0,276461.0,173.62304267147988,5.16262960876115
+Habermann_Kropski_2020_VUHD071,Habermann_Kropski_2020_VUHD071,Habermann_Kropski_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),0.0,3428.0,0.0,0.0
+Habermann_Kropski_2020_VUHD071,Habermann_Kropski_2020_VUHD071,Habermann_Kropski_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),94.0,498990.0,188.38052866790918,5.243758370123477
+Habermann_Kropski_2020_VUHD071,Habermann_Kropski_2020_VUHD071,Habermann_Kropski_2020,multiciliated epithelial cell,Epithelial (normal lung),42.0,224744.0,186.87929377424982,5.235799702232471
+He_Fan_2021_LUAD1,He_Fan_2021_P1,He_Fan_2021,malignant cell,I,2036.0,6292088.0,323.5809797955782,5.782535057539838
+He_Fan_2021_LUAD2,He_Fan_2021_P2,He_Fan_2021,malignant cell,II,3796.0,5587210.0,679.4088641737111,6.522693888322957
+He_Fan_2021_LUAD3,He_Fan_2021_P3,He_Fan_2021,malignant cell,I,13038.0,18686415.0,697.7261288481499,6.549258861235519
+He_Fan_2021_LUAD4,He_Fan_2021_P4,He_Fan_2021,malignant cell,I,541.0,823544.0,656.9169346143011,6.489078684168488
+He_Fan_2021_LUAD5,He_Fan_2021_P5,He_Fan_2021,malignant cell,II,734.0,2716513.0,270.19933274753333,5.602854095692761
+He_Fan_2021_N1,He_Fan_2021_P1,He_Fan_2021,epithelial cell of lung,Epithelial (normal lung),19.0,76877.0,247.14804167696448,5.514025510311657
+He_Fan_2021_N1,He_Fan_2021_P1,He_Fan_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),77.0,272113.0,282.9706776228993,5.648870985024092
+He_Fan_2021_N1,He_Fan_2021_P1,He_Fan_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),66.0,339192.0,194.58006085049178,5.275969814012477
+He_Fan_2021_N1,He_Fan_2021_P1,He_Fan_2021,multiciliated epithelial cell,Epithelial (normal lung),66.0,126220.0,522.8965298684836,6.2612942027397915
+He_Fan_2021_N2,He_Fan_2021_P2,He_Fan_2021,epithelial cell of lung,Epithelial (normal lung),29.0,145627.0,199.13889594649345,5.299011605241046
+He_Fan_2021_N2,He_Fan_2021_P2,He_Fan_2021,club cell,Epithelial (normal lung),123.0,433496.0,283.7396423496411,5.6515752271253925
+He_Fan_2021_N2,He_Fan_2021_P2,He_Fan_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),162.0,426417.0,379.909806597767,5.9425626190123335
+He_Fan_2021_N2,He_Fan_2021_P2,He_Fan_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),120.0,497231.0,241.3365216569361,5.4903273455475095
+He_Fan_2021_N2,He_Fan_2021_P2,He_Fan_2021,multiciliated epithelial cell,Epithelial (normal lung),2393.0,3392884.0,705.2996801541108,6.5600396235676985
+He_Fan_2021_N3,He_Fan_2021_P3,He_Fan_2021,epithelial cell of lung,Epithelial (normal lung),93.0,527669.0,176.24685171954388,5.1775434034465615
+He_Fan_2021_N3,He_Fan_2021_P3,He_Fan_2021,club cell,Epithelial (normal lung),25.0,258518.0,96.70506502448572,4.5819534003301925
+He_Fan_2021_N3,He_Fan_2021_P3,He_Fan_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),25.0,81231.0,307.7642771848186,5.732578128767213
+He_Fan_2021_N3,He_Fan_2021_P3,He_Fan_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),67.0,233292.0,287.1937314610017,5.663632932673084
+He_Fan_2021_N3,He_Fan_2021_P3,He_Fan_2021,multiciliated epithelial cell,Epithelial (normal lung),1242.0,3250728.0,382.06826286296484,5.9482132053173915
+He_Fan_2021_N4,He_Fan_2021_P4,He_Fan_2021,epithelial cell of lung,Epithelial (normal lung),478.0,2544850.0,187.83032398766136,5.240848855155725
+He_Fan_2021_N4,He_Fan_2021_P4,He_Fan_2021,club cell,Epithelial (normal lung),3.0,6167.0,486.4601913410086,6.189208628315967
+He_Fan_2021_N4,He_Fan_2021_P4,He_Fan_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),160.0,826412.0,193.6080308611201,5.270987437457011
+He_Fan_2021_N4,He_Fan_2021_P4,He_Fan_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),652.0,4902062.0,133.00525370752143,4.897879005954894
+He_Fan_2021_N4,He_Fan_2021_P4,He_Fan_2021,multiciliated epithelial cell,Epithelial (normal lung),661.0,2422218.0,272.8903839373665,5.61272796772052
+He_Fan_2021_N5,He_Fan_2021_P5,He_Fan_2021,epithelial cell of lung,Epithelial (normal lung),18.0,98537.0,182.67249865532744,5.2131542730949905
+He_Fan_2021_N5,He_Fan_2021_P5,He_Fan_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),43.0,145617.0,295.29519218223146,5.691356228265732
+He_Fan_2021_N5,He_Fan_2021_P5,He_Fan_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),94.0,486191.0,193.33965458019586,5.269607425010289
+He_Fan_2021_N5,He_Fan_2021_P5,He_Fan_2021,multiciliated epithelial cell,Epithelial (normal lung),42.0,187268.0,224.2775060341329,5.417333002392299
+Kim_Lee_2020_BRONCHO_11,Kim_Lee_2020_P1011,Kim_Lee_2020,malignant cell,IV,862.0,1636386.0,526.7705785798705,6.268661679013926
+Kim_Lee_2020_BRONCHO_58,Kim_Lee_2020_P1058,Kim_Lee_2020,malignant cell,IV,1161.0,3984003.0,291.41544321126264,5.678175541840937
+Kim_Lee_2020_EBUS_06,Kim_Lee_2020_P1006,Kim_Lee_2020,malignant cell,IV,1474.0,3210171.0,459.1655709306451,6.131586361527178
+Kim_Lee_2020_EBUS_10,Kim_Lee_2020_P1010,Kim_Lee_2020,malignant cell,IV,1085.0,2574027.0,421.51850000019425,6.046233232821315
+Kim_Lee_2020_EBUS_12,Kim_Lee_2020_P1012,Kim_Lee_2020,malignant cell,IV,857.0,1822522.0,470.2275198872771,6.155341034467417
+Kim_Lee_2020_EBUS_13,Kim_Lee_2020_P1013,Kim_Lee_2020,malignant cell,IV,0.0,2971749.0,0.0,0.0
+Kim_Lee_2020_EBUS_15,Kim_Lee_2020_P1015,Kim_Lee_2020,malignant cell,III,117.0,568644.0,205.7526325785553,5.331523066971733
+Kim_Lee_2020_EBUS_19,Kim_Lee_2020_P1019,Kim_Lee_2020,malignant cell,IV,1306.0,2128488.0,613.5810960644363,6.42094089111146
+Kim_Lee_2020_EBUS_28,Kim_Lee_2020_P1028,Kim_Lee_2020,malignant cell,IV,16897.0,16602181.0,1017.7578475984571,6.926339367689533
+Kim_Lee_2020_EBUS_49,Kim_Lee_2020_P1049,Kim_Lee_2020,malignant cell,IV,258.0,920209.0,280.37108961116445,5.639674401702212
+Kim_Lee_2020_EBUS_51,Kim_Lee_2020_P1051,Kim_Lee_2020,malignant cell,IV,3654.0,11008412.0,331.92798380002495,5.807926201727036
+Kim_Lee_2020_EFFUSION_06,Kim_Lee_2020_P1006,Kim_Lee_2020,malignant cell,IV,338.0,773660.0,436.8844195124473,6.0819549931616885
+Kim_Lee_2020_EFFUSION_11,Kim_Lee_2020_P1011,Kim_Lee_2020,malignant cell,IV,618.0,872908.0,707.9783894751795,6.5638250457787075
+Kim_Lee_2020_EFFUSION_12,Kim_Lee_2020_P1012,Kim_Lee_2020,malignant cell,IV,33.0,94966.0,347.49278689215083,5.8536175324028825
+Kim_Lee_2020_EFFUSION_64,Kim_Lee_2020_P1064,Kim_Lee_2020,malignant cell,IV,45.0,42720.0,1053.370786516854,6.960699457101949
+Kim_Lee_2020_LN_07,Kim_Lee_2020_P2007,Kim_Lee_2020,epithelial cell of lung,Epithelial (normal lung),0.0,1275.0,0.0,0.0
+Kim_Lee_2020_LUNG_N01,Kim_Lee_2020_P0001,Kim_Lee_2020,epithelial cell of lung,Epithelial (normal lung),37.0,89424.0,413.7591697978171,6.027698038043309
+Kim_Lee_2020_LUNG_N01,Kim_Lee_2020_P0001,Kim_Lee_2020,club cell,Epithelial (normal lung),17.0,88190.0,192.7656196847715,5.266649282711875
+Kim_Lee_2020_LUNG_N01,Kim_Lee_2020_P0001,Kim_Lee_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),5.0,13493.0,370.56251389609423,5.917717124284176
+Kim_Lee_2020_LUNG_N01,Kim_Lee_2020_P0001,Kim_Lee_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),193.0,1464017.0,131.82907029085044,4.8890631158791615
+Kim_Lee_2020_LUNG_N01,Kim_Lee_2020_P0001,Kim_Lee_2020,multiciliated epithelial cell,Epithelial (normal lung),75.0,191706.0,391.2240618446997,5.971833262835732
+Kim_Lee_2020_LUNG_N06,Kim_Lee_2020_P0006,Kim_Lee_2020,epithelial cell of lung,Epithelial (normal lung),16.0,89539.0,178.6930834608383,5.19125030368227
+Kim_Lee_2020_LUNG_N06,Kim_Lee_2020_P0006,Kim_Lee_2020,club cell,Epithelial (normal lung),19.0,55750.0,340.80717488789236,5.834246761941255
+Kim_Lee_2020_LUNG_N06,Kim_Lee_2020_P0006,Kim_Lee_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),9.0,51989.0,173.11354324953356,5.159707633809156
+Kim_Lee_2020_LUNG_N06,Kim_Lee_2020_P0006,Kim_Lee_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),131.0,703189.0,186.2941542032085,5.232680398088486
+Kim_Lee_2020_LUNG_N06,Kim_Lee_2020_P0006,Kim_Lee_2020,multiciliated epithelial cell,Epithelial (normal lung),223.0,289608.0,770.0063534156515,6.647696614016603
+Kim_Lee_2020_LUNG_N08,Kim_Lee_2020_P0008,Kim_Lee_2020,epithelial cell of lung,Epithelial (normal lung),24.0,69161.0,347.0163820650366,5.852249553566017
+Kim_Lee_2020_LUNG_N08,Kim_Lee_2020_P0008,Kim_Lee_2020,club cell,Epithelial (normal lung),14.0,53807.0,260.18919471444235,5.56524502868459
+Kim_Lee_2020_LUNG_N08,Kim_Lee_2020_P0008,Kim_Lee_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),28.0,130207.0,215.0422020321488,5.375473768378488
+Kim_Lee_2020_LUNG_N08,Kim_Lee_2020_P0008,Kim_Lee_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),172.0,991594.0,173.45808869355804,5.161684533388245
+Kim_Lee_2020_LUNG_N08,Kim_Lee_2020_P0008,Kim_Lee_2020,multiciliated epithelial cell,Epithelial (normal lung),253.0,364585.0,693.9396848471549,6.543825057406226
+Kim_Lee_2020_LUNG_N09,Kim_Lee_2020_P0009,Kim_Lee_2020,epithelial cell of lung,Epithelial (normal lung),16.0,39736.0,402.65753976243207,6.00056684462714
+Kim_Lee_2020_LUNG_N09,Kim_Lee_2020_P0009,Kim_Lee_2020,club cell,Epithelial (normal lung),55.0,68374.0,804.3993330798256,6.6913382203562035
+Kim_Lee_2020_LUNG_N09,Kim_Lee_2020_P0009,Kim_Lee_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),22.0,76007.0,289.4470246161538,5.6714212003377105
+Kim_Lee_2020_LUNG_N09,Kim_Lee_2020_P0009,Kim_Lee_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),679.0,3644908.0,186.28728077635978,5.232643698849241
+Kim_Lee_2020_LUNG_N09,Kim_Lee_2020_P0009,Kim_Lee_2020,multiciliated epithelial cell,Epithelial (normal lung),92.0,125339.0,734.0093665977869,6.599883242802095
+Kim_Lee_2020_LUNG_N18,Kim_Lee_2020_P0018,Kim_Lee_2020,epithelial cell of lung,Epithelial (normal lung),210.0,310077.0,677.2511343956501,6.519517624070853
+Kim_Lee_2020_LUNG_N18,Kim_Lee_2020_P0018,Kim_Lee_2020,club cell,Epithelial (normal lung),124.0,311838.0,397.64236558726003,5.988064688099783
+Kim_Lee_2020_LUNG_N18,Kim_Lee_2020_P0018,Kim_Lee_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),85.0,235308.0,361.22868750743703,5.892275745812156
+Kim_Lee_2020_LUNG_N18,Kim_Lee_2020_P0018,Kim_Lee_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),127.0,501121.0,253.4318058911919,5.539032846808424
+Kim_Lee_2020_LUNG_N18,Kim_Lee_2020_P0018,Kim_Lee_2020,multiciliated epithelial cell,Epithelial (normal lung),865.0,860740.0,1004.9492297325556,6.913686881923491
+Kim_Lee_2020_LUNG_N19,Kim_Lee_2020_P0019,Kim_Lee_2020,epithelial cell of lung,Epithelial (normal lung),2.0,10986.0,182.0498816675769,5.209758693117399
+Kim_Lee_2020_LUNG_N19,Kim_Lee_2020_P0019,Kim_Lee_2020,club cell,Epithelial (normal lung),18.0,27327.0,658.6892084751345,6.491768827864218
+Kim_Lee_2020_LUNG_N19,Kim_Lee_2020_P0019,Kim_Lee_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),38.0,15508.0,2450.3482073768378,7.804393440910695
+Kim_Lee_2020_LUNG_N19,Kim_Lee_2020_P0019,Kim_Lee_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),317.0,1333322.0,237.7520208921776,5.47542544379487
+Kim_Lee_2020_LUNG_N19,Kim_Lee_2020_P0019,Kim_Lee_2020,multiciliated epithelial cell,Epithelial (normal lung),28.0,33489.0,836.0954343217176,6.729938083490006
+Kim_Lee_2020_LUNG_N20,Kim_Lee_2020_P0020,Kim_Lee_2020,epithelial cell of lung,Epithelial (normal lung),17.0,63158.0,269.16621805630325,5.5990373920113745
+Kim_Lee_2020_LUNG_N20,Kim_Lee_2020_P0020,Kim_Lee_2020,club cell,Epithelial (normal lung),81.0,263468.0,307.43771539617717,5.731519927973825
+Kim_Lee_2020_LUNG_N20,Kim_Lee_2020_P0020,Kim_Lee_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),26.0,81557.0,318.79544367742807,5.767681552885688
+Kim_Lee_2020_LUNG_N20,Kim_Lee_2020_P0020,Kim_Lee_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),232.0,1030655.0,225.0995726018891,5.420975488976472
+Kim_Lee_2020_LUNG_N20,Kim_Lee_2020_P0020,Kim_Lee_2020,multiciliated epithelial cell,Epithelial (normal lung),61.0,145018.0,420.6374381111311,6.0441457933585
+Kim_Lee_2020_LUNG_N28,Kim_Lee_2020_P0028,Kim_Lee_2020,epithelial cell of lung,Epithelial (normal lung),3.0,7575.0,396.03960396039605,5.984036033798323
+Kim_Lee_2020_LUNG_N28,Kim_Lee_2020_P0028,Kim_Lee_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),21.0,34672.0,605.6760498384864,6.407994958049858
+Kim_Lee_2020_LUNG_N28,Kim_Lee_2020_P0028,Kim_Lee_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),337.0,1494997.0,225.4185125455101,5.422385112180059
+Kim_Lee_2020_LUNG_N30,Kim_Lee_2020_P0030,Kim_Lee_2020,epithelial cell of lung,Epithelial (normal lung),214.0,276897.0,772.8505545383301,6.651378772955178
+Kim_Lee_2020_LUNG_N30,Kim_Lee_2020_P0030,Kim_Lee_2020,club cell,Epithelial (normal lung),134.0,284250.0,471.41600703605985,6.157859968245457
+Kim_Lee_2020_LUNG_N30,Kim_Lee_2020_P0030,Kim_Lee_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),16.0,59160.0,270.4530087897228,5.603789044429736
+Kim_Lee_2020_LUNG_N30,Kim_Lee_2020_P0030,Kim_Lee_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),91.0,413326.0,220.16519647929238,5.398909917663636
+Kim_Lee_2020_LUNG_N30,Kim_Lee_2020_P0030,Kim_Lee_2020,multiciliated epithelial cell,Epithelial (normal lung),461.0,470158.0,980.5214417280998,6.889103859354719
+Kim_Lee_2020_LUNG_N31,Kim_Lee_2020_P0031,Kim_Lee_2020,epithelial cell of lung,Epithelial (normal lung),114.0,236071.0,482.9055665456579,6.181889777237258
+Kim_Lee_2020_LUNG_N31,Kim_Lee_2020_P0031,Kim_Lee_2020,club cell,Epithelial (normal lung),12.0,43413.0,276.4148987630433,5.625514215029115
+Kim_Lee_2020_LUNG_N31,Kim_Lee_2020_P0031,Kim_Lee_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),63.0,153093.0,411.5145695753562,6.022271525333674
+Kim_Lee_2020_LUNG_N31,Kim_Lee_2020_P0031,Kim_Lee_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),315.0,1341194.0,234.86535132128535,5.463261096953944
+Kim_Lee_2020_LUNG_N31,Kim_Lee_2020_P0031,Kim_Lee_2020,multiciliated epithelial cell,Epithelial (normal lung),347.0,466477.0,743.8737601210778,6.613214754519461
+Kim_Lee_2020_LUNG_N34,Kim_Lee_2020_P0034,Kim_Lee_2020,epithelial cell of lung,Epithelial (normal lung),106.0,200827.0,527.8174747419421,6.270643334023886
+Kim_Lee_2020_LUNG_N34,Kim_Lee_2020_P0034,Kim_Lee_2020,club cell,Epithelial (normal lung),34.0,66237.0,513.3082718118272,6.242822836283316
+Kim_Lee_2020_LUNG_N34,Kim_Lee_2020_P0034,Kim_Lee_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),116.0,216126.0,536.7239480673311,6.28734532079545
+Kim_Lee_2020_LUNG_N34,Kim_Lee_2020_P0034,Kim_Lee_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),550.0,1892717.0,290.5875521802784,5.675340311227043
+Kim_Lee_2020_LUNG_N34,Kim_Lee_2020_P0034,Kim_Lee_2020,multiciliated epithelial cell,Epithelial (normal lung),211.0,189198.0,1115.233776255563,7.017715597935536
+Kim_Lee_2020_LUNG_T06,Kim_Lee_2020_P0006,Kim_Lee_2020,malignant cell,I,325.0,500967.0,648.7453265384746,6.476580480788498
+Kim_Lee_2020_LUNG_T09,Kim_Lee_2020_P0009,Kim_Lee_2020,malignant cell,II,15.0,35273.0,425.25444390893887,6.055036454136199
+Kim_Lee_2020_LUNG_T18,Kim_Lee_2020_P0018,Kim_Lee_2020,malignant cell,I,6337.0,9135813.0,693.6437950295174,6.543399189041504
+Kim_Lee_2020_LUNG_T19,Kim_Lee_2020_P0019,Kim_Lee_2020,malignant cell,I,454.0,799886.0,567.5808802754393,6.343143572685018
+Kim_Lee_2020_LUNG_T20,Kim_Lee_2020_P0020,Kim_Lee_2020,malignant cell,I,2672.0,3722022.0,717.8893622874879,6.57770746867279
+Kim_Lee_2020_LUNG_T25,Kim_Lee_2020_P0025,Kim_Lee_2020,malignant cell,I,69.0,77909.0,885.6486413636421,6.787448783611866
+Kim_Lee_2020_LUNG_T28,Kim_Lee_2020_P0028,Kim_Lee_2020,malignant cell,III,7443.0,8755753.0,850.069662769153,6.746493985116283
+Kim_Lee_2020_LUNG_T30,Kim_Lee_2020_P0030,Kim_Lee_2020,malignant cell,I,19.0,56439.0,336.6466450504084,5.821999919796182
+Kim_Lee_2020_LUNG_T31,Kim_Lee_2020_P0031,Kim_Lee_2020,malignant cell,III,514.0,1082559.0,474.8009115438512,6.164999513680076
+Kim_Lee_2020_LUNG_T34,Kim_Lee_2020_P0034,Kim_Lee_2020,malignant cell,I,1604.0,3442489.0,465.9419391027829,6.146204922536571
+Kim_Lee_2020_NS_02,Kim_Lee_2020_P3002,Kim_Lee_2020,malignant cell,IV,316.0,1107074.0,285.4371071852469,5.657518990888073
+Kim_Lee_2020_NS_03,Kim_Lee_2020_P3003,Kim_Lee_2020,malignant cell,IV,11383.0,13852017.0,821.7575823073274,6.712661603590559
+Kim_Lee_2020_NS_04,Kim_Lee_2020_P3004,Kim_Lee_2020,malignant cell,IV,3020.0,8383368.0,360.2370789401109,5.889534471147133
+Kim_Lee_2020_NS_06,Kim_Lee_2020_P3006,Kim_Lee_2020,malignant cell,IV,119.0,300662.0,395.79328282257154,5.983415446896895
+Kim_Lee_2020_NS_07,Kim_Lee_2020_P3007,Kim_Lee_2020,malignant cell,IV,17891.0,28183072.0,634.8136924179166,6.454905583976043
+Kim_Lee_2020_NS_12,Kim_Lee_2020_P3012,Kim_Lee_2020,malignant cell,IV,2834.0,4315345.0,656.7261713721614,6.48878869177981
+Kim_Lee_2020_NS_13,Kim_Lee_2020_P3013,Kim_Lee_2020,malignant cell,IV,439.0,522833.0,839.6562573517739,6.7341828455657105
+Kim_Lee_2020_NS_16,Kim_Lee_2020_P3016,Kim_Lee_2020,malignant cell,III,10.0,574633.0,17.402411626203158,2.912481722667934
+Kim_Lee_2020_NS_17,Kim_Lee_2020_P3017,Kim_Lee_2020,malignant cell,IV,4430.0,4087704.0,1083.7379614570918,6.989093726628485
+Kim_Lee_2020_NS_19,Kim_Lee_2020_P3019,Kim_Lee_2020,malignant cell,IV,632.0,2175126.0,290.5578803250938,5.675238546371978
+Lambrechts_Thienpont_2018_6149v1_1247,Lambrechts_Thienpont_2018_6149v1_2,Lambrechts_Thienpont_2018,epithelial cell of lung,Epithelial (normal lung),1.0,2662.0,375.6574004507889,5.931336022162551
+Lambrechts_Thienpont_2018_6149v1_1247,Lambrechts_Thienpont_2018_6149v1_2,Lambrechts_Thienpont_2018,pulmonary alveolar type 1 cell,Epithelial (normal lung),80.0,44192.0,1810.2824040550327,7.501790383912422
+Lambrechts_Thienpont_2018_6149v1_1247,Lambrechts_Thienpont_2018_6149v1_2,Lambrechts_Thienpont_2018,pulmonary alveolar type 2 cell,Epithelial (normal lung),44.0,241959.0,181.84899094474682,5.208660626093682
+Lambrechts_Thienpont_2018_6149v1_1247,Lambrechts_Thienpont_2018_6149v1_2,Lambrechts_Thienpont_2018,multiciliated epithelial cell,Epithelial (normal lung),59.0,2699.0,21859.948128936645,9.992457133568395
+Lambrechts_Thienpont_2018_6149v1_BT1A,Lambrechts_Thienpont_2018_6149v1_1,Lambrechts_Thienpont_2018,malignant cell,II,151.0,289250.0,522.0397579948142,6.25965748028616
+Lambrechts_Thienpont_2018_6149v1_BT1B,Lambrechts_Thienpont_2018_6149v1_1,Lambrechts_Thienpont_2018,malignant cell,II,137.0,372950.0,367.3414666845422,5.909010406536446
+Lambrechts_Thienpont_2018_6149v1_BT1C,Lambrechts_Thienpont_2018_6149v1_1,Lambrechts_Thienpont_2018,malignant cell,II,95.0,238754.0,397.89909279006844,5.9887084846296785
+Lambrechts_Thienpont_2018_6149v1_BT2A,Lambrechts_Thienpont_2018_6149v1_2,Lambrechts_Thienpont_2018,malignant cell,II,89.0,331875.0,268.1732580037665,5.595355254068567
+Lambrechts_Thienpont_2018_6149v1_BT2B,Lambrechts_Thienpont_2018_6149v1_2,Lambrechts_Thienpont_2018,malignant cell,II,333.0,944782.0,352.462261135373,5.867776721887608
+Lambrechts_Thienpont_2018_6149v1_BT1249,Lambrechts_Thienpont_2018_6149v1_2,Lambrechts_Thienpont_2018,malignant cell,II,9.0,76353.0,117.8735609602766,4.77806041530565
+Lambrechts_Thienpont_2018_6149v2_BT1290,Lambrechts_Thienpont_2018_6149v2_3,Lambrechts_Thienpont_2018,malignant cell,III,667.0,1215167.0,548.8957484855991,6.309728712051983
+Lambrechts_Thienpont_2018_6149v2_BT1291,Lambrechts_Thienpont_2018_6149v2_3,Lambrechts_Thienpont_2018,malignant cell,III,1000.0,2032878.0,491.9134350413551,6.200333570473877
+Lambrechts_Thienpont_2018_6149v2_BT1292,Lambrechts_Thienpont_2018_6149v2_3,Lambrechts_Thienpont_2018,malignant cell,III,1010.0,2250389.0,448.8112944028788,6.108828149042958
+Lambrechts_Thienpont_2018_6149v2_BT1293,Lambrechts_Thienpont_2018_6149v2_3,Lambrechts_Thienpont_2018,epithelial cell of lung,Epithelial (normal lung),41.0,79102.0,518.3181209071831,6.252516645113757
+Lambrechts_Thienpont_2018_6149v2_BT1293,Lambrechts_Thienpont_2018_6149v2_3,Lambrechts_Thienpont_2018,club cell,Epithelial (normal lung),4.0,4710.0,849.2569002123142,6.7455385393643
+Lambrechts_Thienpont_2018_6149v2_BT1293,Lambrechts_Thienpont_2018_6149v2_3,Lambrechts_Thienpont_2018,pulmonary alveolar type 1 cell,Epithelial (normal lung),792.0,617510.0,1282.5703227478098,7.15740078864107
+Lambrechts_Thienpont_2018_6149v2_BT1293,Lambrechts_Thienpont_2018_6149v2_3,Lambrechts_Thienpont_2018,pulmonary alveolar type 2 cell,Epithelial (normal lung),268.0,1159128.0,231.2082876093063,5.44763476031207
+Lambrechts_Thienpont_2018_6149v2_BT1293,Lambrechts_Thienpont_2018_6149v2_3,Lambrechts_Thienpont_2018,multiciliated epithelial cell,Epithelial (normal lung),345.0,188361.0,1831.5893417427174,7.51348518659295
+Lambrechts_Thienpont_2018_6149v2_BT1294,Lambrechts_Thienpont_2018_6149v2_4,Lambrechts_Thienpont_2018,epithelial cell of lung,Epithelial (normal lung),13.0,52263.0,248.7419398044506,5.520428143952624
+Lambrechts_Thienpont_2018_6149v2_BT1294,Lambrechts_Thienpont_2018_6149v2_4,Lambrechts_Thienpont_2018,club cell,Epithelial (normal lung),0.0,696.0,0.0,0.0
+Lambrechts_Thienpont_2018_6149v2_BT1294,Lambrechts_Thienpont_2018_6149v2_4,Lambrechts_Thienpont_2018,pulmonary alveolar type 1 cell,Epithelial (normal lung),46.0,99921.0,460.3636873129772,6.13418664154368
+Lambrechts_Thienpont_2018_6149v2_BT1294,Lambrechts_Thienpont_2018_6149v2_4,Lambrechts_Thienpont_2018,pulmonary alveolar type 2 cell,Epithelial (normal lung),53.0,178169.0,297.4703792466703,5.698670695904381
+Lambrechts_Thienpont_2018_6149v2_BT1294,Lambrechts_Thienpont_2018_6149v2_4,Lambrechts_Thienpont_2018,multiciliated epithelial cell,Epithelial (normal lung),1.0,11803.0,84.72422265525715,4.451135430419357
+Lambrechts_Thienpont_2018_6149v2_BT1295,Lambrechts_Thienpont_2018_6149v2_4,Lambrechts_Thienpont_2018,malignant cell,II,508.0,2088355.0,243.2536613746226,5.49820728108535
+Lambrechts_Thienpont_2018_6149v2_BT1296,Lambrechts_Thienpont_2018_6149v2_4,Lambrechts_Thienpont_2018,malignant cell,II,483.0,2914670.0,165.71344268819453,5.116276426506685
+Lambrechts_Thienpont_2018_6149v2_BT1297,Lambrechts_Thienpont_2018_6149v2_4,Lambrechts_Thienpont_2018,malignant cell,II,873.0,2948194.0,296.11348506916437,5.694114170429305
+Lambrechts_Thienpont_2018_6149v2_BT1298,Lambrechts_Thienpont_2018_6149v2_5,Lambrechts_Thienpont_2018,malignant cell,I,2144.0,3865422.0,554.6613021812367,6.320158939893138
+Lambrechts_Thienpont_2018_6149v2_BT1299,Lambrechts_Thienpont_2018_6149v2_5,Lambrechts_Thienpont_2018,malignant cell,I,763.0,1376093.0,554.4683389858099,6.319811611930283
+Lambrechts_Thienpont_2018_6149v2_BT1300,Lambrechts_Thienpont_2018_6149v2_5,Lambrechts_Thienpont_2018,malignant cell,I,3528.0,7224278.0,488.35329980380044,6.193084723087676
+Lambrechts_Thienpont_2018_6149v2_BT1301,Lambrechts_Thienpont_2018_6149v2_5,Lambrechts_Thienpont_2018,epithelial cell of lung,Epithelial (normal lung),229.0,653711.0,350.30770478085884,5.861662491228424
+Lambrechts_Thienpont_2018_6149v2_BT1301,Lambrechts_Thienpont_2018_6149v2_5,Lambrechts_Thienpont_2018,club cell,Epithelial (normal lung),5.0,5132.0,974.2790335151988,6.882723618274527
+Lambrechts_Thienpont_2018_6149v2_BT1301,Lambrechts_Thienpont_2018_6149v2_5,Lambrechts_Thienpont_2018,pulmonary alveolar type 1 cell,Epithelial (normal lung),74.0,149089.0,496.34781908792735,6.209289618523819
+Lambrechts_Thienpont_2018_6149v2_BT1301,Lambrechts_Thienpont_2018_6149v2_5,Lambrechts_Thienpont_2018,pulmonary alveolar type 2 cell,Epithelial (normal lung),512.0,1998444.0,256.1993230733511,5.549851360452346
+Lambrechts_Thienpont_2018_6149v2_BT1301,Lambrechts_Thienpont_2018_6149v2_5,Lambrechts_Thienpont_2018,multiciliated epithelial cell,Epithelial (normal lung),156.0,169492.0,920.397422887216,6.825891455544591
+Lambrechts_Thienpont_2018_6653_BT1375,Lambrechts_Thienpont_2018_6653_7,Lambrechts_Thienpont_2018,malignant cell,I,392.0,1739672.0,225.32983229022483,5.421993370244695
+Lambrechts_Thienpont_2018_6653_BT1376,Lambrechts_Thienpont_2018_6653_7,Lambrechts_Thienpont_2018,malignant cell,I,267.0,1814368.0,147.15868004726715,4.998283861889955
+Lambrechts_Thienpont_2018_6653_BT1377,Lambrechts_Thienpont_2018_6653_7,Lambrechts_Thienpont_2018,malignant cell,I,40.0,351283.0,113.86830561114543,4.743786303557929
+Lambrechts_Thienpont_2018_6653_BT1378,Lambrechts_Thienpont_2018_6653_7,Lambrechts_Thienpont_2018,epithelial cell of lung,Epithelial (normal lung),9.0,26607.0,338.2568497012065,5.826757489229517
+Lambrechts_Thienpont_2018_6653_BT1378,Lambrechts_Thienpont_2018_6653_7,Lambrechts_Thienpont_2018,club cell,Epithelial (normal lung),13.0,82228.0,158.09699858928832,5.069514070233605
+Lambrechts_Thienpont_2018_6653_BT1378,Lambrechts_Thienpont_2018_6653_7,Lambrechts_Thienpont_2018,pulmonary alveolar type 1 cell,Epithelial (normal lung),107.0,347265.0,308.12203936475026,5.733736148326247
+Lambrechts_Thienpont_2018_6653_BT1378,Lambrechts_Thienpont_2018_6653_7,Lambrechts_Thienpont_2018,pulmonary alveolar type 2 cell,Epithelial (normal lung),56.0,425761.0,131.52919125988524,4.8868029325566456
+Lambrechts_Thienpont_2018_6653_BT1378,Lambrechts_Thienpont_2018_6653_7,Lambrechts_Thienpont_2018,multiciliated epithelial cell,Epithelial (normal lung),135.0,385907.0,349.82521695641697,5.860288142054786
+Lambrechts_Thienpont_2018_6653_scrBT1425_hg19,Lambrechts_Thienpont_2018_6653_8,Lambrechts_Thienpont_2018,malignant cell,II,73.0,472384.0,154.53529332068825,5.0468726725587745
+Lambrechts_Thienpont_2018_6653_scrBT1426_hg19,Lambrechts_Thienpont_2018_6653_8,Lambrechts_Thienpont_2018,malignant cell,II,84.0,408441.0,205.6600586131167,5.331075214407172
+Lambrechts_Thienpont_2018_6653_scrBT1427_hg19,Lambrechts_Thienpont_2018_6653_8,Lambrechts_Thienpont_2018,malignant cell,II,238.0,568444.0,418.68680116247157,6.039508721578351
+Lambrechts_Thienpont_2018_6653_scrBT1428_hg19,Lambrechts_Thienpont_2018_6653_8,Lambrechts_Thienpont_2018,epithelial cell of lung,Epithelial (normal lung),33.0,161731.0,204.0425150404066,5.323217348076992
+Lambrechts_Thienpont_2018_6653_scrBT1428_hg19,Lambrechts_Thienpont_2018_6653_8,Lambrechts_Thienpont_2018,club cell,Epithelial (normal lung),1.0,8511.0,117.49500646222535,4.77487082012801
+Lambrechts_Thienpont_2018_6653_scrBT1428_hg19,Lambrechts_Thienpont_2018_6653_8,Lambrechts_Thienpont_2018,pulmonary alveolar type 1 cell,Epithelial (normal lung),115.0,289683.0,396.98567054331807,5.986416000976286
+Lambrechts_Thienpont_2018_6653_scrBT1428_hg19,Lambrechts_Thienpont_2018_6653_8,Lambrechts_Thienpont_2018,pulmonary alveolar type 2 cell,Epithelial (normal lung),260.0,1244768.0,208.87426411990023,5.3465086091135365
+Lambrechts_Thienpont_2018_6653_scrBT1428_hg19,Lambrechts_Thienpont_2018_6653_8,Lambrechts_Thienpont_2018,multiciliated epithelial cell,Epithelial (normal lung),107.0,213988.0,500.02803895545543,6.216662065497781
+Lambrechts_Thienpont_2018_6653_scrBT1429m,Lambrechts_Thienpont_2018_6653_6,Lambrechts_Thienpont_2018,epithelial cell of lung,Epithelial (normal lung),20.0,77967.0,256.5187835879282,5.5510926634159
+Lambrechts_Thienpont_2018_6653_scrBT1429m,Lambrechts_Thienpont_2018_6653_6,Lambrechts_Thienpont_2018,club cell,Epithelial (normal lung),1.0,3845.0,260.0780234070221,5.5648193029057476
+Lambrechts_Thienpont_2018_6653_scrBT1429m,Lambrechts_Thienpont_2018_6653_6,Lambrechts_Thienpont_2018,pulmonary alveolar type 1 cell,Epithelial (normal lung),93.0,188699.0,492.8483987726485,6.202228585013451
+Lambrechts_Thienpont_2018_6653_scrBT1429m,Lambrechts_Thienpont_2018_6653_6,Lambrechts_Thienpont_2018,pulmonary alveolar type 2 cell,Epithelial (normal lung),85.0,489503.0,173.64551391922012,5.162758284803394
+Lambrechts_Thienpont_2018_6653_scrBT1429m,Lambrechts_Thienpont_2018_6653_6,Lambrechts_Thienpont_2018,multiciliated epithelial cell,Epithelial (normal lung),96.0,126550.0,758.5934413275386,6.63278334452426
+Lambrechts_Thienpont_2018_6653_scrBT1430m,Lambrechts_Thienpont_2018_6653_6,Lambrechts_Thienpont_2018,malignant cell,III,122.0,1946053.0,62.69099556897987,4.154043195741397
+Lambrechts_Thienpont_2018_6653_scrBT1431m,Lambrechts_Thienpont_2018_6653_6,Lambrechts_Thienpont_2018,malignant cell,III,0.0,22675.0,0.0,0.0
+Lambrechts_Thienpont_2018_6653_scrBT1432m,Lambrechts_Thienpont_2018_6653_6,Lambrechts_Thienpont_2018,malignant cell,III,3.0,353637.0,8.483275222898056,2.24952974424729
+Laughney_Massague_2020_GSM3516662,Laughney_Massague_2020_LX653,Laughney_Massague_2020,malignant cell,I,28.0,86723.0,322.8670594882557,5.780333121370624
+Laughney_Massague_2020_GSM3516663,Laughney_Massague_2020_LX661,Laughney_Massague_2020,malignant cell,I,10.0,31509.0,317.3696404201974,5.763213098985007
+Laughney_Massague_2020_GSM3516664,Laughney_Massague_2020_LX666,Laughney_Massague_2020,malignant cell,IV,1332.0,11264937.0,118.24300482106558,4.781163468266477
+Laughney_Massague_2020_GSM3516665,Laughney_Massague_2020_LX675,Laughney_Massague_2020,malignant cell,IV,692.0,1517458.0,456.02580104358736,6.124739846726337
+Laughney_Massague_2020_GSM3516666,Laughney_Massague_2020_LX675,Laughney_Massague_2020,epithelial cell of lung,Epithelial (normal lung),20.0,108030.0,185.13375914097935,5.2264655504259645
+Laughney_Massague_2020_GSM3516666,Laughney_Massague_2020_LX675,Laughney_Massague_2020,club cell,Epithelial (normal lung),70.0,171111.0,409.09117473452903,6.016379512377455
+Laughney_Massague_2020_GSM3516666,Laughney_Massague_2020_LX675,Laughney_Massague_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),5.0,8509.0,587.6131155247385,6.377769118127977
+Laughney_Massague_2020_GSM3516666,Laughney_Massague_2020_LX675,Laughney_Massague_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),35.0,264430.0,132.36017093370646,4.893053520188166
+Laughney_Massague_2020_GSM3516666,Laughney_Massague_2020_LX675,Laughney_Massague_2020,multiciliated epithelial cell,Epithelial (normal lung),122.0,178095.0,685.0276537802858,6.530917938546463
+Laughney_Massague_2020_GSM3516667,Laughney_Massague_2020_LX676,Laughney_Massague_2020,malignant cell,I,151.0,209084.0,722.1977769700216,6.583682735193294
+Laughney_Massague_2020_GSM3516668,Laughney_Massague_2020_LX255B,Laughney_Massague_2020,malignant cell,IV,191.0,498736.0,382.9681434666838,5.950559589424201
+Laughney_Massague_2020_GSM3516669,Laughney_Massague_2020_LX679,Laughney_Massague_2020,malignant cell,II,406.0,1449470.0,280.1023822500638,5.638718952618888
+Laughney_Massague_2020_GSM3516670,Laughney_Massague_2020_LX680,Laughney_Massague_2020,malignant cell,I,1244.0,1777703.0,699.7794344724625,6.552193193404574
+Laughney_Massague_2020_GSM3516671,Laughney_Massague_2020_LX681,Laughney_Massague_2020,malignant cell,I,1920.0,6364050.0,301.69467556037426,5.712724626049297
+Laughney_Massague_2020_GSM3516672,Laughney_Massague_2020_LX682,Laughney_Massague_2020,malignant cell,I,893.0,704123.0,1268.2443266304326,7.146176983957701
+Laughney_Massague_2020_GSM3516673,Laughney_Massague_2020_LX682,Laughney_Massague_2020,epithelial cell of lung,Epithelial (normal lung),20.0,6640.0,3012.0481927710844,8.010707533947981
+Laughney_Massague_2020_GSM3516673,Laughney_Massague_2020_LX682,Laughney_Massague_2020,club cell,Epithelial (normal lung),175.0,366753.0,477.16037769288863,6.169946194403776
+Laughney_Massague_2020_GSM3516673,Laughney_Massague_2020_LX682,Laughney_Massague_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),51.0,40650.0,1254.6125461254612,7.135378817053479
+Laughney_Massague_2020_GSM3516673,Laughney_Massague_2020_LX682,Laughney_Massague_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),39.0,138997.0,280.5815952862292,5.640422264499649
+Laughney_Massague_2020_GSM3516673,Laughney_Massague_2020_LX682,Laughney_Massague_2020,multiciliated epithelial cell,Epithelial (normal lung),485.0,453455.0,1069.5658885666714,6.9759426554739745
+Laughney_Massague_2020_GSM3516674,Laughney_Massague_2020_LX684,Laughney_Massague_2020,malignant cell,I,57.0,175393.0,324.9844634620538,5.7868497221391655
+Laughney_Massague_2020_GSM3516675,Laughney_Massague_2020_LX684,Laughney_Massague_2020,epithelial cell of lung,Epithelial (normal lung),3.0,18514.0,162.0395376471859,5.09399273364597
+Laughney_Massague_2020_GSM3516675,Laughney_Massague_2020_LX684,Laughney_Massague_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),59.0,85114.0,693.1879596776088,6.542742759107883
+Laughney_Massague_2020_GSM3516675,Laughney_Massague_2020_LX684,Laughney_Massague_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),164.0,855923.0,191.60602063503376,5.260646758662747
+Laughney_Massague_2020_GSM3516675,Laughney_Massague_2020_LX684,Laughney_Massague_2020,multiciliated epithelial cell,Epithelial (normal lung),21.0,25243.0,831.913797884562,6.724930152879913
+Laughney_Massague_2020_GSM3516676,Laughney_Massague_2020_LX685,Laughney_Massague_2020,epithelial cell of lung,Epithelial (normal lung),77.0,130437.0,590.32329783727,6.382362903094504
+Laughney_Massague_2020_GSM3516676,Laughney_Massague_2020_LX685,Laughney_Massague_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),576.0,648002.0,888.8861454131315,6.791093528040793
+Laughney_Massague_2020_GSM3516676,Laughney_Massague_2020_LX685,Laughney_Massague_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),43.0,410862.0,104.65801169249043,4.660207573581544
+Laughney_Massague_2020_GSM3516676,Laughney_Massague_2020_LX685,Laughney_Massague_2020,multiciliated epithelial cell,Epithelial (normal lung),132.0,212043.0,622.5152445494546,6.435373214780225
+Laughney_Massague_2020_GSM3516677,Laughney_Massague_2020_LX699,Laughney_Massague_2020,malignant cell,IV,13.0,105997.0,122.64498051831656,4.817414398871855
+Laughney_Massague_2020_GSM3516678,Laughney_Massague_2020_LX701,Laughney_Massague_2020,malignant cell,IV,13.0,113133.0,114.90900091043285,4.752805408334844
+Leader_Merad_2021_310,Leader_Merad_2021_370,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),112.0,126510.0,885.3055094458937,6.787061709956436
+Leader_Merad_2021_310,Leader_Merad_2021_370,Leader_Merad_2021,club cell,Epithelial (normal lung),494.0,375747.0,1314.7144222043023,7.1821350839323745
+Leader_Merad_2021_310,Leader_Merad_2021_370,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),14.0,27532.0,508.49920092982705,6.233428284319699
+Leader_Merad_2021_310,Leader_Merad_2021_370,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),35.0,164494.0,212.77371819032913,5.364918063954947
+Leader_Merad_2021_310,Leader_Merad_2021_370,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),440.0,670780.0,655.9527714004591,6.4876121306655214
+Leader_Merad_2021_311,Leader_Merad_2021_370,Leader_Merad_2021,malignant cell,II,798.0,692434.0,1152.4564073976726,7.05051828530686
+Leader_Merad_2021_312,Leader_Merad_2021_371,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),87.0,114121.0,762.3487351144837,6.637714984682496
+Leader_Merad_2021_312,Leader_Merad_2021_371,Leader_Merad_2021,club cell,Epithelial (normal lung),20.0,22561.0,886.4855281237534,6.788392214877188
+Leader_Merad_2021_312,Leader_Merad_2021_371,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),2.0,3029.0,660.2839220864972,6.494183281798485
+Leader_Merad_2021_312,Leader_Merad_2021_371,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),32.0,115599.0,276.8190036245988,5.626969835556501
+Leader_Merad_2021_312,Leader_Merad_2021_371,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),120.0,157956.0,759.7052343690648,6.634245942969544
+Leader_Merad_2021_313,Leader_Merad_2021_371,Leader_Merad_2021,malignant cell,I,176.0,381776.0,461.00331084195966,6.1355720573806485
+Leader_Merad_2021_314,Leader_Merad_2021_377,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),10.0,53268.0,187.72996921228506,5.240317259119028
+Leader_Merad_2021_314,Leader_Merad_2021_377,Leader_Merad_2021,club cell,Epithelial (normal lung),3.0,4444.0,675.0675067506751,6.5162929331142925
+Leader_Merad_2021_314,Leader_Merad_2021_377,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),0.0,5278.0,0.0,0.0
+Leader_Merad_2021_314,Leader_Merad_2021_377,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),50.0,237914.0,210.15997377203527,5.352616015746444
+Leader_Merad_2021_315,Leader_Merad_2021_377,Leader_Merad_2021,malignant cell,III,9.0,32707.0,275.1704528082673,5.621018257730123
+Leader_Merad_2021_316,Leader_Merad_2021_378,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),39.0,111092.0,351.0603823857703,5.8638027017553105
+Leader_Merad_2021_316,Leader_Merad_2021_378,Leader_Merad_2021,club cell,Epithelial (normal lung),121.0,307993.0,392.86607163149813,5.9760109317951216
+Leader_Merad_2021_316,Leader_Merad_2021_378,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),12.0,52921.0,226.75308478675763,5.428262080666376
+Leader_Merad_2021_316,Leader_Merad_2021_378,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),111.0,451303.0,245.95449177160359,5.509204075813335
+Leader_Merad_2021_316,Leader_Merad_2021_378,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),58.0,126395.0,458.8789113493413,6.130963218633328
+Leader_Merad_2021_317,Leader_Merad_2021_378,Leader_Merad_2021,malignant cell,I,366.0,445254.0,822.0027220418009,6.712959508134299
+Leader_Merad_2021_318,Leader_Merad_2021_393,Leader_Merad_2021,malignant cell,I,317.0,511555.0,619.6792133788156,6.4308143838606355
+Leader_Merad_2021_319,Leader_Merad_2021_403,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),9.0,29387.0,306.25786912580395,5.727687359593535
+Leader_Merad_2021_319,Leader_Merad_2021_403,Leader_Merad_2021,club cell,Epithelial (normal lung),7.0,14870.0,470.7464694014795,6.156441700175035
+Leader_Merad_2021_319,Leader_Merad_2021_403,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),2.0,2412.0,829.1873963515754,6.721651454043299
+Leader_Merad_2021_319,Leader_Merad_2021_403,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),1.0,32621.0,30.6550994757978,3.454899256489898
+Leader_Merad_2021_319,Leader_Merad_2021_403,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),5.0,5716.0,874.7375787263821,6.7750664783930885
+Leader_Merad_2021_320,Leader_Merad_2021_403,Leader_Merad_2021,malignant cell,III,1878.0,3950109.0,475.4299185161726,6.1663206367606405
+Leader_Merad_2021_323,Leader_Merad_2021_406,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),136.0,291377.0,466.74926298232185,6.147932389487157
+Leader_Merad_2021_323,Leader_Merad_2021_406,Leader_Merad_2021,club cell,Epithelial (normal lung),73.0,84720.0,861.6619452313504,6.760022893867399
+Leader_Merad_2021_323,Leader_Merad_2021_406,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),37.0,110243.0,335.62221637654994,5.81896128188569
+Leader_Merad_2021_323,Leader_Merad_2021_406,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),303.0,1437219.0,210.82382016936876,5.355754892232447
+Leader_Merad_2021_323,Leader_Merad_2021_406,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),56.0,90505.0,618.7503452847909,6.4293167280507495
+Leader_Merad_2021_324,Leader_Merad_2021_406,Leader_Merad_2021,malignant cell,I,2255.0,3970149.0,567.9887581045447,6.343860676645643
+Leader_Merad_2021_325,Leader_Merad_2021_408,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),36.0,143041.0,251.67609286847826,5.532108403145706
+Leader_Merad_2021_325,Leader_Merad_2021_408,Leader_Merad_2021,club cell,Epithelial (normal lung),52.0,81786.0,635.8056391069376,6.456464489872462
+Leader_Merad_2021_325,Leader_Merad_2021_408,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),70.0,193151.0,362.41075635124855,5.89553375472944
+Leader_Merad_2021_325,Leader_Merad_2021_408,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),499.0,2121414.0,235.22047087461476,5.464765567554903
+Leader_Merad_2021_325,Leader_Merad_2021_408,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),2.0,18623.0,107.3940825860495,4.685773498825949
+Leader_Merad_2021_326,Leader_Merad_2021_408,Leader_Merad_2021,malignant cell,II,4720.0,4046799.0,1166.3539503691684,7.062494885674351
+Leader_Merad_2021_327,Leader_Merad_2021_410,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),25.0,66467.0,376.126498864098,5.932580671920377
+Leader_Merad_2021_327,Leader_Merad_2021_410,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),4.0,14810.0,270.0877785280216,5.602442674440935
+Leader_Merad_2021_327,Leader_Merad_2021_410,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),49.0,227423.0,215.4575394748992,5.377394405690222
+Leader_Merad_2021_327,Leader_Merad_2021_410,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),16.0,13626.0,1174.225744899457,7.069215531443625
+Leader_Merad_2021_328,Leader_Merad_2021_410,Leader_Merad_2021,malignant cell,I,213.0,958319.0,222.26419386446474,5.408355796075859
+Leader_Merad_2021_331,Leader_Merad_2021_458,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),0.0,730.0,0.0,0.0
+Leader_Merad_2021_331,Leader_Merad_2021_458,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),0.0,1500.0,0.0,0.0
+Leader_Merad_2021_331,Leader_Merad_2021_458,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),0.0,701.0,0.0,0.0
+Leader_Merad_2021_332,Leader_Merad_2021_458,Leader_Merad_2021,malignant cell,I,0.0,3558.0,0.0,0.0
+Leader_Merad_2021_334,Leader_Merad_2021_460,Leader_Merad_2021,malignant cell,I,0.0,1624.0,0.0,0.0
+Leader_Merad_2021_335,Leader_Merad_2021_464,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),0.0,2010.0,0.0,0.0
+Leader_Merad_2021_337,Leader_Merad_2021_514,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),42.0,160468.0,261.7344268016053,5.571143737978089
+Leader_Merad_2021_337,Leader_Merad_2021_514,Leader_Merad_2021,club cell,Epithelial (normal lung),10.0,52508.0,190.44716995505448,5.254611895651887
+Leader_Merad_2021_337,Leader_Merad_2021_514,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),11.0,18107.0,607.4998619318495,6.410996685528377
+Leader_Merad_2021_337,Leader_Merad_2021_514,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),186.0,1215173.0,153.06462536610013,5.03737215962161
+Leader_Merad_2021_337,Leader_Merad_2021_514,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),49.0,42157.0,1162.3217970918233,7.059034809939214
+Leader_Merad_2021_338,Leader_Merad_2021_514,Leader_Merad_2021,malignant cell,III,29.0,29352.0,988.0076315072228,6.896702047980426
+Leader_Merad_2021_339,Leader_Merad_2021_522,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),29.0,86142.0,336.6534327041397,5.822020022425976
+Leader_Merad_2021_339,Leader_Merad_2021_522,Leader_Merad_2021,club cell,Epithelial (normal lung),17.0,53221.0,319.422784239304,5.769641324523878
+Leader_Merad_2021_339,Leader_Merad_2021_522,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),280.0,233752.0,1197.8507135767823,7.089118638165338
+Leader_Merad_2021_339,Leader_Merad_2021_522,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),203.0,1464922.0,138.57393089870996,4.9385944314766705
+Leader_Merad_2021_339,Leader_Merad_2021_522,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),11.0,15053.0,730.7513452467947,6.5954407639670185
+Leader_Merad_2021_340,Leader_Merad_2021_522,Leader_Merad_2021,malignant cell,II,627.0,1828772.0,342.85301830955416,5.840214293710608
+Leader_Merad_2021_341,Leader_Merad_2021_532,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),1.0,1811.0,552.1811154058531,6.315685462197534
+Leader_Merad_2021_341,Leader_Merad_2021_532,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),0.0,6903.0,0.0,0.0
+Leader_Merad_2021_37,Leader_Merad_2021_564,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),134.0,455921.0,293.91056783960374,5.6866721505118285
+Leader_Merad_2021_37,Leader_Merad_2021_564,Leader_Merad_2021,club cell,Epithelial (normal lung),55.0,172273.0,319.2607082943932,5.76913537751492
+Leader_Merad_2021_37,Leader_Merad_2021_564,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),78.0,279160.0,279.40965754406074,5.636251596593216
+Leader_Merad_2021_37,Leader_Merad_2021_564,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),400.0,2217678.0,180.3688362332133,5.200532727074663
+Leader_Merad_2021_37,Leader_Merad_2021_564,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),77.0,137113.0,561.580594108509,6.332534402230331
+Leader_Merad_2021_38,Leader_Merad_2021_564,Leader_Merad_2021,malignant cell,I,4491.0,5689739.0,789.3156434767922,6.672432414367538
+Leader_Merad_2021_39,Leader_Merad_2021_569,Leader_Merad_2021,club cell,Epithelial (normal lung),1.0,13784.0,72.54788160185723,4.297936644482517
+Leader_Merad_2021_39,Leader_Merad_2021_569,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),2.0,20525.0,97.442143727162,4.589469002278446
+Leader_Merad_2021_39,Leader_Merad_2021_569,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),34.0,251598.0,135.13620934983587,4.913655923867182
+Leader_Merad_2021_40,Leader_Merad_2021_569,Leader_Merad_2021,malignant cell,I,49.0,162779.0,301.0216305543098,5.710498639161988
+Leader_Merad_2021_41,Leader_Merad_2021_570,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),7.0,16967.0,412.5655684564154,6.024816071315956
+Leader_Merad_2021_41,Leader_Merad_2021_570,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),168.0,592409.0,283.5878590635861,5.65104202509572
+Leader_Merad_2021_42,Leader_Merad_2021_570,Leader_Merad_2021,malignant cell,II,46.0,52433.0,877.310090973242,6.777999710067184
+Leader_Merad_2021_43,Leader_Merad_2021_571,Leader_Merad_2021,malignant cell,I,3.0,29893.0,100.35794333121467,4.618658245073151
+Leader_Merad_2021_44,Leader_Merad_2021_572,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),20.0,61652.0,324.4014792707455,5.785059740781812
+Leader_Merad_2021_44,Leader_Merad_2021_572,Leader_Merad_2021,club cell,Epithelial (normal lung),13.0,27705.0,469.2293809781628,6.153220620283445
+Leader_Merad_2021_44,Leader_Merad_2021_572,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),1.0,12153.0,82.28420966016621,4.422258971302082
+Leader_Merad_2021_44,Leader_Merad_2021_572,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),122.0,891780.0,136.80504160218888,4.925839944283217
+Leader_Merad_2021_44,Leader_Merad_2021_572,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),18.0,23010.0,782.2685788787484,6.663475649791962
+Leader_Merad_2021_45,Leader_Merad_2021_572,Leader_Merad_2021,malignant cell,I,9.0,43598.0,206.43148768292124,5.334801105308045
+Leader_Merad_2021_46,Leader_Merad_2021_578,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),3.0,31731.0,94.54476694714947,4.559594901495734
+Leader_Merad_2021_46,Leader_Merad_2021_578,Leader_Merad_2021,club cell,Epithelial (normal lung),12.0,25182.0,476.5308553728854,6.168628776415053
+Leader_Merad_2021_46,Leader_Merad_2021_578,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),5.0,8127.0,615.2331733727083,6.423625420112242
+Leader_Merad_2021_46,Leader_Merad_2021_578,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),107.0,776591.0,137.78166370715087,4.9329019334896955
+Leader_Merad_2021_46,Leader_Merad_2021_578,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),5.0,8340.0,599.5203836930456,6.397796585478566
+Leader_Merad_2021_47,Leader_Merad_2021_578,Leader_Merad_2021,malignant cell,I,36.0,150260.0,239.58471981898043,5.483072292874527
+Leader_Merad_2021_49,Leader_Merad_2021_581,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),8.0,23239.0,344.248891948879,5.844265582867536
+Leader_Merad_2021_49,Leader_Merad_2021_581,Leader_Merad_2021,club cell,Epithelial (normal lung),24.0,95976.0,250.06251562890725,5.525701974370561
+Leader_Merad_2021_49,Leader_Merad_2021_581,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),1.0,2527.0,395.7261574990107,5.983246263080319
+Leader_Merad_2021_49,Leader_Merad_2021_581,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),120.0,534892.0,224.34435362652647,5.417629692805561
+Leader_Merad_2021_49,Leader_Merad_2021_581,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),2.0,9379.0,213.24234993069624,5.367107850565942
+Leader_Merad_2021_48,Leader_Merad_2021_581,Leader_Merad_2021,malignant cell,II,173.0,218709.0,791.0053998692326,6.674568209807891
+Leader_Merad_2021_50,Leader_Merad_2021_581,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),9.0,41681.0,215.92572155178618,5.379554997947094
+Leader_Merad_2021_50,Leader_Merad_2021_581,Leader_Merad_2021,club cell,Epithelial (normal lung),48.0,189229.0,253.66090821174345,5.53993288850877
+Leader_Merad_2021_50,Leader_Merad_2021_581,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),4.0,6894.0,580.2146794313896,6.365120188485551
+Leader_Merad_2021_50,Leader_Merad_2021_581,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),226.0,1319733.0,171.24675976125474,5.148928098461419
+Leader_Merad_2021_50,Leader_Merad_2021_581,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),2.0,6186.0,323.31070158422244,5.781702011795096
+Leader_Merad_2021_51,Leader_Merad_2021_581,Leader_Merad_2021,malignant cell,II,122.0,221670.0,550.3676636441558,6.312401852771688
+Leader_Merad_2021_52,Leader_Merad_2021_584,Leader_Merad_2021,malignant cell,II,5.0,6817.0,733.4604664808567,6.599136170449736
+Leader_Merad_2021_53,Leader_Merad_2021_584,Leader_Merad_2021,malignant cell,II,3.0,22254.0,134.80722566729577,4.911236421862964
+Leader_Merad_2021_56,Leader_Merad_2021_593,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),88.0,321024.0,274.12280701754383,5.617217568956317
+Leader_Merad_2021_56,Leader_Merad_2021_593,Leader_Merad_2021,club cell,Epithelial (normal lung),107.0,344819.0,310.3077266623939,5.740781897770419
+Leader_Merad_2021_56,Leader_Merad_2021_593,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),18.0,39192.0,459.27740355174524,6.1318293589202835
+Leader_Merad_2021_56,Leader_Merad_2021_593,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),287.0,2804021.0,102.3530137613092,4.638150446431292
+Leader_Merad_2021_56,Leader_Merad_2021_593,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),6.0,21231.0,282.60562385191463,5.647584624686725
+Leader_Merad_2021_57,Leader_Merad_2021_593,Leader_Merad_2021,malignant cell,I,6.0,38409.0,156.21338748730767,5.057604038502018
+Leader_Merad_2021_60,Leader_Merad_2021_596,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),4.0,14631.0,273.3921126375504,5.614558151406362
+Leader_Merad_2021_61,Leader_Merad_2021_596,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),3.0,9134.0,328.4431793299759,5.797403893943135
+Leader_Merad_2021_63,Leader_Merad_2021_630,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),26.0,41265.0,630.0739125166606,6.447422991206994
+Leader_Merad_2021_63,Leader_Merad_2021_630,Leader_Merad_2021,club cell,Epithelial (normal lung),103.0,132747.0,775.9120733425237,6.6553271822430435
+Leader_Merad_2021_63,Leader_Merad_2021_630,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),19.0,58969.0,322.2031915074022,5.778281201311683
+Leader_Merad_2021_63,Leader_Merad_2021_630,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),37.0,170837.0,216.58071729192153,5.382569895668822
+Leader_Merad_2021_63,Leader_Merad_2021_630,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),23.0,44986.0,511.27017294269325,6.238852167393266
+Leader_Merad_2021_62,Leader_Merad_2021_630,Leader_Merad_2021,malignant cell,I,71.0,120568.0,588.8793046247761,6.379917947540206
+Leader_Merad_2021_96,Leader_Merad_2021_626,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),0.0,1263.0,0.0,0.0
+Leader_Merad_2021_96,Leader_Merad_2021_626,Leader_Merad_2021,club cell,Epithelial (normal lung),4.0,17979.0,222.4817843039101,5.409329908736227
+Leader_Merad_2021_96,Leader_Merad_2021_626,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),20.0,19825.0,1008.827238335435,6.917534544051353
+Leader_Merad_2021_96,Leader_Merad_2021_626,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),3.0,12046.0,249.04532624937738,5.521642206425991
+Leader_Merad_2021_96,Leader_Merad_2021_626,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),21.0,7521.0,2792.1818907060233,7.934936687600592
+Leader_Merad_2021_95,Leader_Merad_2021_626,Leader_Merad_2021,malignant cell,I,11.0,43984.0,250.09094216078577,5.525815192875653
+Leader_Merad_2021_98,Leader_Merad_2021_626,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),13.0,18689.0,695.5963400931029,6.5462061039604515
+Leader_Merad_2021_98,Leader_Merad_2021_626,Leader_Merad_2021,club cell,Epithelial (normal lung),9.0,35019.0,257.0033410434336,5.55297253461852
+Leader_Merad_2021_98,Leader_Merad_2021_626,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),5.0,9017.0,554.5081512698237,6.319883282725084
+Leader_Merad_2021_98,Leader_Merad_2021_626,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),2.0,7727.0,258.83266468228294,5.560037826441996
+Leader_Merad_2021_98,Leader_Merad_2021_626,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),4.0,12293.0,325.3884324412267,5.788088182637273
+Leader_Merad_2021_97,Leader_Merad_2021_626,Leader_Merad_2021,malignant cell,I,0.0,8814.0,0.0,0.0
+Leader_Merad_2021_100,Leader_Merad_2021_695,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),24.0,90516.0,265.14649343762426,5.584046884396239
+Leader_Merad_2021_100,Leader_Merad_2021_695,Leader_Merad_2021,club cell,Epithelial (normal lung),8.0,50241.0,159.232499353118,5.076625881432228
+Leader_Merad_2021_100,Leader_Merad_2021_695,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),6.0,28041.0,213.97239756071468,5.3705096364472675
+Leader_Merad_2021_100,Leader_Merad_2021_695,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),237.0,1773545.0,133.63066626445902,4.902535223834717
+Leader_Merad_2021_100,Leader_Merad_2021_695,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),9.0,34734.0,259.11210917256864,5.561112727205475
+Leader_Merad_2021_99,Leader_Merad_2021_695,Leader_Merad_2021,malignant cell,II,140.0,817469.0,171.26031690498354,5.149006803049243
+Leader_Merad_2021_104,Leader_Merad_2021_695,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),22.0,103573.0,212.41057032238132,5.363217870548068
+Leader_Merad_2021_104,Leader_Merad_2021_695,Leader_Merad_2021,club cell,Epithelial (normal lung),6.0,30351.0,197.68706138183256,5.291731031090516
+Leader_Merad_2021_104,Leader_Merad_2021_695,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),2.0,11064.0,180.76644974692698,5.202722619866496
+Leader_Merad_2021_104,Leader_Merad_2021_695,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),206.0,1467536.0,140.37134353092532,4.95139007048325
+Leader_Merad_2021_104,Leader_Merad_2021_695,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),9.0,68201.0,131.96287444465622,4.890069949741205
+Leader_Merad_2021_103,Leader_Merad_2021_695,Leader_Merad_2021,malignant cell,II,108.0,728660.0,148.21727554689429,5.005403468914582
+Leader_Merad_2021_108,Leader_Merad_2021_695,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),13.0,93533.0,138.98837843328022,4.9415594079728296
+Leader_Merad_2021_108,Leader_Merad_2021_695,Leader_Merad_2021,club cell,Epithelial (normal lung),14.0,66523.0,210.45352735144237,5.3540052455076275
+Leader_Merad_2021_108,Leader_Merad_2021_695,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),9.0,23368.0,385.14207463197533,5.95620537073881
+Leader_Merad_2021_108,Leader_Merad_2021_695,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),228.0,1442752.0,158.03131792574192,5.069101150910992
+Leader_Merad_2021_108,Leader_Merad_2021_695,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),21.0,39219.0,535.4547540732808,6.284982223142994
+Leader_Merad_2021_107,Leader_Merad_2021_695,Leader_Merad_2021,malignant cell,II,141.0,718166.0,196.3334382301585,5.2848948777875036
+Leader_Merad_2021_112,Leader_Merad_2021_695,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),31.0,132791.0,233.44955606931194,5.457240452035453
+Leader_Merad_2021_112,Leader_Merad_2021_695,Leader_Merad_2021,club cell,Epithelial (normal lung),8.0,35922.0,222.70474917877624,5.4103270983948955
+Leader_Merad_2021_112,Leader_Merad_2021_695,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),4.0,13902.0,287.7283844051216,5.665486399830871
+Leader_Merad_2021_112,Leader_Merad_2021_695,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),190.0,1509791.0,125.84523288322688,4.842967704599873
+Leader_Merad_2021_112,Leader_Merad_2021_695,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),3.0,40919.0,73.3155746719128,4.308320548490461
+Leader_Merad_2021_111,Leader_Merad_2021_695,Leader_Merad_2021,malignant cell,II,130.0,682514.0,190.4722833524294,5.254743063693593
+Leader_Merad_2021_115,Leader_Merad_2021_695,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),1.0,6125.0,163.26530612244898,5.101482840983107
+Leader_Merad_2021_115,Leader_Merad_2021_695,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),0.0,6250.0,0.0,0.0
+Leader_Merad_2021_115,Leader_Merad_2021_695,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),17.0,40642.0,418.28650164854093,6.038554461072168
+Leader_Merad_2021_116,Leader_Merad_2021_695,Leader_Merad_2021,malignant cell,II,19.0,62724.0,302.91435495185254,5.716745934581614
+Leader_Merad_2021_343,Leader_Merad_2021_522,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),8.0,53042.0,150.8238754194789,5.022721134672254
+Leader_Merad_2021_343,Leader_Merad_2021_522,Leader_Merad_2021,club cell,Epithelial (normal lung),41.0,51737.0,792.469605891335,6.676415235378202
+Leader_Merad_2021_343,Leader_Merad_2021_522,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),699.0,380151.0,1838.7430257976437,7.517381180957096
+Leader_Merad_2021_343,Leader_Merad_2021_522,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),636.0,2069237.0,307.3596692887282,5.731266859106144
+Leader_Merad_2021_343,Leader_Merad_2021_522,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),45.0,27402.0,1642.2158966498796,7.404410513330201
+Leader_Merad_2021_344,Leader_Merad_2021_522,Leader_Merad_2021,malignant cell,II,777.0,1291654.0,601.5542862097744,6.401177762898892
+Leader_Merad_2021_398,Leader_Merad_2021_714,Leader_Merad_2021,malignant cell,II,23.0,22446.0,1024.6814577207522,6.933112507467162
+Leader_Merad_2021_413,Leader_Merad_2021_729,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),0.0,2203.0,0.0,0.0
+Leader_Merad_2021_415,Leader_Merad_2021_725,Leader_Merad_2021,malignant cell,I,7.0,27907.0,250.8331243057297,5.5287666630207655
+Leader_Merad_2021_449,Leader_Merad_2021_706,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),6.0,45799.0,131.00722723203563,4.882856672845394
+Leader_Merad_2021_449,Leader_Merad_2021_706,Leader_Merad_2021,club cell,Epithelial (normal lung),5.0,12329.0,405.5478952064239,6.007701745433272
+Leader_Merad_2021_449,Leader_Merad_2021_706,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),35.0,45195.0,774.4219493306781,6.653407331943074
+Leader_Merad_2021_449,Leader_Merad_2021_706,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),56.0,344133.0,162.72778257243567,5.098205186363183
+Leader_Merad_2021_449,Leader_Merad_2021_706,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),6.0,11707.0,512.5138805842658,6.241277060326089
+Leader_Merad_2021_448,Leader_Merad_2021_706,Leader_Merad_2021,malignant cell,II,442.0,1276129.0,346.35996831041376,5.850361614900169
+Leader_Merad_2021_453,Leader_Merad_2021_706,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),7.0,19246.0,363.7119401434064,5.899107836909652
+Leader_Merad_2021_453,Leader_Merad_2021_706,Leader_Merad_2021,club cell,Epithelial (normal lung),29.0,48559.0,597.2116394489178,6.3939446034604455
+Leader_Merad_2021_453,Leader_Merad_2021_706,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),57.0,64642.0,881.7796479069336,6.783075620092064
+Leader_Merad_2021_453,Leader_Merad_2021_706,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),40.0,330842.0,120.90363375871262,4.803230845384303
+Leader_Merad_2021_453,Leader_Merad_2021_706,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),27.0,22466.0,1201.8160776284165,7.092420817859439
+Leader_Merad_2021_452,Leader_Merad_2021_706,Leader_Merad_2021,malignant cell,II,187.0,622005.0,300.64067009107646,5.70923647482474
+Leader_Merad_2021_457,Leader_Merad_2021_706,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),42.0,65817.0,638.133005150645,6.460112578493866
+Leader_Merad_2021_457,Leader_Merad_2021_706,Leader_Merad_2021,club cell,Epithelial (normal lung),15.0,20115.0,745.7121551081282,6.61567977634512
+Leader_Merad_2021_457,Leader_Merad_2021_706,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),21.0,55864.0,375.9129314048403,5.932014209593885
+Leader_Merad_2021_457,Leader_Merad_2021_706,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),62.0,429364.0,144.39962362936808,4.97948597657728
+Leader_Merad_2021_457,Leader_Merad_2021_706,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),8.0,18066.0,442.82076829403303,6.095420805920094
+Leader_Merad_2021_456,Leader_Merad_2021_706,Leader_Merad_2021,malignant cell,II,257.0,676011.0,380.17132857305575,5.943248955344478
+Leader_Merad_2021_461,Leader_Merad_2021_706,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),21.0,57106.0,367.73719048786467,5.910084169390635
+Leader_Merad_2021_461,Leader_Merad_2021_706,Leader_Merad_2021,club cell,Epithelial (normal lung),13.0,17987.0,722.7442041474399,6.584438020768701
+Leader_Merad_2021_461,Leader_Merad_2021_706,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),44.0,59039.0,745.2700757126645,6.6150875664724795
+Leader_Merad_2021_461,Leader_Merad_2021_706,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),77.0,467417.0,164.73512944544166,5.110390908271599
+Leader_Merad_2021_460,Leader_Merad_2021_706,Leader_Merad_2021,malignant cell,II,182.0,729164.0,249.6009128261955,5.523861685017965
+Leader_Merad_2021_465,Leader_Merad_2021_706,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),19.0,40428.0,469.9713070149401,6.154797172871888
+Leader_Merad_2021_465,Leader_Merad_2021_706,Leader_Merad_2021,club cell,Epithelial (normal lung),13.0,25649.0,506.84237202230105,6.2301711081334945
+Leader_Merad_2021_465,Leader_Merad_2021_706,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),13.0,36868.0,352.60930888575456,5.868192656451338
+Leader_Merad_2021_465,Leader_Merad_2021_706,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),57.0,418136.0,136.31928367803778,4.922308752132817
+Leader_Merad_2021_465,Leader_Merad_2021_706,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),0.0,2304.0,0.0,0.0
+Leader_Merad_2021_464,Leader_Merad_2021_706,Leader_Merad_2021,malignant cell,II,244.0,698774.0,349.1829976501702,5.8584558682738574
+Leader_Merad_2021_469,Leader_Merad_2021_706,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),4.0,23892.0,167.42005692281936,5.126461197583141
+Leader_Merad_2021_469,Leader_Merad_2021_706,Leader_Merad_2021,club cell,Epithelial (normal lung),24.0,47255.0,507.882763728706,6.232217663358603
+Leader_Merad_2021_469,Leader_Merad_2021_706,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),36.0,47061.0,764.9646203863072,6.641135981188678
+Leader_Merad_2021_469,Leader_Merad_2021_706,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),54.0,392903.0,137.4385026329654,4.930426202708689
+Leader_Merad_2021_469,Leader_Merad_2021_706,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),2.0,8154.0,245.2783909737552,5.506462566700875
+Leader_Merad_2021_468,Leader_Merad_2021_706,Leader_Merad_2021,malignant cell,II,161.0,576644.0,279.2017258481836,5.63550979322792
+Leader_Merad_2021_473,Leader_Merad_2021_706,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),8.0,35767.0,223.66986328179607,5.414632050400229
+Leader_Merad_2021_473,Leader_Merad_2021_706,Leader_Merad_2021,club cell,Epithelial (normal lung),0.0,5707.0,0.0,0.0
+Leader_Merad_2021_473,Leader_Merad_2021_706,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),17.0,32887.0,516.9215799556055,6.24982384075176
+Leader_Merad_2021_473,Leader_Merad_2021_706,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),53.0,304709.0,173.93644427962414,5.164422732414299
+Leader_Merad_2021_473,Leader_Merad_2021_706,Leader_Merad_2021,multiciliated epithelial cell,Epithelial (normal lung),14.0,17437.0,802.8904054596547,6.689462948270348
+Leader_Merad_2021_472,Leader_Merad_2021_706,Leader_Merad_2021,malignant cell,II,191.0,789090.0,242.05097010480426,5.493271174863068
+Leader_Merad_2021_480,Leader_Merad_2021_706,Leader_Merad_2021,epithelial cell of lung,Epithelial (normal lung),2.0,2264.0,883.3922261484099,6.784900658972259
+Leader_Merad_2021_480,Leader_Merad_2021_706,Leader_Merad_2021,pulmonary alveolar type 1 cell,Epithelial (normal lung),0.0,1145.0,0.0,0.0
+Leader_Merad_2021_480,Leader_Merad_2021_706,Leader_Merad_2021,pulmonary alveolar type 2 cell,Epithelial (normal lung),6.0,39885.0,150.43249341857842,5.02013993764941
+Leader_Merad_2021_481,Leader_Merad_2021_706,Leader_Merad_2021,malignant cell,II,65.0,80415.0,808.3069079151899,6.696178212132088
+Leader_Merad_2021_851,Leader_Merad_2021_800,Leader_Merad_2021,malignant cell,I,0.0,8385.0,0.0,0.0
+Madissoon_Meyer_2020_HCATisStab7509734,Madissoon_Meyer_2020_343B,Madissoon_Meyer_2020,epithelial cell of lung,Epithelial (normal lung),8.0,65069.0,122.94641073322165,4.81984930068574
+Madissoon_Meyer_2020_HCATisStab7509734,Madissoon_Meyer_2020_343B,Madissoon_Meyer_2020,club cell,Epithelial (normal lung),4.0,13666.0,292.6972047416947,5.6825493207663476
+Madissoon_Meyer_2020_HCATisStab7509734,Madissoon_Meyer_2020_343B,Madissoon_Meyer_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),2.0,5952.0,336.0215053763441,5.8201467424894515
+Madissoon_Meyer_2020_HCATisStab7509734,Madissoon_Meyer_2020_343B,Madissoon_Meyer_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),430.0,4236589.0,101.49674655719495,4.629831057169294
+Madissoon_Meyer_2020_HCATisStab7509734,Madissoon_Meyer_2020_343B,Madissoon_Meyer_2020,multiciliated epithelial cell,Epithelial (normal lung),1.0,27335.0,36.58313517468447,3.6265554171868395
+Madissoon_Meyer_2020_HCATisStab7509735,Madissoon_Meyer_2020_343B,Madissoon_Meyer_2020,epithelial cell of lung,Epithelial (normal lung),36.0,154042.0,233.7024967216733,5.4583187407282745
+Madissoon_Meyer_2020_HCATisStab7509735,Madissoon_Meyer_2020_343B,Madissoon_Meyer_2020,club cell,Epithelial (normal lung),0.0,2377.0,0.0,0.0
+Madissoon_Meyer_2020_HCATisStab7509735,Madissoon_Meyer_2020_343B,Madissoon_Meyer_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),3.0,18230.0,164.5639056500274,5.109357257143638
+Madissoon_Meyer_2020_HCATisStab7509735,Madissoon_Meyer_2020_343B,Madissoon_Meyer_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),411.0,2951460.0,139.25311540728995,4.943448757398804
+Madissoon_Meyer_2020_HCATisStab7509735,Madissoon_Meyer_2020_343B,Madissoon_Meyer_2020,multiciliated epithelial cell,Epithelial (normal lung),14.0,72536.0,193.0076100143377,5.267897385172003
+Madissoon_Meyer_2020_HCATisStab7509736,Madissoon_Meyer_2020_343B,Madissoon_Meyer_2020,epithelial cell of lung,Epithelial (normal lung),81.0,358410.0,225.99815853352305,5.424941905261376
+Madissoon_Meyer_2020_HCATisStab7509736,Madissoon_Meyer_2020_343B,Madissoon_Meyer_2020,club cell,Epithelial (normal lung),54.0,227520.0,237.34177215189874,5.473705661029407
+Madissoon_Meyer_2020_HCATisStab7509736,Madissoon_Meyer_2020_343B,Madissoon_Meyer_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),31.0,74835.0,414.2446716108772,6.028867916649191
+Madissoon_Meyer_2020_HCATisStab7509736,Madissoon_Meyer_2020_343B,Madissoon_Meyer_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),1040.0,5627385.0,184.8105292244977,5.2247274944430595
+Madissoon_Meyer_2020_HCATisStab7509736,Madissoon_Meyer_2020_343B,Madissoon_Meyer_2020,multiciliated epithelial cell,Epithelial (normal lung),173.0,621664.0,278.2853760230607,5.632234112192792
+Madissoon_Meyer_2020_HCATisStab7587202,Madissoon_Meyer_2020_356C,Madissoon_Meyer_2020,epithelial cell of lung,Epithelial (normal lung),21.0,46479.0,451.8169495901375,6.115487959028791
+Madissoon_Meyer_2020_HCATisStab7587202,Madissoon_Meyer_2020_356C,Madissoon_Meyer_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),4.0,30754.0,130.06438186902517,4.875688667121002
+Madissoon_Meyer_2020_HCATisStab7587202,Madissoon_Meyer_2020_356C,Madissoon_Meyer_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),549.0,2730577.0,201.05640675945048,5.308546899804004
+Madissoon_Meyer_2020_HCATisStab7587202,Madissoon_Meyer_2020_356C,Madissoon_Meyer_2020,multiciliated epithelial cell,Epithelial (normal lung),80.0,99837.0,801.3061289902541,6.6874902420053335
+Madissoon_Meyer_2020_HCATisStab7587205,Madissoon_Meyer_2020_356C,Madissoon_Meyer_2020,epithelial cell of lung,Epithelial (normal lung),8.0,26684.0,299.80512666766606,5.7064626353734855
+Madissoon_Meyer_2020_HCATisStab7587205,Madissoon_Meyer_2020_356C,Madissoon_Meyer_2020,club cell,Epithelial (normal lung),2.0,13182.0,151.72204521316948,5.028619571242237
+Madissoon_Meyer_2020_HCATisStab7587205,Madissoon_Meyer_2020_356C,Madissoon_Meyer_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),8.0,35962.0,222.45703798453926,5.409219171793442
+Madissoon_Meyer_2020_HCATisStab7587205,Madissoon_Meyer_2020_356C,Madissoon_Meyer_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),232.0,1467594.0,158.08186732843006,5.069418958568497
+Madissoon_Meyer_2020_HCATisStab7587205,Madissoon_Meyer_2020_356C,Madissoon_Meyer_2020,multiciliated epithelial cell,Epithelial (normal lung),101.0,134507.0,750.8902882377869,6.622590420005562
+Madissoon_Meyer_2020_HCATisStab7587208,Madissoon_Meyer_2020_356C,Madissoon_Meyer_2020,epithelial cell of lung,Epithelial (normal lung),0.0,7250.0,0.0,0.0
+Madissoon_Meyer_2020_HCATisStab7587208,Madissoon_Meyer_2020_356C,Madissoon_Meyer_2020,club cell,Epithelial (normal lung),12.0,33078.0,362.7788862688191,5.896546227755573
+Madissoon_Meyer_2020_HCATisStab7587208,Madissoon_Meyer_2020_356C,Madissoon_Meyer_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),11.0,37202.0,295.68302779420463,5.692664322405483
+Madissoon_Meyer_2020_HCATisStab7587208,Madissoon_Meyer_2020_356C,Madissoon_Meyer_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),710.0,3569824.0,198.8893570103176,5.297763998519775
+Madissoon_Meyer_2020_HCATisStab7587208,Madissoon_Meyer_2020_356C,Madissoon_Meyer_2020,multiciliated epithelial cell,Epithelial (normal lung),62.0,50817.0,1220.0641517602378,7.107478013074684
+Madissoon_Meyer_2020_HCATisStab7587211,Madissoon_Meyer_2020_356C,Madissoon_Meyer_2020,epithelial cell of lung,Epithelial (normal lung),8.0,45213.0,176.94026054453366,5.1814478790424445
+Madissoon_Meyer_2020_HCATisStab7587211,Madissoon_Meyer_2020_356C,Madissoon_Meyer_2020,club cell,Epithelial (normal lung),9.0,27038.0,332.86485686811153,5.810736290940523
+Madissoon_Meyer_2020_HCATisStab7587211,Madissoon_Meyer_2020_356C,Madissoon_Meyer_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),17.0,65762.0,258.50795292113986,5.558787349231282
+Madissoon_Meyer_2020_HCATisStab7587211,Madissoon_Meyer_2020_356C,Madissoon_Meyer_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),173.0,985450.0,175.55431528743213,5.173628564372103
+Madissoon_Meyer_2020_HCATisStab7587211,Madissoon_Meyer_2020_356C,Madissoon_Meyer_2020,multiciliated epithelial cell,Epithelial (normal lung),19.0,51188.0,371.1807454872236,5.919379611239781
+Madissoon_Meyer_2020_HCATisStab7646032,Madissoon_Meyer_2020_367C,Madissoon_Meyer_2020,epithelial cell of lung,Epithelial (normal lung),36.0,95000.0,378.94736842105266,5.940032738972721
+Madissoon_Meyer_2020_HCATisStab7646032,Madissoon_Meyer_2020_367C,Madissoon_Meyer_2020,club cell,Epithelial (normal lung),12.0,25219.0,475.83171418375036,6.167163628186266
+Madissoon_Meyer_2020_HCATisStab7646032,Madissoon_Meyer_2020_367C,Madissoon_Meyer_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),4.0,9305.0,429.87641053197206,6.065821298477095
+Madissoon_Meyer_2020_HCATisStab7646032,Madissoon_Meyer_2020_367C,Madissoon_Meyer_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),112.0,958261.0,116.8783869947749,4.769653474324695
+Madissoon_Meyer_2020_HCATisStab7646032,Madissoon_Meyer_2020_367C,Madissoon_Meyer_2020,multiciliated epithelial cell,Epithelial (normal lung),62.0,123342.0,502.6673801300449,6.2219160901424315
+Madissoon_Meyer_2020_HCATisStab7646033,Madissoon_Meyer_2020_367C,Madissoon_Meyer_2020,epithelial cell of lung,Epithelial (normal lung),26.0,66956.0,388.3147141406297,5.964388050307563
+Madissoon_Meyer_2020_HCATisStab7646033,Madissoon_Meyer_2020_367C,Madissoon_Meyer_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),0.0,9716.0,0.0,0.0
+Madissoon_Meyer_2020_HCATisStab7646033,Madissoon_Meyer_2020_367C,Madissoon_Meyer_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),15.0,128915.0,116.35573827715938,4.765209819926913
+Madissoon_Meyer_2020_HCATisStab7646033,Madissoon_Meyer_2020_367C,Madissoon_Meyer_2020,multiciliated epithelial cell,Epithelial (normal lung),62.0,99372.0,623.9182063357887,6.437620771309455
+Madissoon_Meyer_2020_HCATisStab7646034,Madissoon_Meyer_2020_367C,Madissoon_Meyer_2020,epithelial cell of lung,Epithelial (normal lung),13.0,48293.0,269.19015178183173,5.599125976978186
+Madissoon_Meyer_2020_HCATisStab7646034,Madissoon_Meyer_2020_367C,Madissoon_Meyer_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),1.0,7217.0,138.56172925038103,4.938507006972541
+Madissoon_Meyer_2020_HCATisStab7646034,Madissoon_Meyer_2020_367C,Madissoon_Meyer_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),12.0,75718.0,158.4827914102327,5.071936025559327
+Madissoon_Meyer_2020_HCATisStab7646034,Madissoon_Meyer_2020_367C,Madissoon_Meyer_2020,multiciliated epithelial cell,Epithelial (normal lung),2.0,9083.0,220.19156666299682,5.399029143528065
+Madissoon_Meyer_2020_HCATisStab7646035,Madissoon_Meyer_2020_367C,Madissoon_Meyer_2020,epithelial cell of lung,Epithelial (normal lung),23.0,150893.0,152.42589119442255,5.033217656923258
+Madissoon_Meyer_2020_HCATisStab7646035,Madissoon_Meyer_2020_367C,Madissoon_Meyer_2020,club cell,Epithelial (normal lung),24.0,95959.0,250.10681645286007,5.525878412162507
+Madissoon_Meyer_2020_HCATisStab7646035,Madissoon_Meyer_2020_367C,Madissoon_Meyer_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),10.0,24045.0,415.88687876897484,6.03281491106206
+Madissoon_Meyer_2020_HCATisStab7646035,Madissoon_Meyer_2020_367C,Madissoon_Meyer_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),16.0,111558.0,143.4231520823249,4.972747546586857
+Madissoon_Meyer_2020_HCATisStab7646035,Madissoon_Meyer_2020_367C,Madissoon_Meyer_2020,multiciliated epithelial cell,Epithelial (normal lung),81.0,177777.0,455.626993368096,6.123866850543851
+Madissoon_Meyer_2020_HCATisStab7659968,Madissoon_Meyer_2020_368C,Madissoon_Meyer_2020,epithelial cell of lung,Epithelial (normal lung),0.0,1361.0,0.0,0.0
+Madissoon_Meyer_2020_HCATisStab7659968,Madissoon_Meyer_2020_368C,Madissoon_Meyer_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),0.0,1566.0,0.0,0.0
+Madissoon_Meyer_2020_HCATisStab7659968,Madissoon_Meyer_2020_368C,Madissoon_Meyer_2020,multiciliated epithelial cell,Epithelial (normal lung),1.0,606.0,1650.1650165016501,7.409236388351108
+Madissoon_Meyer_2020_HCATisStab7659969,Madissoon_Meyer_2020_368C,Madissoon_Meyer_2020,epithelial cell of lung,Epithelial (normal lung),12.0,124827.0,96.13304813862386,4.576081668972939
+Madissoon_Meyer_2020_HCATisStab7659969,Madissoon_Meyer_2020_368C,Madissoon_Meyer_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),14.0,18853.0,742.5873866228187,6.611486293119801
+Madissoon_Meyer_2020_HCATisStab7659969,Madissoon_Meyer_2020_368C,Madissoon_Meyer_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),31.0,235088.0,131.86551419043082,4.8893374451424405
+Madissoon_Meyer_2020_HCATisStab7659970,Madissoon_Meyer_2020_368C,Madissoon_Meyer_2020,epithelial cell of lung,Epithelial (normal lung),34.0,147241.0,230.91394380641262,5.446366370985156
+Madissoon_Meyer_2020_HCATisStab7659970,Madissoon_Meyer_2020_368C,Madissoon_Meyer_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),7.0,24965.0,280.39254956939715,5.639750668030557
+Madissoon_Meyer_2020_HCATisStab7659970,Madissoon_Meyer_2020_368C,Madissoon_Meyer_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),182.0,1343664.0,135.45052929899143,4.915962126216018
+Madissoon_Meyer_2020_HCATisStab7659971,Madissoon_Meyer_2020_368C,Madissoon_Meyer_2020,epithelial cell of lung,Epithelial (normal lung),8.0,59051.0,135.47611386767372,4.916149609332069
+Madissoon_Meyer_2020_HCATisStab7659971,Madissoon_Meyer_2020_368C,Madissoon_Meyer_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),55.0,283177.0,194.22481345589506,5.274151784014386
+Madissoon_Meyer_2020_HCATisStab7659971,Madissoon_Meyer_2020_368C,Madissoon_Meyer_2020,multiciliated epithelial cell,Epithelial (normal lung),77.0,81781.0,941.5389882735599,6.848577285335079
+Madissoon_Meyer_2020_HCATisStab7747197,Madissoon_Meyer_2020_390C,Madissoon_Meyer_2020,epithelial cell of lung,Epithelial (normal lung),4.0,18144.0,220.4585537918871,5.40023545591308
+Madissoon_Meyer_2020_HCATisStab7747197,Madissoon_Meyer_2020_390C,Madissoon_Meyer_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),254.0,1950426.0,130.2279604558184,4.876935967034913
+Madissoon_Meyer_2020_HCATisStab7747198,Madissoon_Meyer_2020_390C,Madissoon_Meyer_2020,epithelial cell of lung,Epithelial (normal lung),13.0,80854.0,160.78363469958197,5.086259854265244
+Madissoon_Meyer_2020_HCATisStab7747198,Madissoon_Meyer_2020_390C,Madissoon_Meyer_2020,club cell,Epithelial (normal lung),30.0,35929.0,834.9800996409587,6.72860480854415
+Madissoon_Meyer_2020_HCATisStab7747198,Madissoon_Meyer_2020_390C,Madissoon_Meyer_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),1219.0,9661104.0,126.1760560697825,4.845572394741836
+Madissoon_Meyer_2020_HCATisStab7747198,Madissoon_Meyer_2020_390C,Madissoon_Meyer_2020,multiciliated epithelial cell,Epithelial (normal lung),16.0,24242.0,660.0115502021285,6.493771313529775
+Madissoon_Meyer_2020_HCATisStab7747199,Madissoon_Meyer_2020_390C,Madissoon_Meyer_2020,epithelial cell of lung,Epithelial (normal lung),20.0,57700.0,346.6204506065858,5.851111225396463
+Madissoon_Meyer_2020_HCATisStab7747199,Madissoon_Meyer_2020_390C,Madissoon_Meyer_2020,club cell,Epithelial (normal lung),64.0,163934.0,390.40101504263913,5.969732648322535
+Madissoon_Meyer_2020_HCATisStab7747199,Madissoon_Meyer_2020_390C,Madissoon_Meyer_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),208.0,967935.0,214.8904626860275,5.374771161862435
+Madissoon_Meyer_2020_HCATisStab7747199,Madissoon_Meyer_2020_390C,Madissoon_Meyer_2020,multiciliated epithelial cell,Epithelial (normal lung),26.0,21358.0,1217.3424477947374,7.1052465645778575
+Madissoon_Meyer_2020_HCATisStab7747200,Madissoon_Meyer_2020_390C,Madissoon_Meyer_2020,epithelial cell of lung,Epithelial (normal lung),54.0,217408.0,248.3809243450103,5.518981544133911
+Madissoon_Meyer_2020_HCATisStab7747200,Madissoon_Meyer_2020_390C,Madissoon_Meyer_2020,club cell,Epithelial (normal lung),8.0,24593.0,325.2958158825682,5.787804380601242
+Madissoon_Meyer_2020_HCATisStab7747200,Madissoon_Meyer_2020_390C,Madissoon_Meyer_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),0.0,885.0,0.0,0.0
+Madissoon_Meyer_2020_HCATisStab7747200,Madissoon_Meyer_2020_390C,Madissoon_Meyer_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),1.0,6562.0,152.39256324291372,5.033000408246342
+Madissoon_Meyer_2020_HCATisStab7747200,Madissoon_Meyer_2020_390C,Madissoon_Meyer_2020,multiciliated epithelial cell,Epithelial (normal lung),45.0,57578.0,781.5485081107367,6.662555911688763
+Maynard_Bivona_2020_LT_S03,Maynard_Bivona_2020_TH156,Maynard_Bivona_2020,malignant cell,IV,314.0,675922.0,464.55064341743577,6.143220884392301
+Maynard_Bivona_2020_LT_S07,Maynard_Bivona_2020_TH103,Maynard_Bivona_2020,malignant cell,IV,19581.0,10110164.0,1936.7638348893252,7.569289924802925
+Maynard_Bivona_2020_LT_S08,Maynard_Bivona_2020_TH103,Maynard_Bivona_2020,malignant cell,IV,33684.0,33596099.0,1002.6164049582065,6.911365160470874
+Maynard_Bivona_2020_LT_S11,Maynard_Bivona_2020_TH169,Maynard_Bivona_2020,malignant cell,IV,149002.0,104935484.0,1419.9391313618946,7.259073292107094
+Maynard_Bivona_2020_LT_S21,Maynard_Bivona_2020_TH185,Maynard_Bivona_2020,malignant cell,IV,4183418.0,1456428315.0,2872.381672969603,7.96324489838742
+Maynard_Bivona_2020_LT_S28,Maynard_Bivona_2020_TH185,Maynard_Bivona_2020,malignant cell,IV,4010.0,3127891.0,1282.0139832238401,7.156967263405691
+Maynard_Bivona_2020_LT_S34,Maynard_Bivona_2020_TH205,Maynard_Bivona_2020,malignant cell,IV,11525.0,4536897.0,2540.28248822929,7.840424149210779
+Maynard_Bivona_2020_LT_S41,Maynard_Bivona_2020_TH210,Maynard_Bivona_2020,malignant cell,IV,32560.0,6818760.0,4775.061741430994,8.47137158242418
+Maynard_Bivona_2020_LT_S43,Maynard_Bivona_2020_TH217,Maynard_Bivona_2020,malignant cell,I,0.0,31620.0,0.0,0.0
+Maynard_Bivona_2020_LT_S45,Maynard_Bivona_2020_TH218,Maynard_Bivona_2020,malignant cell,I,6427.0,10384677.0,618.8926242000593,6.429546276266478
+Maynard_Bivona_2020_LT_S47,Maynard_Bivona_2020_TH220,Maynard_Bivona_2020,malignant cell,IV,765793.0,502898815.0,1522.7576147698817,7.32893467817094
+Maynard_Bivona_2020_LT_S48,Maynard_Bivona_2020_TH155,Maynard_Bivona_2020,malignant cell,IV,20277.0,151863104.0,133.52156953146434,4.901724554447954
+Maynard_Bivona_2020_LT_S49,Maynard_Bivona_2020_TH223,Maynard_Bivona_2020,malignant cell,III,7165.0,5252472.0,1364.1195993048607,7.218997322319139
+Maynard_Bivona_2020_LT_S50,Maynard_Bivona_2020_TH225,Maynard_Bivona_2020,malignant cell,IV,219139.0,108048708.0,2028.1501191110958,7.615372323836636
+Maynard_Bivona_2020_LT_S51,Maynard_Bivona_2020_TH227,Maynard_Bivona_2020,malignant cell,IV,56190.0,56067733.0,1002.1807016880814,6.910930932939323
+Maynard_Bivona_2020_LT_S52,Maynard_Bivona_2020_TH226,Maynard_Bivona_2020,malignant cell,IV,27639.0,84625232.0,326.6047176095187,5.7918077523926845
+Maynard_Bivona_2020_LT_S53,Maynard_Bivona_2020_TH067,Maynard_Bivona_2020,malignant cell,IV,286158.0,180708938.0,1583.5298639185185,7.368043026487928
+Maynard_Bivona_2020_LT_S55,Maynard_Bivona_2020_TH218,Maynard_Bivona_2020,malignant cell,I,66739.0,45145408.0,1478.3120356338345,7.29933241789824
+Maynard_Bivona_2020_LT_S56,Maynard_Bivona_2020_TH231,Maynard_Bivona_2020,malignant cell,IV,872916.0,167997047.0,5196.019903849858,8.555840644874085
+Maynard_Bivona_2020_LT_S57,Maynard_Bivona_2020_TH226,Maynard_Bivona_2020,malignant cell,IV,2359130.0,460783837.0,5119.819339496494,8.541069732475968
+Maynard_Bivona_2020_LT_S58,Maynard_Bivona_2020_TH179,Maynard_Bivona_2020,malignant cell,IV,200367.0,119588516.0,1675.4702433133293,7.424445816457578
+Maynard_Bivona_2020_LT_S63,Maynard_Bivona_2020_TH171,Maynard_Bivona_2020,malignant cell,IV,6157082.0,940172334.0,6548.886600187918,8.787203015531018
+Maynard_Bivona_2020_LT_S66,Maynard_Bivona_2020_TH238,Maynard_Bivona_2020,malignant cell,I,1808473.0,519964109.0,3478.0727529022583,8.154521086948884
+Maynard_Bivona_2020_LT_S69,Maynard_Bivona_2020_TH248,Maynard_Bivona_2020,malignant cell,III,1259197.0,370075444.0,3402.5413477582697,8.132571741413674
+Maynard_Bivona_2020_LT_S71,Maynard_Bivona_2020_TH236,Maynard_Bivona_2020,malignant cell,IV,521525.0,183596796.0,2840.5996801817823,7.9521224402492034
+Maynard_Bivona_2020_LT_S72,Maynard_Bivona_2020_TH222,Maynard_Bivona_2020,malignant cell,IV,5316.0,21256426.0,250.08907894488004,5.525807772365766
+Maynard_Bivona_2020_LT_S74,Maynard_Bivona_2020_TH248,Maynard_Bivona_2020,malignant cell,III,222317.0,96576981.0,2301.96675955319,7.741953466174701
+Maynard_Bivona_2020_LT_S75,Maynard_Bivona_2020_TH266,Maynard_Bivona_2020,malignant cell,IV,116517.0,65197047.0,1787.1514947601845,7.488937680757272
+Maynard_Bivona_2020_LT_S79,Maynard_Bivona_2020_TH179,Maynard_Bivona_2020,malignant cell,IV,163039.0,84001266.0,1940.9112238856019,7.571427934050238
+Maynard_Bivona_2020_LT_S80,Maynard_Bivona_2020_TH179,Maynard_Bivona_2020,malignant cell,IV,39059.0,15970398.0,2445.7123736052163,7.802500514075992
+Maynard_Bivona_2020_LT_S81,Maynard_Bivona_2020_TH266,Maynard_Bivona_2020,malignant cell,IV,161971.0,64443312.0,2513.387269729402,7.8297844225248685
+Maynard_Bivona_2020_LT_S82,Maynard_Bivona_2020_TH226,Maynard_Bivona_2020,malignant cell,IV,5294.0,41658847.0,127.07984932948337,4.8526538923095925
+Mayr_Schiller_2020_muc3843,Mayr_Schiller_2020_muc3843,Mayr_Schiller_2020,epithelial cell of lung,Epithelial (normal lung),8.0,11024.0,725.6894049346879,6.5884991578199905
+Mayr_Schiller_2020_muc3843,Mayr_Schiller_2020_muc3843,Mayr_Schiller_2020,club cell,Epithelial (normal lung),13.0,10991.0,1182.7859157492494,7.076472984694084
+Mayr_Schiller_2020_muc3843,Mayr_Schiller_2020_muc3843,Mayr_Schiller_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),27.0,48650.0,554.9845837615622,6.320740566818631
+Mayr_Schiller_2020_muc3843,Mayr_Schiller_2020_muc3843,Mayr_Schiller_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),212.0,386065.0,549.1303277945424,6.310155209782459
+Mayr_Schiller_2020_muc3843,Mayr_Schiller_2020_muc3843,Mayr_Schiller_2020,multiciliated epithelial cell,Epithelial (normal lung),41.0,39547.0,1036.74109287683,6.9448016037855735
+Mayr_Schiller_2020_muc4658,Mayr_Schiller_2020_muc4658,Mayr_Schiller_2020,epithelial cell of lung,Epithelial (normal lung),37.0,63649.0,581.3131392480635,6.36700834298497
+Mayr_Schiller_2020_muc4658,Mayr_Schiller_2020_muc4658,Mayr_Schiller_2020,club cell,Epithelial (normal lung),9.0,36893.0,243.9487165586968,5.5010488684656185
+Mayr_Schiller_2020_muc4658,Mayr_Schiller_2020_muc4658,Mayr_Schiller_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),8.0,38854.0,205.89900653729347,5.332230783083582
+Mayr_Schiller_2020_muc4658,Mayr_Schiller_2020_muc4658,Mayr_Schiller_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),92.0,300081.0,306.58388901663216,5.7287478598509285
+Mayr_Schiller_2020_muc4658,Mayr_Schiller_2020_muc4658,Mayr_Schiller_2020,multiciliated epithelial cell,Epithelial (normal lung),31.0,83862.0,369.65490925568196,5.915271466005388
+Mayr_Schiller_2020_muc5103,Mayr_Schiller_2020_muc5103,Mayr_Schiller_2020,epithelial cell of lung,Epithelial (normal lung),4.0,6550.0,610.6870229007634,6.416220751213548
+Mayr_Schiller_2020_muc5103,Mayr_Schiller_2020_muc5103,Mayr_Schiller_2020,club cell,Epithelial (normal lung),19.0,26365.0,720.6523800493078,6.581543554874105
+Mayr_Schiller_2020_muc5103,Mayr_Schiller_2020_muc5103,Mayr_Schiller_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),47.0,27727.0,1695.098640314495,7.4360859752233806
+Mayr_Schiller_2020_muc5103,Mayr_Schiller_2020_muc5103,Mayr_Schiller_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),30.0,79521.0,377.25883728826346,5.935578716012892
+Mayr_Schiller_2020_muc5103,Mayr_Schiller_2020_muc5103,Mayr_Schiller_2020,multiciliated epithelial cell,Epithelial (normal lung),48.0,50333.0,953.6486996602627,6.861343419047052
+Mayr_Schiller_2020_muc5105,Mayr_Schiller_2020_muc5105,Mayr_Schiller_2020,epithelial cell of lung,Epithelial (normal lung),0.0,7327.0,0.0,0.0
+Mayr_Schiller_2020_muc5105,Mayr_Schiller_2020_muc5105,Mayr_Schiller_2020,club cell,Epithelial (normal lung),1.0,3763.0,265.7454158915759,5.586294704997932
+Mayr_Schiller_2020_muc5105,Mayr_Schiller_2020_muc5105,Mayr_Schiller_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),13.0,20895.0,622.1584111031348,6.434800757899554
+Mayr_Schiller_2020_muc5105,Mayr_Schiller_2020_muc5105,Mayr_Schiller_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),33.0,156391.0,211.0095849505406,5.356631485680832
+Mayr_Schiller_2020_muc5105,Mayr_Schiller_2020_muc5105,Mayr_Schiller_2020,multiciliated epithelial cell,Epithelial (normal lung),8.0,18413.0,434.47564220930866,6.076438864095336
+Mayr_Schiller_2020_muc5212,Mayr_Schiller_2020_muc5212,Mayr_Schiller_2020,epithelial cell of lung,Epithelial (normal lung),9.0,11718.0,768.0491551459294,6.645154888328761
+Mayr_Schiller_2020_muc5212,Mayr_Schiller_2020_muc5212,Mayr_Schiller_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),11.0,16946.0,649.120736456981,6.477158094035941
+Mayr_Schiller_2020_muc5212,Mayr_Schiller_2020_muc5212,Mayr_Schiller_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),103.0,187963.0,547.9801875901109,6.308062352680032
+Mayr_Schiller_2020_muc5212,Mayr_Schiller_2020_muc5212,Mayr_Schiller_2020,multiciliated epithelial cell,Epithelial (normal lung),1.0,7838.0,127.58356723653992,4.8565790216522355
+Mayr_Schiller_2020_muc5213,Mayr_Schiller_2020_muc5213,Mayr_Schiller_2020,epithelial cell of lung,Epithelial (normal lung),9.0,12232.0,735.7750163505559,6.60228257604719
+Mayr_Schiller_2020_muc5213,Mayr_Schiller_2020_muc5213,Mayr_Schiller_2020,club cell,Epithelial (normal lung),2.0,4586.0,436.1098996947231,6.08018465019372
+Mayr_Schiller_2020_muc5213,Mayr_Schiller_2020_muc5213,Mayr_Schiller_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),5.0,8555.0,584.4535359438925,6.372386821979104
+Mayr_Schiller_2020_muc5213,Mayr_Schiller_2020_muc5213,Mayr_Schiller_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),23.0,55474.0,414.6086454915816,6.029744061442732
+Mayr_Schiller_2020_muc5213,Mayr_Schiller_2020_muc5213,Mayr_Schiller_2020,multiciliated epithelial cell,Epithelial (normal lung),36.0,92909.0,387.47591729541807,5.962231178942726
+Mayr_Schiller_2020_muc9832,Mayr_Schiller_2020_muc9832,Mayr_Schiller_2020,epithelial cell of lung,Epithelial (normal lung),2.0,3673.0,544.5140212360468,6.301728508400261
+Mayr_Schiller_2020_muc9832,Mayr_Schiller_2020_muc9832,Mayr_Schiller_2020,club cell,Epithelial (normal lung),0.0,1614.0,0.0,0.0
+Mayr_Schiller_2020_muc9832,Mayr_Schiller_2020_muc9832,Mayr_Schiller_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),0.0,1500.0,0.0,0.0
+Mayr_Schiller_2020_muc9832,Mayr_Schiller_2020_muc9832,Mayr_Schiller_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),14.0,95438.0,146.69209329617132,4.99512965591873
+Mayr_Schiller_2020_muc9832,Mayr_Schiller_2020_muc9832,Mayr_Schiller_2020,multiciliated epithelial cell,Epithelial (normal lung),1.0,5744.0,174.09470752089138,5.165327013368939
+Mayr_Schiller_2020_muc9833,Mayr_Schiller_2020_muc9833,Mayr_Schiller_2020,epithelial cell of lung,Epithelial (normal lung),7.0,20836.0,335.9569975043194,5.819955318365549
+Mayr_Schiller_2020_muc9833,Mayr_Schiller_2020_muc9833,Mayr_Schiller_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),4.0,18439.0,216.93150387765064,5.384180811021076
+Mayr_Schiller_2020_muc9833,Mayr_Schiller_2020_muc9833,Mayr_Schiller_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),123.0,512913.0,239.80675085248376,5.483994748143367
+Mayr_Schiller_2020_muc9833,Mayr_Schiller_2020_muc9833,Mayr_Schiller_2020,multiciliated epithelial cell,Epithelial (normal lung),8.0,17120.0,467.2897196261682,6.1490871634099245
+Mayr_Schiller_2020_muc10380,Mayr_Schiller_2020_muc10380,Mayr_Schiller_2020,epithelial cell of lung,Epithelial (normal lung),3.0,19964.0,150.27048687637748,5.019069538160701
+Mayr_Schiller_2020_muc10380,Mayr_Schiller_2020_muc10380,Mayr_Schiller_2020,club cell,Epithelial (normal lung),2.0,2016.0,992.063492063492,6.9007946016421
+Mayr_Schiller_2020_muc10380,Mayr_Schiller_2020_muc10380,Mayr_Schiller_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),7.0,34883.0,200.67081386348653,5.306636733763613
+Mayr_Schiller_2020_muc10380,Mayr_Schiller_2020_muc10380,Mayr_Schiller_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),21.0,130172.0,161.32501613250162,5.0896005977785075
+Mayr_Schiller_2020_muc10380,Mayr_Schiller_2020_muc10380,Mayr_Schiller_2020,multiciliated epithelial cell,Epithelial (normal lung),8.0,15647.0,511.28011759442705,6.238871580108924
+Reyfman_Misharin_2018_Donor_01,Reyfman_Misharin_2018_Donor_01,Reyfman_Misharin_2018,epithelial cell of lung,Epithelial (normal lung),38.0,158743.0,239.38063410670077,5.482223642455687
+Reyfman_Misharin_2018_Donor_01,Reyfman_Misharin_2018_Donor_01,Reyfman_Misharin_2018,pulmonary alveolar type 1 cell,Epithelial (normal lung),49.0,199021.0,246.2051743283372,5.510218657113406
+Reyfman_Misharin_2018_Donor_01,Reyfman_Misharin_2018_Donor_01,Reyfman_Misharin_2018,pulmonary alveolar type 2 cell,Epithelial (normal lung),2110.0,12838339.0,164.35147880111282,5.10807338284782
+Reyfman_Misharin_2018_Donor_01,Reyfman_Misharin_2018_Donor_01,Reyfman_Misharin_2018,multiciliated epithelial cell,Epithelial (normal lung),38.0,79858.0,475.8446242079691,6.167190702411975
+Reyfman_Misharin_2018_Donor_02,Reyfman_Misharin_2018_Donor_02,Reyfman_Misharin_2018,epithelial cell of lung,Epithelial (normal lung),61.0,235357.0,259.1807339488522,5.561376520096685
+Reyfman_Misharin_2018_Donor_02,Reyfman_Misharin_2018_Donor_02,Reyfman_Misharin_2018,pulmonary alveolar type 1 cell,Epithelial (normal lung),158.0,522688.0,302.2835802620301,5.714668276275666
+Reyfman_Misharin_2018_Donor_02,Reyfman_Misharin_2018_Donor_02,Reyfman_Misharin_2018,pulmonary alveolar type 2 cell,Epithelial (normal lung),1313.0,10949899.0,119.90978181625236,4.7950446626708585
+Reyfman_Misharin_2018_Donor_02,Reyfman_Misharin_2018_Donor_02,Reyfman_Misharin_2018,multiciliated epithelial cell,Epithelial (normal lung),159.0,413266.0,384.74009475737176,5.955163813032503
+Reyfman_Misharin_2018_Donor_03,Reyfman_Misharin_2018_Donor_03,Reyfman_Misharin_2018,epithelial cell of lung,Epithelial (normal lung),124.0,400497.0,309.61530298603986,5.73855517861243
+Reyfman_Misharin_2018_Donor_03,Reyfman_Misharin_2018_Donor_03,Reyfman_Misharin_2018,club cell,Epithelial (normal lung),3.0,10045.0,298.65604778496765,5.702635309530384
+Reyfman_Misharin_2018_Donor_03,Reyfman_Misharin_2018_Donor_03,Reyfman_Misharin_2018,pulmonary alveolar type 1 cell,Epithelial (normal lung),25.0,115923.0,215.66039526237242,5.378331128859764
+Reyfman_Misharin_2018_Donor_03,Reyfman_Misharin_2018_Donor_03,Reyfman_Misharin_2018,pulmonary alveolar type 2 cell,Epithelial (normal lung),541.0,4516735.0,119.77678566486632,4.79394409538492
+Reyfman_Misharin_2018_Donor_03,Reyfman_Misharin_2018_Donor_03,Reyfman_Misharin_2018,multiciliated epithelial cell,Epithelial (normal lung),29.0,119732.0,242.20759696655867,5.493915387131099
+Reyfman_Misharin_2018_Donor_04,Reyfman_Misharin_2018_Donor_04,Reyfman_Misharin_2018,epithelial cell of lung,Epithelial (normal lung),163.0,603521.0,270.0817370066659,5.6024203879744965
+Reyfman_Misharin_2018_Donor_04,Reyfman_Misharin_2018_Donor_04,Reyfman_Misharin_2018,club cell,Epithelial (normal lung),0.0,4684.0,0.0,0.0
+Reyfman_Misharin_2018_Donor_04,Reyfman_Misharin_2018_Donor_04,Reyfman_Misharin_2018,pulmonary alveolar type 1 cell,Epithelial (normal lung),58.0,103578.0,559.964471219757,6.329657572358116
+Reyfman_Misharin_2018_Donor_04,Reyfman_Misharin_2018_Donor_04,Reyfman_Misharin_2018,pulmonary alveolar type 2 cell,Epithelial (normal lung),1340.0,7318498.0,183.09767933256248,5.2154664826873525
+Reyfman_Misharin_2018_Donor_04,Reyfman_Misharin_2018_Donor_04,Reyfman_Misharin_2018,multiciliated epithelial cell,Epithelial (normal lung),99.0,274226.0,361.0160962126129,5.891688675512973
+Reyfman_Misharin_2018_Donor_05,Reyfman_Misharin_2018_Donor_05,Reyfman_Misharin_2018,epithelial cell of lung,Epithelial (normal lung),156.0,566090.0,275.57455528272885,5.622480423975106
+Reyfman_Misharin_2018_Donor_05,Reyfman_Misharin_2018_Donor_05,Reyfman_Misharin_2018,club cell,Epithelial (normal lung),6.0,50534.0,118.73194285035817,4.7852554345273415
+Reyfman_Misharin_2018_Donor_05,Reyfman_Misharin_2018_Donor_05,Reyfman_Misharin_2018,pulmonary alveolar type 1 cell,Epithelial (normal lung),52.0,263836.0,197.092132991707,5.288732240607556
+Reyfman_Misharin_2018_Donor_05,Reyfman_Misharin_2018_Donor_05,Reyfman_Misharin_2018,pulmonary alveolar type 2 cell,Epithelial (normal lung),2960.0,16568951.0,178.6473989813839,5.19099603519913
+Reyfman_Misharin_2018_Donor_05,Reyfman_Misharin_2018_Donor_05,Reyfman_Misharin_2018,multiciliated epithelial cell,Epithelial (normal lung),39.0,131172.0,297.3195499039429,5.698165227100128
+Reyfman_Misharin_2018_Donor_06,Reyfman_Misharin_2018_Donor_06,Reyfman_Misharin_2018,epithelial cell of lung,Epithelial (normal lung),49.0,222434.0,220.29006356941832,5.399474345775203
+Reyfman_Misharin_2018_Donor_06,Reyfman_Misharin_2018_Donor_06,Reyfman_Misharin_2018,pulmonary alveolar type 1 cell,Epithelial (normal lung),463.0,922287.0,502.01293089895006,6.22061587732189
+Reyfman_Misharin_2018_Donor_06,Reyfman_Misharin_2018_Donor_06,Reyfman_Misharin_2018,pulmonary alveolar type 2 cell,Epithelial (normal lung),998.0,11464635.0,87.0503073146245,4.477908325164682
+Reyfman_Misharin_2018_Donor_06,Reyfman_Misharin_2018_Donor_06,Reyfman_Misharin_2018,multiciliated epithelial cell,Epithelial (normal lung),38.0,74647.0,509.06265489570916,6.234533570909277
+Reyfman_Misharin_2018_Donor_07,Reyfman_Misharin_2018_Donor_07,Reyfman_Misharin_2018,epithelial cell of lung,Epithelial (normal lung),96.0,419176.0,229.0207454625265,5.4381695025187895
+Reyfman_Misharin_2018_Donor_07,Reyfman_Misharin_2018_Donor_07,Reyfman_Misharin_2018,club cell,Epithelial (normal lung),2.0,22675.0,88.20286659316427,4.490913175764258
+Reyfman_Misharin_2018_Donor_07,Reyfman_Misharin_2018_Donor_07,Reyfman_Misharin_2018,pulmonary alveolar type 1 cell,Epithelial (normal lung),37.0,80841.0,457.68854912729927,6.128371437540271
+Reyfman_Misharin_2018_Donor_07,Reyfman_Misharin_2018_Donor_07,Reyfman_Misharin_2018,pulmonary alveolar type 2 cell,Epithelial (normal lung),4087.0,21066510.0,194.00460731274427,5.27302318552947
+Reyfman_Misharin_2018_Donor_07,Reyfman_Misharin_2018_Donor_07,Reyfman_Misharin_2018,multiciliated epithelial cell,Epithelial (normal lung),514.0,760813.0,675.5930826628883,6.5170700326214055
+Reyfman_Misharin_2018_Donor_08,Reyfman_Misharin_2018_Donor_08,Reyfman_Misharin_2018,epithelial cell of lung,Epithelial (normal lung),33.0,187982.0,175.54872275005053,5.1735968878540355
+Reyfman_Misharin_2018_Donor_08,Reyfman_Misharin_2018_Donor_08,Reyfman_Misharin_2018,pulmonary alveolar type 1 cell,Epithelial (normal lung),31.0,128195.0,241.81910370919303,5.492316736935279
+Reyfman_Misharin_2018_Donor_08,Reyfman_Misharin_2018_Donor_08,Reyfman_Misharin_2018,pulmonary alveolar type 2 cell,Epithelial (normal lung),1693.0,10623721.0,159.3603597082416,5.077423530901259
+Reyfman_Misharin_2018_Donor_08,Reyfman_Misharin_2018_Donor_08,Reyfman_Misharin_2018,multiciliated epithelial cell,Epithelial (normal lung),1.0,6193.0,161.47263038914903,5.090509559209673
+Travaglini_Krasnow_2020_distal 1a,Travaglini_Krasnow_2020_Lung_P1,Travaglini_Krasnow_2020,epithelial cell of lung,Epithelial (normal lung),261762.0,288584670.0,907.0544183791883,6.8113043089411045
+Travaglini_Krasnow_2020_distal 1a,Travaglini_Krasnow_2020_Lung_P1,Travaglini_Krasnow_2020,club cell,Epithelial (normal lung),423.0,2722771.0,155.35643651265565,5.052138250390401
+Travaglini_Krasnow_2020_distal 1a,Travaglini_Krasnow_2020_Lung_P1,Travaglini_Krasnow_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),86346.0,44729945.0,1930.3846673632172,7.565992468888496
+Travaglini_Krasnow_2020_distal 1a,Travaglini_Krasnow_2020_Lung_P1,Travaglini_Krasnow_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),56496.0,280815947.0,201.18515562793164,5.3091838895884
+Travaglini_Krasnow_2020_distal 1a,Travaglini_Krasnow_2020_Lung_P1,Travaglini_Krasnow_2020,multiciliated epithelial cell,Epithelial (normal lung),97180.0,76270687.0,1274.1461211697228,7.150816055864892
+Travaglini_Krasnow_2020_distal 1b,Travaglini_Krasnow_2020_Lung_P1,Travaglini_Krasnow_2020,epithelial cell of lung,Epithelial (normal lung),429444.0,287928272.0,1491.4964654808193,7.308205477076897
+Travaglini_Krasnow_2020_distal 1b,Travaglini_Krasnow_2020_Lung_P1,Travaglini_Krasnow_2020,club cell,Epithelial (normal lung),6817.0,5180743.0,1315.8344276100936,7.182985974485418
+Travaglini_Krasnow_2020_distal 1b,Travaglini_Krasnow_2020_Lung_P1,Travaglini_Krasnow_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),43050.0,29640583.0,1452.4005819993486,7.281661318622354
+Travaglini_Krasnow_2020_distal 1b,Travaglini_Krasnow_2020_Lung_P1,Travaglini_Krasnow_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),45125.0,85651683.0,526.8431211094825,6.268799120446805
+Travaglini_Krasnow_2020_distal 1b,Travaglini_Krasnow_2020_Lung_P1,Travaglini_Krasnow_2020,multiciliated epithelial cell,Epithelial (normal lung),228359.0,125982908.0,1812.6188990652606,7.503079519885198
+Travaglini_Krasnow_2020_distal 2,Travaglini_Krasnow_2020_Lung_P2,Travaglini_Krasnow_2020,epithelial cell of lung,Epithelial (normal lung),60688.0,64296019.0,943.8842551045035,6.851062438621391
+Travaglini_Krasnow_2020_distal 2,Travaglini_Krasnow_2020_Lung_P2,Travaglini_Krasnow_2020,club cell,Epithelial (normal lung),249460.0,218821488.0,1140.016011590233,7.039674382708604
+Travaglini_Krasnow_2020_distal 2,Travaglini_Krasnow_2020_Lung_P2,Travaglini_Krasnow_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),335618.0,57525558.0,5834.241538343705,8.671670938610054
+Travaglini_Krasnow_2020_distal 2,Travaglini_Krasnow_2020_Lung_P2,Travaglini_Krasnow_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),134527.0,382612098.0,351.60153247428156,5.865338616166127
+Travaglini_Krasnow_2020_distal 2,Travaglini_Krasnow_2020_Lung_P2,Travaglini_Krasnow_2020,multiciliated epithelial cell,Epithelial (normal lung),812488.0,293158275.0,2771.499457076557,7.927504523399997
+Travaglini_Krasnow_2020_distal 3,Travaglini_Krasnow_2020_Lung_P3,Travaglini_Krasnow_2020,epithelial cell of lung,Epithelial (normal lung),240106.0,86849537.0,2764.6203801869433,7.92502025775402
+Travaglini_Krasnow_2020_distal 3,Travaglini_Krasnow_2020_Lung_P3,Travaglini_Krasnow_2020,club cell,Epithelial (normal lung),10524.0,5857318.0,1796.7267612924552,7.494278235347785
+Travaglini_Krasnow_2020_distal 3,Travaglini_Krasnow_2020_Lung_P3,Travaglini_Krasnow_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),338750.0,141503024.0,2393.94177187337,7.781114197179265
+Travaglini_Krasnow_2020_distal 3,Travaglini_Krasnow_2020_Lung_P3,Travaglini_Krasnow_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),113956.0,181129858.0,629.1397854460859,6.445941676433937
+Travaglini_Krasnow_2020_distal 3,Travaglini_Krasnow_2020_Lung_P3,Travaglini_Krasnow_2020,multiciliated epithelial cell,Epithelial (normal lung),52981.0,21076236.0,2513.7790258184623,7.829940216176075
+Travaglini_Krasnow_2020_medial 2,Travaglini_Krasnow_2020_Lung_P2,Travaglini_Krasnow_2020,epithelial cell of lung,Epithelial (normal lung),33824.0,32814510.0,1030.7635250381616,6.939024777379494
+Travaglini_Krasnow_2020_medial 2,Travaglini_Krasnow_2020_Lung_P2,Travaglini_Krasnow_2020,club cell,Epithelial (normal lung),145809.0,102340082.0,1424.7496889830518,7.262453051893929
+Travaglini_Krasnow_2020_medial 2,Travaglini_Krasnow_2020_Lung_P2,Travaglini_Krasnow_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),455457.0,71021363.0,6412.95774624883,8.766231792493457
+Travaglini_Krasnow_2020_medial 2,Travaglini_Krasnow_2020_Lung_P2,Travaglini_Krasnow_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),104193.0,292034991.0,356.78258842619306,5.879925507023559
+Travaglini_Krasnow_2020_medial 2,Travaglini_Krasnow_2020_Lung_P2,Travaglini_Krasnow_2020,multiciliated epithelial cell,Epithelial (normal lung),527899.0,176470060.0,2991.4366210336193,8.003843257937541
+Travaglini_Krasnow_2020_medial 3,Travaglini_Krasnow_2020_Lung_P3,Travaglini_Krasnow_2020,epithelial cell of lung,Epithelial (normal lung),24101.0,16705887.0,1442.6650916530202,7.274940361564408
+Travaglini_Krasnow_2020_medial 3,Travaglini_Krasnow_2020_Lung_P3,Travaglini_Krasnow_2020,club cell,Epithelial (normal lung),17220.0,5610860.0,3069.04823859444,8.029448553355008
+Travaglini_Krasnow_2020_medial 3,Travaglini_Krasnow_2020_Lung_P3,Travaglini_Krasnow_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),144872.0,61226564.0,2366.1625042359065,7.76944726124946
+Travaglini_Krasnow_2020_medial 3,Travaglini_Krasnow_2020_Lung_P3,Travaglini_Krasnow_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),67830.0,82282241.0,824.3577128629737,6.715816883710174
+Travaglini_Krasnow_2020_medial 3,Travaglini_Krasnow_2020_Lung_P3,Travaglini_Krasnow_2020,multiciliated epithelial cell,Epithelial (normal lung),9492.0,2051480.0,4626.903503811882,8.439859237580176
+Travaglini_Krasnow_2020_proximal 3,Travaglini_Krasnow_2020_Lung_P3,Travaglini_Krasnow_2020,epithelial cell of lung,Epithelial (normal lung),141480.0,53858316.0,2626.892381856128,7.873937428178532
+Travaglini_Krasnow_2020_proximal 3,Travaglini_Krasnow_2020_Lung_P3,Travaglini_Krasnow_2020,club cell,Epithelial (normal lung),55249.0,11871249.0,4654.017450059383,8.445700938374255
+Travaglini_Krasnow_2020_proximal 3,Travaglini_Krasnow_2020_Lung_P3,Travaglini_Krasnow_2020,pulmonary alveolar type 1 cell,Epithelial (normal lung),56266.0,6118581.0,9195.923041633347,9.126624255099214
+Travaglini_Krasnow_2020_proximal 3,Travaglini_Krasnow_2020_Lung_P3,Travaglini_Krasnow_2020,pulmonary alveolar type 2 cell,Epithelial (normal lung),133807.0,128742693.0,1039.3366557898553,6.947299647243698
+Travaglini_Krasnow_2020_proximal 3,Travaglini_Krasnow_2020_Lung_P3,Travaglini_Krasnow_2020,multiciliated epithelial cell,Epithelial (normal lung),20644.0,3225200.0,6400.843358551408,8.764341252650249
+UKIM-V-2_P4_normal_adjacent,UKIM-V-2_P4,UKIM-V,epithelial cell of lung,Epithelial (normal lung),70.0,126049.0,555.3395901593825,6.321378881472214
+UKIM-V-2_P4_normal_adjacent,UKIM-V-2_P4,UKIM-V,club cell,Epithelial (normal lung),273.0,186808.0,1461.39351633763,7.287829767113491
+UKIM-V-2_P4_normal_adjacent,UKIM-V-2_P4,UKIM-V,pulmonary alveolar type 1 cell,Epithelial (normal lung),12.0,21705.0,552.8680027643401,6.316926396200116
+UKIM-V-2_P4_normal_adjacent,UKIM-V-2_P4,UKIM-V,pulmonary alveolar type 2 cell,Epithelial (normal lung),204.0,360064.0,566.5659438322076,6.34135694319018
+UKIM-V-2_P4_normal_adjacent,UKIM-V-2_P4,UKIM-V,multiciliated epithelial cell,Epithelial (normal lung),185.0,290665.0,636.4715394010287,6.457509631959187
+UKIM-V-2_P4_tumor_primary,UKIM-V-2_P4,UKIM-V,malignant cell,I,4086.0,3903725.0,1046.6925820850597,6.954345484143972
+UKIM-V-2_P5_normal_adjacent,UKIM-V-2_P5,UKIM-V,epithelial cell of lung,Epithelial (normal lung),32.0,78431.0,408.00193800920556,6.013719894440391
+UKIM-V-2_P5_normal_adjacent,UKIM-V-2_P5,UKIM-V,club cell,Epithelial (normal lung),48.0,47176.0,1017.4665083940986,6.926053351860705
+UKIM-V-2_P5_normal_adjacent,UKIM-V-2_P5,UKIM-V,pulmonary alveolar type 1 cell,Epithelial (normal lung),3.0,10113.0,296.6478789676654,5.695911173646461
+UKIM-V-2_P5_normal_adjacent,UKIM-V-2_P5,UKIM-V,pulmonary alveolar type 2 cell,Epithelial (normal lung),63.0,208019.0,302.85695056701553,5.716557033314027
+UKIM-V-2_P5_normal_adjacent,UKIM-V-2_P5,UKIM-V,multiciliated epithelial cell,Epithelial (normal lung),72.0,253476.0,284.050560999858,5.652666571550932
+UKIM-V-2_P5_tumor_primary,UKIM-V-2_P5,UKIM-V,malignant cell,II,160.0,484410.0,330.2987138993828,5.8030204273163735
+UKIM-V-2_P6_normal_adjacent,UKIM-V-2_P6,UKIM-V,epithelial cell of lung,Epithelial (normal lung),3.0,22349.0,134.2341939236655,4.907008045268181
+UKIM-V-2_P6_normal_adjacent,UKIM-V-2_P6,UKIM-V,club cell,Epithelial (normal lung),2.0,16801.0,119.04053330158919,4.787829463261308
+UKIM-V-2_P6_normal_adjacent,UKIM-V-2_P6,UKIM-V,pulmonary alveolar type 1 cell,Epithelial (normal lung),1.0,5185.0,192.86403085824494,5.267157041473104
+UKIM-V-2_P6_normal_adjacent,UKIM-V-2_P6,UKIM-V,pulmonary alveolar type 2 cell,Epithelial (normal lung),6.0,50572.0,118.64272720082258,4.784510028560641
+UKIM-V-2_P6_normal_adjacent,UKIM-V-2_P6,UKIM-V,multiciliated epithelial cell,Epithelial (normal lung),15.0,78013.0,192.2756463666312,5.264117389485676
+UKIM-V-2_P6_tumor_primary,UKIM-V-2_P6,UKIM-V,malignant cell,II,673.0,2235400.0,301.06468640959116,5.710641187847979
+UKIM-V-2_P7_normal_adjacent,UKIM-V-2_P7,UKIM-V,epithelial cell of lung,Epithelial (normal lung),6.0,29135.0,205.93787540758538,5.332418629416773
+UKIM-V-2_P7_normal_adjacent,UKIM-V-2_P7,UKIM-V,club cell,Epithelial (normal lung),60.0,172766.0,347.2905548545432,5.853037059159136
+UKIM-V-2_P7_normal_adjacent,UKIM-V-2_P7,UKIM-V,pulmonary alveolar type 1 cell,Epithelial (normal lung),1.0,25720.0,38.88024883359253,3.6858811846326605
+UKIM-V-2_P7_normal_adjacent,UKIM-V-2_P7,UKIM-V,pulmonary alveolar type 2 cell,Epithelial (normal lung),29.0,53320.0,543.8859714928733,6.300576546153721
+UKIM-V-2_P7_normal_adjacent,UKIM-V-2_P7,UKIM-V,multiciliated epithelial cell,Epithelial (normal lung),97.0,218580.0,443.7734467929362,6.097565044196111
+UKIM-V-2_P7_tumor_primary,UKIM-V-2_P7,UKIM-V,malignant cell,III,4065.0,1944144.0,2090.894501641854,7.645825394487707
+UKIM-V-2_P8_normal_adjacent,UKIM-V-2_P8,UKIM-V,epithelial cell of lung,Epithelial (normal lung),1.0,26193.0,38.17813919749552,3.668118917705418
+UKIM-V-2_P8_normal_adjacent,UKIM-V-2_P8,UKIM-V,club cell,Epithelial (normal lung),30.0,129448.0,231.75329089673073,5.4499790552483285
+UKIM-V-2_P8_normal_adjacent,UKIM-V-2_P8,UKIM-V,pulmonary alveolar type 1 cell,Epithelial (normal lung),11.0,31206.0,352.49631481125425,5.867873060420207
+UKIM-V-2_P8_normal_adjacent,UKIM-V-2_P8,UKIM-V,pulmonary alveolar type 2 cell,Epithelial (normal lung),142.0,559688.0,253.71278283615155,5.5401365685397534
+UKIM-V-2_P8_normal_adjacent,UKIM-V-2_P8,UKIM-V,multiciliated epithelial cell,Epithelial (normal lung),117.0,371708.0,314.76320122246494,5.754992569453901
+UKIM-V-2_P8_tumor_primary,UKIM-V-2_P8,UKIM-V,malignant cell,I,39.0,417458.0,93.42257185153956,4.547780153166368
+UKIM-V-2_P9_normal_adjacent,UKIM-V-2_P9,UKIM-V,epithelial cell of lung,Epithelial (normal lung),20.0,27724.0,721.3966238638004,6.582574328592132
+UKIM-V-2_P9_normal_adjacent,UKIM-V-2_P9,UKIM-V,pulmonary alveolar type 1 cell,Epithelial (normal lung),21.0,25805.0,813.7957760124007,6.702937500260177
+UKIM-V-2_P9_normal_adjacent,UKIM-V-2_P9,UKIM-V,pulmonary alveolar type 2 cell,Epithelial (normal lung),93.0,399552.0,232.760691975012,5.454297908192276
+UKIM-V-2_P9_normal_adjacent,UKIM-V-2_P9,UKIM-V,multiciliated epithelial cell,Epithelial (normal lung),0.0,6733.0,0.0,0.0
+UKIM-V-2_P9_tumor_primary,UKIM-V-2_P9,UKIM-V,malignant cell,I,2019.0,7390562.0,273.1862610718914,5.61380766037286
+UKIM-V-2_P10_normal_adjacent,UKIM-V-2_P10,UKIM-V,epithelial cell of lung,Epithelial (normal lung),164.0,329413.0,497.85527589985827,6.212316025428393
+UKIM-V-2_P10_normal_adjacent,UKIM-V-2_P10,UKIM-V,club cell,Epithelial (normal lung),287.0,880436.0,325.9748579113076,5.789883280819904
+UKIM-V-2_P10_normal_adjacent,UKIM-V-2_P10,UKIM-V,pulmonary alveolar type 2 cell,Epithelial (normal lung),27.0,68102.0,396.4641273384042,5.98510468433245
+UKIM-V-2_P10_normal_adjacent,UKIM-V-2_P10,UKIM-V,multiciliated epithelial cell,Epithelial (normal lung),244.0,796368.0,306.39101520904904,5.728120602339828
+UKIM-V-2_P10_tumor_primary,UKIM-V-2_P10,UKIM-V,malignant cell,II,2393.0,3892722.0,614.7369372896395,6.422819822467281
+UKIM-V-2_P11_normal_adjacent,UKIM-V-2_P11,UKIM-V,epithelial cell of lung,Epithelial (normal lung),32.0,94992.0,336.870473303015,5.822662606957518
+UKIM-V-2_P11_normal_adjacent,UKIM-V-2_P11,UKIM-V,club cell,Epithelial (normal lung),17.0,62878.0,270.3648334870702,5.603464164528742
+UKIM-V-2_P11_normal_adjacent,UKIM-V-2_P11,UKIM-V,pulmonary alveolar type 1 cell,Epithelial (normal lung),14.0,13526.0,1035.0436196954013,6.943164525886172
+UKIM-V-2_P11_normal_adjacent,UKIM-V-2_P11,UKIM-V,pulmonary alveolar type 2 cell,Epithelial (normal lung),101.0,323088.0,312.608329619175,5.748144849409143
+UKIM-V-2_P11_normal_adjacent,UKIM-V-2_P11,UKIM-V,multiciliated epithelial cell,Epithelial (normal lung),33.0,108863.0,303.13329597751306,5.717466078915
+UKIM-V-2_P11_tumor_primary,UKIM-V-2_P11,UKIM-V,malignant cell,III,10948.0,16319286.0,670.8626835757398,6.51005397972585
+UKIM-V-2_P12_normal_adjacent,UKIM-V-2_P12,UKIM-V,epithelial cell of lung,Epithelial (normal lung),101.0,187301.0,539.2389789696798,6.292011595307892
+UKIM-V-2_P12_normal_adjacent,UKIM-V-2_P12,UKIM-V,club cell,Epithelial (normal lung),35.0,55515.0,630.4602359722597,6.448034972226468
+UKIM-V-2_P12_normal_adjacent,UKIM-V-2_P12,UKIM-V,pulmonary alveolar type 1 cell,Epithelial (normal lung),3.0,9395.0,319.3187865886109,5.769316707997213
+UKIM-V-2_P12_normal_adjacent,UKIM-V-2_P12,UKIM-V,pulmonary alveolar type 2 cell,Epithelial (normal lung),1.0,11940.0,83.75209380234506,4.439730451587771
+UKIM-V-2_P12_normal_adjacent,UKIM-V-2_P12,UKIM-V,multiciliated epithelial cell,Epithelial (normal lung),83.0,233809.0,354.9906119952611,5.8749043597044865
+UKIM-V-2_P12_tumor_primary,UKIM-V-2_P12,UKIM-V,malignant cell,III,77.0,8163204.0,9.432570838606999,2.344932723645708
+UKIM-V-2_P13_normal_adjacent,UKIM-V-2_P13,UKIM-V,epithelial cell of lung,Epithelial (normal lung),2.0,10926.0,183.04960644334616,5.215205321508949
+UKIM-V-2_P13_normal_adjacent,UKIM-V-2_P13,UKIM-V,club cell,Epithelial (normal lung),37.0,77086.0,479.983395169032,6.175832748031778
+UKIM-V-2_P13_normal_adjacent,UKIM-V-2_P13,UKIM-V,pulmonary alveolar type 1 cell,Epithelial (normal lung),5.0,18110.0,276.09055770292656,5.6243443758748795
+UKIM-V-2_P13_normal_adjacent,UKIM-V-2_P13,UKIM-V,pulmonary alveolar type 2 cell,Epithelial (normal lung),70.0,119040.0,588.0376344086021,6.378490077040924
+UKIM-V-2_P13_normal_adjacent,UKIM-V-2_P13,UKIM-V,multiciliated epithelial cell,Epithelial (normal lung),157.0,338408.0,463.9370227654193,6.1419019615021435
+UKIM-V-2_P13_tumor_primary,UKIM-V-2_P13,UKIM-V,malignant cell,I,313.0,244643.0,1279.415311290329,7.154939766232839
+UKIM-V-2_P14_normal_adjacent,UKIM-V-2_P14,UKIM-V,epithelial cell of lung,Epithelial (normal lung),14.0,43668.0,320.6008976825135,5.773311328602263
+UKIM-V-2_P14_normal_adjacent,UKIM-V-2_P14,UKIM-V,club cell,Epithelial (normal lung),38.0,52835.0,719.2202138733794,6.579557017848645
+UKIM-V-2_P14_normal_adjacent,UKIM-V-2_P14,UKIM-V,pulmonary alveolar type 2 cell,Epithelial (normal lung),144.0,385451.0,373.58834196823983,5.925827668244985
+UKIM-V-2_P14_normal_adjacent,UKIM-V-2_P14,UKIM-V,multiciliated epithelial cell,Epithelial (normal lung),383.0,679323.0,563.7966033830741,6.336465672320783
+UKIM-V-2_P14_tumor_primary,UKIM-V-2_P14,UKIM-V,malignant cell,I,3753.0,5784828.0,648.7660480138735,6.476612371968224
+UKIM-V-2_P15_normal_adjacent,UKIM-V-2_P15,UKIM-V,epithelial cell of lung,Epithelial (normal lung),12.0,52978.0,226.50911699195893,5.427190312277966
+UKIM-V-2_P15_normal_adjacent,UKIM-V-2_P15,UKIM-V,club cell,Epithelial (normal lung),9.0,21645.0,415.8004158004158,6.032607488040425
+UKIM-V-2_P15_normal_adjacent,UKIM-V-2_P15,UKIM-V,pulmonary alveolar type 1 cell,Epithelial (normal lung),5.0,15426.0,324.1280954233113,5.784219244441099
+UKIM-V-2_P15_normal_adjacent,UKIM-V-2_P15,UKIM-V,pulmonary alveolar type 2 cell,Epithelial (normal lung),118.0,486929.0,242.33512483339462,5.494439607776244
+UKIM-V-2_P15_normal_adjacent,UKIM-V-2_P15,UKIM-V,multiciliated epithelial cell,Epithelial (normal lung),168.0,448059.0,374.9506203424103,5.9294578058889345
+UKIM-V-2_P15_tumor_primary,UKIM-V-2_P15,UKIM-V,malignant cell,IV,3484.0,5101041.0,682.9978429893035,6.527954764093168
+UKIM-V-2_P16_normal_adjacent,UKIM-V-2_P16,UKIM-V,epithelial cell of lung,Epithelial (normal lung),295.0,356150.0,828.3026814544434,6.720585204846894
+UKIM-V-2_P16_normal_adjacent,UKIM-V-2_P16,UKIM-V,club cell,Epithelial (normal lung),7.0,19100.0,366.4921465968586,5.906701948620087
+UKIM-V-2_P16_normal_adjacent,UKIM-V-2_P16,UKIM-V,pulmonary alveolar type 1 cell,Epithelial (normal lung),14.0,40285.0,347.5238922675934,5.853706785289917
+UKIM-V-2_P16_normal_adjacent,UKIM-V-2_P16,UKIM-V,pulmonary alveolar type 2 cell,Epithelial (normal lung),24.0,68248.0,351.65865666393154,5.865500610819036
+UKIM-V-2_P16_normal_adjacent,UKIM-V-2_P16,UKIM-V,multiciliated epithelial cell,Epithelial (normal lung),125.0,210361.0,594.2166085918967,6.388925387349823
+UKIM-V-2_P16_tumor_primary,UKIM-V-2_P16,UKIM-V,malignant cell,I,2745.0,1976597.0,1388.7504635492212,7.236879487382162
+UKIM-V-2_P17_normal_adjacent,UKIM-V-2_P17,UKIM-V,club cell,Epithelial (normal lung),32.0,65251.0,490.41394001624496,6.197286827646142
+UKIM-V-2_P17_normal_adjacent,UKIM-V-2_P17,UKIM-V,pulmonary alveolar type 2 cell,Epithelial (normal lung),7.0,45621.0,153.4381096424892,5.039793431244003
+UKIM-V-2_P17_normal_adjacent,UKIM-V-2_P17,UKIM-V,multiciliated epithelial cell,Epithelial (normal lung),24.0,50231.0,477.79259819633296,6.171267514492339
+UKIM-V-2_P17_tumor_primary,UKIM-V-2_P17,UKIM-V,malignant cell,I,65.0,423781.0,153.38110958254381,5.0394242828423215
+UKIM-V_P1_normal_adjacent,UKIM-V_P1,UKIM-V,epithelial cell of lung,Epithelial (normal lung),532.0,1067113.0,498.5413915864581,6.213690460694362
+UKIM-V_P1_normal_adjacent,UKIM-V_P1,UKIM-V,pulmonary alveolar type 1 cell,Epithelial (normal lung),161.0,305614.0,526.8083268436656,6.268733200457973
+UKIM-V_P1_normal_adjacent,UKIM-V_P1,UKIM-V,pulmonary alveolar type 2 cell,Epithelial (normal lung),143.0,619315.0,230.90026884541794,5.446307403576975
+UKIM-V_P1_normal_adjacent,UKIM-V_P1,UKIM-V,multiciliated epithelial cell,Epithelial (normal lung),124.0,267693.0,463.217192829099,6.140352530700993
+UKIM-V_P1_tumor_primary,UKIM-V_P1,UKIM-V,malignant cell,I,1055.0,1764757.0,597.8160165960526,6.394954400010156
+UKIM-V_P2_normal_adjacent,UKIM-V_P2,UKIM-V,epithelial cell of lung,Epithelial (normal lung),86.0,213157.0,403.45848365289436,6.002549095020693
+UKIM-V_P2_normal_adjacent,UKIM-V_P2,UKIM-V,club cell,Epithelial (normal lung),260.0,361558.0,719.1100736258082,6.579404080360984
+UKIM-V_P2_normal_adjacent,UKIM-V_P2,UKIM-V,pulmonary alveolar type 1 cell,Epithelial (normal lung),34.0,116422.0,292.04102317431415,5.680312610050302
+UKIM-V_P2_normal_adjacent,UKIM-V_P2,UKIM-V,pulmonary alveolar type 2 cell,Epithelial (normal lung),79.0,253916.0,311.1265142803132,5.743408600106994
+UKIM-V_P2_normal_adjacent,UKIM-V_P2,UKIM-V,multiciliated epithelial cell,Epithelial (normal lung),747.0,1185193.0,630.2770941104108,6.447744901031501
+UKIM-V_P2_tumor_primary,UKIM-V_P2,UKIM-V,malignant cell,I,22317.0,80928717.0,275.7611985866525,5.623155035401159
+UKIM-V_P3_normal_adjacent,UKIM-V_P3,UKIM-V,epithelial cell of lung,Epithelial (normal lung),44.0,65329.0,673.5140596059942,6.513992519916845
+UKIM-V_P3_normal_adjacent,UKIM-V_P3,UKIM-V,club cell,Epithelial (normal lung),443.0,431152.0,1027.4798678888187,6.93583713465624
+UKIM-V_P3_normal_adjacent,UKIM-V_P3,UKIM-V,pulmonary alveolar type 1 cell,Epithelial (normal lung),67.0,113811.0,588.6952930736045,6.379605951074661
+UKIM-V_P3_normal_adjacent,UKIM-V_P3,UKIM-V,pulmonary alveolar type 2 cell,Epithelial (normal lung),237.0,735973.0,322.02268289733456,5.777722546445291
+UKIM-V_P3_normal_adjacent,UKIM-V_P3,UKIM-V,multiciliated epithelial cell,Epithelial (normal lung),372.0,340606.0,1092.1710128418174,6.996837937824038
+UKIM-V_P3_tumor_primary,UKIM-V_P3,UKIM-V,malignant cell,I,5408.0,15854360.0,341.1049074197886,5.8351174368668985
+Vieira_Teichmann_2019_Dropseq_1,Vieira_Teichmann_2019_Dropseq_1,Vieira_Teichmann_2019,epithelial cell of lung,Epithelial (normal lung),28.0,46184.0,606.2705698943357,6.408974441156803
+Vieira_Teichmann_2019_Dropseq_1,Vieira_Teichmann_2019_Dropseq_1,Vieira_Teichmann_2019,club cell,Epithelial (normal lung),10.0,10921.0,915.6670634557275,6.820744334853207
+Vieira_Teichmann_2019_Dropseq_1,Vieira_Teichmann_2019_Dropseq_1,Vieira_Teichmann_2019,pulmonary alveolar type 1 cell,Epithelial (normal lung),39.0,63361.0,615.5205883745522,6.424091717625939
+Vieira_Teichmann_2019_Dropseq_1,Vieira_Teichmann_2019_Dropseq_1,Vieira_Teichmann_2019,pulmonary alveolar type 2 cell,Epithelial (normal lung),313.0,603715.0,518.4565564877466,6.252783181417338
+Vieira_Teichmann_2019_Dropseq_1,Vieira_Teichmann_2019_Dropseq_1,Vieira_Teichmann_2019,multiciliated epithelial cell,Epithelial (normal lung),54.0,70224.0,768.9678742310322,6.646348792199472
+Vieira_Teichmann_2019_Dropseq_2,Vieira_Teichmann_2019_Dropseq_2,Vieira_Teichmann_2019,epithelial cell of lung,Epithelial (normal lung),66.0,164945.0,400.13337779259757,5.994293984952266
+Vieira_Teichmann_2019_Dropseq_2,Vieira_Teichmann_2019_Dropseq_2,Vieira_Teichmann_2019,club cell,Epithelial (normal lung),14.0,55334.0,253.00899989156758,5.537369699034782
+Vieira_Teichmann_2019_Dropseq_2,Vieira_Teichmann_2019_Dropseq_2,Vieira_Teichmann_2019,pulmonary alveolar type 1 cell,Epithelial (normal lung),10.0,54509.0,183.45594305527527,5.217410643937146
+Vieira_Teichmann_2019_Dropseq_2,Vieira_Teichmann_2019_Dropseq_2,Vieira_Teichmann_2019,pulmonary alveolar type 2 cell,Epithelial (normal lung),141.0,476380.0,295.98219908476426,5.693672201264947
+Vieira_Teichmann_2019_Dropseq_2,Vieira_Teichmann_2019_Dropseq_2,Vieira_Teichmann_2019,multiciliated epithelial cell,Epithelial (normal lung),82.0,213199.0,384.6171886359692,5.95484513808099
+Vieira_Teichmann_2019_Dropseq_3,Vieira_Teichmann_2019_Dropseq_3,Vieira_Teichmann_2019,epithelial cell of lung,Epithelial (normal lung),4.0,6308.0,634.1154090044388,6.453806728842487
+Vieira_Teichmann_2019_Dropseq_3,Vieira_Teichmann_2019_Dropseq_3,Vieira_Teichmann_2019,club cell,Epithelial (normal lung),13.0,27358.0,475.18093427882155,6.165797896037521
+Vieira_Teichmann_2019_Dropseq_3,Vieira_Teichmann_2019_Dropseq_3,Vieira_Teichmann_2019,pulmonary alveolar type 1 cell,Epithelial (normal lung),51.0,29303.0,1740.4361328191653,7.462465415472444
+Vieira_Teichmann_2019_Dropseq_3,Vieira_Teichmann_2019_Dropseq_3,Vieira_Teichmann_2019,pulmonary alveolar type 2 cell,Epithelial (normal lung),28.0,98140.0,285.30670470756064,5.657063630298463
+Vieira_Teichmann_2019_Dropseq_3,Vieira_Teichmann_2019_Dropseq_3,Vieira_Teichmann_2019,multiciliated epithelial cell,Epithelial (normal lung),44.0,48008.0,916.5139143476086,6.821667745315211
+Vieira_Teichmann_2019_Dropseq_4,Vieira_Teichmann_2019_Dropseq_4,Vieira_Teichmann_2019,epithelial cell of lung,Epithelial (normal lung),8.0,15037.0,532.0210148300857,6.278560850837169
+Vieira_Teichmann_2019_Dropseq_4,Vieira_Teichmann_2019_Dropseq_4,Vieira_Teichmann_2019,pulmonary alveolar type 2 cell,Epithelial (normal lung),268.0,550295.0,487.0115120071962,6.190338995753584
+Vieira_Teichmann_2019_Dropseq_4,Vieira_Teichmann_2019_Dropseq_4,Vieira_Teichmann_2019,multiciliated epithelial cell,Epithelial (normal lung),3.0,1235.0,2429.1497975708503,7.795708179525499
+Wu_Zhou_2021_GSM4453576,Wu_Zhou_2021_P1,Wu_Zhou_2021,malignant cell,III or IV,7097.0,16888222.0,420.2336989648762,6.043187784098546
+Wu_Zhou_2021_GSM4453577,Wu_Zhou_2021_P2,Wu_Zhou_2021,malignant cell,III or IV,1190.0,1166613.0,1020.0469221584192,6.928583774168828
+Wu_Zhou_2021_GSM4453578,Wu_Zhou_2021_P3,Wu_Zhou_2021,malignant cell,III or IV,9105.0,12866998.0,707.6242648052016,6.563325435149065
+Wu_Zhou_2021_GSM4453579,Wu_Zhou_2021_P4,Wu_Zhou_2021,malignant cell,III or IV,284.0,3257608.0,87.18053246431124,4.479386218291139
+Wu_Zhou_2021_GSM4453580,Wu_Zhou_2021_P5,Wu_Zhou_2021,malignant cell,III or IV,1100.0,3507933.0,313.5749742084584,5.751222439489499
+Wu_Zhou_2021_GSM4453581,Wu_Zhou_2021_P6,Wu_Zhou_2021,malignant cell,III or IV,508.0,620248.0,819.02722781855,6.709337544363804
+Wu_Zhou_2021_GSM4453582,Wu_Zhou_2021_P7,Wu_Zhou_2021,malignant cell,III or IV,99.0,638855.0,154.96474160803314,5.049629966371102
+Wu_Zhou_2021_GSM4453583,Wu_Zhou_2021_P8,Wu_Zhou_2021,malignant cell,III or IV,1578.0,1346497.0,1171.9298297731075,7.067260025698822
+Wu_Zhou_2021_GSM4453584,Wu_Zhou_2021_P9,Wu_Zhou_2021,malignant cell,III or IV,5589.0,8042022.0,694.9744728378013,6.545312982704622
+Wu_Zhou_2021_GSM4453585,Wu_Zhou_2021_P10,Wu_Zhou_2021,malignant cell,III or IV,3972.0,9830956.0,404.0298827499584,6.00396084895239
+Wu_Zhou_2021_GSM4453586,Wu_Zhou_2021_P11,Wu_Zhou_2021,malignant cell,III or IV,1.0,786513.0,1.2714348014590986,0.8204117029478464
+Wu_Zhou_2021_GSM4453587,Wu_Zhou_2021_P12,Wu_Zhou_2021,malignant cell,III or IV,547.0,447216.0,1223.1226074201281,7.109979627516535
+Wu_Zhou_2021_GSM4453588,Wu_Zhou_2021_P13,Wu_Zhou_2021,malignant cell,III or IV,659.0,738746.0,892.0522073892786,6.794645042089534
+Wu_Zhou_2021_GSM4453589,Wu_Zhou_2021_P14,Wu_Zhou_2021,malignant cell,III or IV,423.0,2799373.0,151.10526535763546,5.024572816402
+Wu_Zhou_2021_GSM4453590,Wu_Zhou_2021_P15,Wu_Zhou_2021,malignant cell,III or IV,1184.0,1691892.0,699.8082619930823,6.552234328926378
+Wu_Zhou_2021_GSM4453591,Wu_Zhou_2021_P16,Wu_Zhou_2021,malignant cell,III or IV,1266.0,1469389.0,861.5826033814054,6.759930916356078
+Wu_Zhou_2021_GSM4453592,Wu_Zhou_2021_P17,Wu_Zhou_2021,malignant cell,III or IV,2835.0,13335015.0,212.59818605378396,5.364096614792414
+Wu_Zhou_2021_GSM4453593,Wu_Zhou_2021_P18,Wu_Zhou_2021,malignant cell,III or IV,1450.0,3404455.0,425.91251756889136,6.056579115350646
+Wu_Zhou_2021_GSM4453594,Wu_Zhou_2021_P19,Wu_Zhou_2021,malignant cell,III or IV,584.0,237642.0,2457.478055225928,7.807297760729557
+Wu_Zhou_2021_GSM4453595,Wu_Zhou_2021_P20,Wu_Zhou_2021,malignant cell,III or IV,717.0,550543.0,1302.35058841907,7.172693603419882
+Wu_Zhou_2021_GSM4453596,Wu_Zhou_2021_P21,Wu_Zhou_2021,malignant cell,III or IV,3119.0,5810554.0,536.7818627965595,6.2874530184549124
+Wu_Zhou_2021_GSM4453597,Wu_Zhou_2021_P22,Wu_Zhou_2021,malignant cell,III or IV,159.0,143224.0,1110.1491370161425,7.013150017368887
+Wu_Zhou_2021_GSM4453598,Wu_Zhou_2021_P23,Wu_Zhou_2021,malignant cell,III or IV,1475.0,4732253.0,311.69085845579264,5.745215029804911
+Wu_Zhou_2021_GSM4453599,Wu_Zhou_2021_P24,Wu_Zhou_2021,malignant cell,III or IV,56.0,103683.0,540.107828670081,6.293618572609231
+Wu_Zhou_2021_GSM4453600,Wu_Zhou_2021_P25,Wu_Zhou_2021,malignant cell,III or IV,1749.0,3325070.0,526.0039638263254,6.267208070005155
+Wu_Zhou_2021_GSM4453601,Wu_Zhou_2021_P26,Wu_Zhou_2021,malignant cell,III or IV,106.0,64134.0,1652.7894720429101,7.410824583348654
+Wu_Zhou_2021_GSM4453602,Wu_Zhou_2021_P27,Wu_Zhou_2021,malignant cell,III or IV,97.0,43943.0,2207.4050474478304,7.700025835975032
+Wu_Zhou_2021_GSM4453603,Wu_Zhou_2021_P28,Wu_Zhou_2021,malignant cell,III or IV,1210.0,1446521.0,836.4897571483581,6.730409033353814
+Wu_Zhou_2021_GSM4453604,Wu_Zhou_2021_P29,Wu_Zhou_2021,malignant cell,III or IV,351.0,1910700.0,183.70230805463964,5.218745383362307
+Wu_Zhou_2021_GSM4453605,Wu_Zhou_2021_P30,Wu_Zhou_2021,malignant cell,III or IV,1009.0,4233572.0,238.3330199651736,5.477855971041542
+Wu_Zhou_2021_GSM4453606,Wu_Zhou_2021_P31,Wu_Zhou_2021,malignant cell,III or IV,667.0,1103586.0,604.3933141594765,6.4058783528521674
+Wu_Zhou_2021_GSM4453607,Wu_Zhou_2021_P32,Wu_Zhou_2021,malignant cell,III or IV,686.0,282407.0,2429.1182584001103,7.795695201158718
+Wu_Zhou_2021_GSM4453608,Wu_Zhou_2021_P33,Wu_Zhou_2021,malignant cell,III or IV,1007.0,937179.0,1074.5012425587854,6.980542104038392
+Wu_Zhou_2021_GSM4453609,Wu_Zhou_2021_P34,Wu_Zhou_2021,malignant cell,III or IV,484.0,1849239.0,261.7292843164134,5.571124164846459
+Wu_Zhou_2021_GSM4453610,Wu_Zhou_2021_P35,Wu_Zhou_2021,malignant cell,III or IV,50.0,103029.0,485.3002552679343,6.186826242328242
+Wu_Zhou_2021_GSM4453611,Wu_Zhou_2021_P36,Wu_Zhou_2021,malignant cell,III or IV,169.0,337065.0,501.38697283906663,6.219370684959259
+Wu_Zhou_2021_GSM4453612,Wu_Zhou_2021_P37,Wu_Zhou_2021,malignant cell,III or IV,4.0,63144.0,63.347269732674526,4.164294504745359
+Wu_Zhou_2021_GSM4453613,Wu_Zhou_2021_P38,Wu_Zhou_2021,malignant cell,III or IV,439.0,757637.0,579.4331586234568,6.363774650018142
+Wu_Zhou_2021_GSM4453614,Wu_Zhou_2021_P39,Wu_Zhou_2021,malignant cell,III or IV,1017.0,1710408.0,594.5949738308053,6.389560861940811
+Wu_Zhou_2021_GSM4453615,Wu_Zhou_2021_P40,Wu_Zhou_2021,malignant cell,III or IV,20.0,30270.0,660.7201850016518,6.494842785315715
+Wu_Zhou_2021_GSM4453616,Wu_Zhou_2021_P41,Wu_Zhou_2021,malignant cell,III or IV,5660.0,11154057.0,507.4386835211619,6.231344625171999
+Wu_Zhou_2021_GSM4453617,Wu_Zhou_2021_P42,Wu_Zhou_2021,malignant cell,III or IV,26.0,758246.0,34.28966324913023,3.5635900952537276
+Zilionis_Klein_2019_p1t1,Zilionis_Klein_2019_patient_1,Zilionis_Klein_2019,malignant cell,II,120.0,941630.0,127.43859052918873,4.855450895392717
+Zilionis_Klein_2019_p1t2,Zilionis_Klein_2019_patient_1,Zilionis_Klein_2019,malignant cell,II,103.0,894819.0,115.1070775207053,4.75451284740315
+Zilionis_Klein_2019_p1t3,Zilionis_Klein_2019_patient_1,Zilionis_Klein_2019,malignant cell,II,139.0,840039.0,165.46850800974715,5.1148061504484685
+Zilionis_Klein_2019_p1t4,Zilionis_Klein_2019_patient_1,Zilionis_Klein_2019,malignant cell,II,130.0,731595.0,177.69394268686912,5.185674525042863
+Zilionis_Klein_2019_p2t1,Zilionis_Klein_2019_patient_2,Zilionis_Klein_2019,malignant cell,III,24.0,131570.0,182.41240404347496,5.211737191360137
+Zilionis_Klein_2019_p2t2,Zilionis_Klein_2019_patient_2,Zilionis_Klein_2019,malignant cell,III,48.0,148656.0,322.89312237649335,5.780413592165161
+Zilionis_Klein_2019_p3t1,Zilionis_Klein_2019_patient_3,Zilionis_Klein_2019,malignant cell,IV,218.0,231870.0,940.1819985336612,6.847136530590468
+Zilionis_Klein_2019_p3t2,Zilionis_Klein_2019_patient_3,Zilionis_Klein_2019,malignant cell,IV,387.0,311944.0,1240.6072884876771,7.124162019649867
+Zilionis_Klein_2019_p3t3,Zilionis_Klein_2019_patient_3,Zilionis_Klein_2019,malignant cell,IV,366.0,352783.0,1037.464957211657,6.9454988990893085
+Zilionis_Klein_2019_p4t1,Zilionis_Klein_2019_patient_4,Zilionis_Klein_2019,malignant cell,I,84.0,71023.0,1182.71545837264,7.076413464241509
+Zilionis_Klein_2019_p4t2,Zilionis_Klein_2019_patient_4,Zilionis_Klein_2019,malignant cell,I,79.0,88558.0,892.0707333047269,6.794665786367575
+Zilionis_Klein_2019_p4t3,Zilionis_Klein_2019_patient_4,Zilionis_Klein_2019,malignant cell,I,50.0,105402.0,474.37430029790704,6.164102494352325
+Zilionis_Klein_2019_p5t1,Zilionis_Klein_2019_patient_5,Zilionis_Klein_2019,malignant cell,IV,245.0,275066.0,890.6953240313234,6.793124509246097
+Zilionis_Klein_2019_p5t2,Zilionis_Klein_2019_patient_5,Zilionis_Klein_2019,malignant cell,IV,301.0,451208.0,667.0981010974983,6.504435020684462
+Zilionis_Klein_2019_p6t1,Zilionis_Klein_2019_patient_6,Zilionis_Klein_2019,malignant cell,I,15.0,18580.0,807.3196986006459,6.694957646850671
+Zilionis_Klein_2019_p6t2,Zilionis_Klein_2019_patient_6,Zilionis_Klein_2019,malignant cell,I,5.0,25163.0,198.70444700552397,5.296838508604097
+Zilionis_Klein_2019_p7t1,Zilionis_Klein_2019_patient_7,Zilionis_Klein_2019,malignant cell,III,247.0,757373.0,326.1272847064788,5.790349345026085
+Zilionis_Klein_2019_p7t2,Zilionis_Klein_2019_patient_7,Zilionis_Klein_2019,malignant cell,III,210.0,745744.0,281.59797464009097,5.644025303346086
