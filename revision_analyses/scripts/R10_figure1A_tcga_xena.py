@@ -1,25 +1,27 @@
 #!/usr/bin/env python3
 """
-ALTERNATIVE Figure 1A, rebuilt from UCSC Xena (Toil recompute of TCGA/GTEx,
-dataset TcgaTargetGtex_rsem_gene_tpm, probe ENSG00000189143.9).
+Figure 1A, rebuilt from UCSC Xena (Toil recompute of TCGA/GTEx, dataset
+TcgaTargetGtex_rsem_gene_tpm, probe ENSG00000189143.9). This panel is now used in the
+manuscript, both standalone and as panel A of the composite built by
+R11_figure1_composite.py.
 
-This is NOT a drop-in replacement for the submitted Figure 1A. It does not reproduce
-the values reported in the manuscript, and the discrepancy needs resolving before
-either version is submitted:
+It replaces the originally submitted Figure 1A, which it did not reproduce:
 
     group        manuscript              Xena (log2 TPM+1)     Xena median TPM
     normal lung  5.34   (n = 50)         6.90  (n = 109)       119
     LUAD        13.05   (n = 510)        8.14  (n = 513)       280
     LUSC        11.97   (n = 484)        7.13  (n = 498)       139
 
-The tumour sample counts agree closely, so the cohorts are probably the same; the
-normal set and the expression scale differ. The manuscript's fold-changes (207x LUAD,
-99x LUSC) follow arithmetically from its own numbers, but Xena TPM gives 2.4x and 1.2x,
-and the manuscript's own single-cell analysis (Figure 1B) gives roughly 2x between
-normal epithelium and stage IV. A LUAD median of 13.05 on a log2(TPM+1) scale implies
-~8,500 TPM, which would make CLDN4 one of the most abundant transcripts in the cell.
+The tumour sample counts agreed closely, so the cohorts were probably the same; the
+normal set and the expression scale differed. The originally reported fold-changes
+(207x LUAD, 99x LUSC) followed arithmetically from the original medians, but Xena TPM
+gives 2.4x and 1.2x, and the single-cell analysis in Figure 1B gives roughly 2x between
+normal epithelium and stage IV. A LUAD median of 13.05 on a log2(TPM+1) scale would
+imply ~8,500 TPM, which would make CLDN4 one of the most abundant transcripts in the
+cell. The Xena values are used instead, and the Results have been updated accordingly:
+LUSC is not significantly different from normal lung after correction.
 
-Outputs: figures/Figure1A_ALTERNATIVE_Xena.{pdf,png}
+Outputs: figures/Figure1A_TCGA_Xena.{pdf,png}
 """
 import numpy as np, pandas as pd
 import matplotlib; matplotlib.use("Agg")
@@ -75,12 +77,9 @@ ax.set_ylim(top=y+0.6+0.55*len(tests)+0.5)
 ax.set_title("CLDN4 in TCGA lung cohorts (UCSC Xena / Toil recompute)",
              fontsize=8.5,color=INK,loc="left")
 for s_ in ("top","right"): ax.spines[s_].set_visible(False)
-ax.annotate("ALTERNATIVE PANEL — does not reproduce the submitted Figure 1A; see script header.",
-            xy=(0.0,-0.26), xycoords="axes fraction", fontsize=6.5, color="#902000",
-            ha="left", va="top", annotation_clip=False)
-fig.savefig("../figures/Figure1A_ALTERNATIVE_Xena.pdf",bbox_inches="tight")
-fig.savefig("../figures/Figure1A_ALTERNATIVE_Xena.png",dpi=600,bbox_inches="tight")
-print("wrote alternative Figure 1A")
+fig.savefig("../figures/Figure1A_TCGA_Xena.pdf",bbox_inches="tight")
+fig.savefig("../figures/Figure1A_TCGA_Xena.png",dpi=600,bbox_inches="tight")
+print("wrote Figure 1A")
 for k in order:
     t=2**sel[k].expr.values-1
     print(f"  {k:12s} n={len(sel[k]):4d}  median log2(TPM+1)={np.median(sel[k].expr):5.2f}  median TPM={np.median(t):7.1f}")
