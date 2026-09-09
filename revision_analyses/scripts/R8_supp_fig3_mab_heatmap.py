@@ -37,9 +37,14 @@ OUTDIR = "figures/"
 # Fv-identical pair collapsed into one row (see module docstring)
 MERGE = ("eclutatug", "lixudebart")
 MERGE_LABEL = "eclutatug / lixudebart"
+# "sonesitamab" in the source tables is a misspelling of the INN sonesitatug
+# (sonesitatug vedotin, CMG901/AZD0901; KYM Biosciences/AstraZeneca), an
+# anti-CLDN18.2 ADC. Relabelled here; the source key is unchanged.
+RENAME = {"sonesitamab": "sonesitatug vedotin"}
 
 # Cognate targets, from the pipeline source (MAB_ON_TARGETS)
 ON_TARGET = {
+    "sonesitatug vedotin": "CLDN18.2",
     MERGE_LABEL: "CLDN1", "lixudebart": "CLDN1", "eclutatug": "CLDN1", "ixotatug": "CLDN6",
     "garetatug": "CLDN18.2", "omectatug": "CLDN18.2", "osemitamab": "CLDN18.2",
     "sonesitamab": "CLDN18.2", "tecotabart": "CLDN18.2",
@@ -69,7 +74,7 @@ a, b = MERGE
 assert a in piv.index and b in piv.index, "merge pair not present"
 assert np.allclose(piv.loc[a].values, piv.loc[b].values, atol=1e-9), \
     "MERGE pair is no longer identical - re-check before collapsing"
-piv = piv.drop(index=[b]).rename(index={a: MERGE_LABEL})
+piv = piv.drop(index=[b]).rename(index={a: MERGE_LABEL}).rename(index=RENAME)
 print(f"collapsed {a} + {b} -> '{MERGE_LABEL}' (verified identical across all antigens)")
 piv.columns = [col_label(c) for c in piv.columns]
 piv = piv[sorted(piv.columns, key=col_key)]
