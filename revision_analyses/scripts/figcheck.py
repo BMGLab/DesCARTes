@@ -49,6 +49,31 @@ def find_text_overlaps(fig, tol=2.0):
                 continue
             items.append((t, f"ax{ai}:" + t.get_text().replace("\n", " / ")[:40], bb))
 
+    # figure-level artists: suptitle/fig.text and any fig.legend entries
+    extra = list(getattr(fig, "texts", []))
+    for lg in list(getattr(fig, "legends", [])):
+        extra += list(lg.get_texts())
+        if lg.get_title() is not None:
+            extra.append(lg.get_title())
+    for ax in fig.axes:
+        lg = ax.get_legend()
+        if lg is not None:
+            extra += list(lg.get_texts())
+            if lg.get_title() is not None:
+                extra.append(lg.get_title())
+    for t in extra:
+        if t is None or not t.get_visible() or not t.get_text().strip():
+            continue
+        if any(t is prev for prev, _, _ in items):
+            continue
+        try:
+            bb = t.get_window_extent(renderer=rend)
+        except Exception:
+            continue
+        if bb.width <= 0 or bb.height <= 0:
+            continue
+        items.append((t, "fig:" + t.get_text().replace("\n", " / ")[:40], bb))
+
     out = []
     for i in range(len(items)):
         for j in range(i + 1, len(items)):

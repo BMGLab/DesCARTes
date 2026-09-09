@@ -48,7 +48,7 @@ def panel(ax,letter):
             color=INK,va="top",ha="left")
 
 fig=plt.figure(figsize=(7.4,10.4))
-gs=fig.add_gridspec(4,2,height_ratios=[1.0,1.0,1.30,0.04],hspace=0.62,wspace=0.30)
+gs=fig.add_gridspec(3,2,height_ratios=[1.0,1.0,1.30],hspace=0.50,wspace=0.30)
 
 # ------------------------------------------------------------------ A ------
 axA=fig.add_subplot(gs[0,0])
@@ -121,7 +121,7 @@ sets=[("C",gs[1,0],{"Normal lung\nn=4":[3,1,0,0],"NSCLC\nn=11":[0,2,9,0]},
        "Human Protein Atlas",""),
       ("D",gs[1,1],{"Adjacent\nnormal\nn=45":[45,0,0,0],
                     "NSCLC\ntumour\nn=45":[0,int(t.get(1,0)),int(t.get(2,0)),int(t.get(3,0))]},
-       "Matched cohort","all 45 pairs concordant; exact Wilcoxon\nsigned-rank p = 5.7 × 10$^{-14}$")]
+       "Matched cohort","")]   # the paired-test statistic is stated in the figure legend
 for letter,slot,dat,title,note in sets:
     ax=fig.add_subplot(slot); keys=list(dat); bot=np.zeros(len(keys))
     for li,lv in enumerate(LV):
@@ -144,11 +144,24 @@ for letter,slot,dat,title,note in sets:
         ax.set_title(title,fontsize=8,color=INK,loc="left")
     bare(ax); panel(ax,letter)
 
-# shared legend for C and D, in its own row so it cannot overlap either panel
-axL=fig.add_subplot(gs[3,:]); axL.axis("off")
-axL.legend(handles=[Patch(facecolor=c,label=l) for c,l in zip(cols,LV)],
-           ncol=4,fontsize=7,frameon=False,loc="center",title="CLDN4 staining",
-           title_fontsize=7)
+# Shared key for C and D. Pinned to the measured bottom edge of the C/D row rather
+# than given its own grid row, so it reads as belonging to those two panels instead of
+# floating between them and the micrographs.
+axC, axD = fig.axes[2], fig.axes[3]
+fig.canvas.draw()
+rend = fig.canvas.get_renderer()
+bb = [a.get_tightbbox(rend).transformed(fig.transFigure.inverted()) for a in (axC, axD)]
+y_bot = min(b.y0 for b in bb)
+x_mid = (min(b.x0 for b in bb) + max(b.x1 for b in bb)) / 2
+leg = fig.legend(handles=[Patch(facecolor=c, edgecolor="#b9b8b4", linewidth=0.4, label=l)
+                          for c, l in zip(cols, LV)],
+                 ncol=4, fontsize=7, frameon=False, loc="upper center",
+                 bbox_to_anchor=(x_mid, y_bot - 0.008),
+                 handlelength=1.05, handleheight=1.05, handletextpad=0.45,
+                 columnspacing=1.5, borderpad=0.0, borderaxespad=0.0)
+lb = leg.get_window_extent(rend).transformed(fig.transFigure.inverted())
+fig.text(lb.x0 - 0.012, (lb.y0 + lb.y1) / 2, "CLDN4 staining",
+         ha="right", va="center", fontsize=7, color=INK2)
 
 # ------------------------------------------------------------- E and F ----
 import matplotlib.image as mpimg

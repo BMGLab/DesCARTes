@@ -92,8 +92,7 @@ own = {"Adjacent normal\n(n=45)": [45, 0, 0, 0],
        "NSCLC tumour\n(n=45)": [0, int(t.get(1, 0)), int(t.get(2, 0)), int(t.get(3, 0))]}
 for name, dat, title, note in [
     ("Figure1C_HPA_IHC", hpa, "CLDN4 IHC, Human Protein Atlas", ""),
-    ("Figure1D_matched_IHC", own, "CLDN4 IHC, matched cohort",
-     "all 45 pairs concordant; exact Wilcoxon signed-rank p = 5.7 x 10$^{-14}$")]:
+    ("Figure1D_matched_IHC", own, "CLDN4 IHC, matched cohort", "")]:
     fig, ax = plt.subplots(figsize=(3.5, 3.2))
     keys = list(dat); bottoms = np.zeros(len(keys))
     for li, lv in enumerate(LV):
