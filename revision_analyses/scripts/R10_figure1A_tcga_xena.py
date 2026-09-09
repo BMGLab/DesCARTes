@@ -26,6 +26,9 @@ Outputs: figures/Figure1A_TCGA_Xena.{pdf,png}
 import numpy as np, pandas as pd
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from figcheck import assert_no_text_overlap
 from matplotlib.colors import LinearSegmentedColormap
 from scipy import stats
 from statsmodels.stats.multitest import multipletests
@@ -77,6 +80,7 @@ ax.set_ylim(top=y+0.6+0.55*len(tests)+0.5)
 ax.set_title("CLDN4 in TCGA lung cohorts (UCSC Xena / Toil recompute)",
              fontsize=8.5,color=INK,loc="left")
 for s_ in ("top","right"): ax.spines[s_].set_visible(False)
+assert_no_text_overlap(fig, "Figure1A")
 fig.savefig("../figures/Figure1A_TCGA_Xena.pdf",bbox_inches="tight")
 fig.savefig("../figures/Figure1A_TCGA_Xena.png",dpi=600,bbox_inches="tight")
 print("wrote Figure 1A")

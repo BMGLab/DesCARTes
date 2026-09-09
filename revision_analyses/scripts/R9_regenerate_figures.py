@@ -20,6 +20,9 @@ hand-assembled artwork.
 import numpy as np, pandas as pd
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from figcheck import assert_no_text_overlap
 from matplotlib.colors import LinearSegmentedColormap
 from matplotlib.patches import Patch
 
@@ -35,6 +38,7 @@ plt.rcParams.update({"font.size": 8, "axes.edgecolor": "#c9c8c4",
                      "axes.facecolor": SURF, "savefig.facecolor": SURF})
 
 def save(fig, name):
+    assert_no_text_overlap(fig, name)
     fig.savefig(F + name + ".pdf", bbox_inches="tight")
     fig.savefig(F + name + ".png", dpi=600, bbox_inches="tight")
     plt.close(fig); print("  wrote", name)

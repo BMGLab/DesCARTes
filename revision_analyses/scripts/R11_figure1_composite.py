@@ -6,15 +6,28 @@ Composite Figure 1 (panels A-D) as a single vector figure.
   B  Donor-level CLDN4 across tumour stage in the LuCA single-cell atlas
   C  CLDN4 immunohistochemistry, Human Protein Atlas
   D  CLDN4 immunohistochemistry, matched 45-patient cohort
+  E  Representative CLDN4 immunohistochemistry, adjacent non-tumour lung
+  F  Representative CLDN4 immunohistochemistry, NSCLC tumour
 
-Panels E and F of the published figure are immunohistochemistry micrographs; they are
-not generated here and should be added as a bottom row.
+Panels E and F are the original micrographs, extracted at native resolution
+(3024 x 4032 RGB) from the embedded images of Gocmenetal_figures_highquality.pdf and
+cropped to the circular field. The panel assignment was verified against a 200 dpi
+render of the source page rather than assumed from PDF image order, which is inverted
+relative to the visual layout: the strongly stained field is the tumour (F) and the
+weakly stained field is the adjacent normal lung (E).
+
+NOTE: these panels still require scale bars, objective magnification and specimen
+identifiers. That metadata is not recoverable from the PDF and has deliberately not
+been invented here.
 
 Outputs: figures/Figure1_composite.{pdf,png}
 """
 import numpy as np, pandas as pd
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from figcheck import assert_no_text_overlap
 from matplotlib.colors import LinearSegmentedColormap
 from matplotlib.patches import Patch
 from scipy import stats
@@ -34,8 +47,8 @@ def panel(ax,letter):
     ax.text(-0.20,1.10,letter,transform=ax.transAxes,fontsize=11,fontweight="bold",
             color=INK,va="top",ha="left")
 
-fig=plt.figure(figsize=(7.4,6.6))
-gs=fig.add_gridspec(3,2,height_ratios=[1.0,1.0,0.10],hspace=0.62,wspace=0.30)
+fig=plt.figure(figsize=(7.4,10.4))
+gs=fig.add_gridspec(4,2,height_ratios=[1.0,1.0,1.30,0.04],hspace=0.62,wspace=0.30)
 
 # ------------------------------------------------------------------ A ------
 axA=fig.add_subplot(gs[0,0])
@@ -121,17 +134,37 @@ for letter,slot,dat,title,note in sets:
                         color="#ffffff" if li>=2 else INK)
         bot+=pct
     ax.set_ylabel("% of cases",color=INK2); ax.set_ylim(0,100)
-    ax.set_title(title,fontsize=8,color=INK,loc="left")
     ax.tick_params(axis="x",labelsize=6.8)
+    # the note goes in the free strip between the axes and the title, so it can never
+    # collide with whatever is laid out below this panel
     if note:
-        ax.text(0,-0.30,note,transform=ax.transAxes,fontsize=6,color=INK2,va="top")
+        ax.set_title(title,fontsize=8,color=INK,loc="left",pad=22)
+        ax.text(0,1.015,note,transform=ax.transAxes,fontsize=6,color=INK2,va="bottom")
+    else:
+        ax.set_title(title,fontsize=8,color=INK,loc="left")
     bare(ax); panel(ax,letter)
 
 # shared legend for C and D, in its own row so it cannot overlap either panel
-axL=fig.add_subplot(gs[2,:]); axL.axis("off")
+axL=fig.add_subplot(gs[3,:]); axL.axis("off")
 axL.legend(handles=[Patch(facecolor=c,label=l) for c,l in zip(cols,LV)],
            ncol=4,fontsize=7,frameon=False,loc="center",title="CLDN4 staining",
            title_fontsize=7)
+
+# ------------------------------------------------------------- E and F ----
+import matplotlib.image as mpimg
+MIC=[("E",gs[2,0],"source_micrographs/E_CLDN4_normal.png",
+      "Adjacent non-tumour lung"),
+     ("F",gs[2,1],"source_micrographs/F_CLDN4_tumour.png",
+      "NSCLC tumour")]
+for letter,slot,path,cap in MIC:
+    ax=fig.add_subplot(slot)
+    ax.imshow(mpimg.imread(F+path))
+    ax.set_xticks([]); ax.set_yticks([])
+    for sp in ax.spines.values(): sp.set_visible(False)
+    ax.set_title(cap,fontsize=8,color=INK,loc="left")
+    panel(ax,letter)
+
+assert_no_text_overlap(fig, "Figure1_composite")
 
 fig.savefig(F+"Figure1_composite.pdf",bbox_inches="tight")
 fig.savefig(F+"Figure1_composite.png",dpi=600,bbox_inches="tight")

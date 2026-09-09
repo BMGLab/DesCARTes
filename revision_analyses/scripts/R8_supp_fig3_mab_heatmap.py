@@ -29,6 +29,9 @@ import pandas as pd
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from figcheck import assert_no_text_overlap
 from matplotlib.colors import LinearSegmentedColormap, Normalize
 from matplotlib.patches import Rectangle
 
@@ -138,6 +141,7 @@ fig.text(0.005, 0.012,
          "score identically and are shown as one row.",
          fontsize=7, color=INK_2, va="bottom")
 fig.tight_layout(rect=[0, 0.105, 1, 0.94])
+assert_no_text_overlap(fig, "SupplementaryFigure3")
 fig.savefig(OUTDIR + "SupplementaryFigure3_mAb_panel.pdf", facecolor=SURFACE)
 fig.savefig(OUTDIR + "SupplementaryFigure3_mAb_panel.png", dpi=600, facecolor=SURFACE)
 print(f"wrote figures for {nrow} antibodies x {ncol} antigens")
