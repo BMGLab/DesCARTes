@@ -46,7 +46,8 @@ sel={"Normal lung":  m[(m._study=="TCGA")&(m._sample_type=="Solid Tissue Normal"
                        &(m._sample_type=="Primary Tumor")]}
 order=list(sel)
 data=[sel[k].expr.values for k in order]
-tests=[("Normal lung","LUAD"),("Normal lung","LUSC"),("LUAD","LUSC")]
+# widest comparison last so its bracket sits highest and labels do not crowd
+tests=[("Normal lung","LUAD"),("LUAD","LUSC"),("Normal lung","LUSC")]
 p=[stats.mannwhitneyu(sel[a].expr,sel[b].expr,alternative="two-sided").pvalue for a,b in tests]
 padj=multipletests(p,method="fdr_bh")[1]
 
@@ -74,8 +75,9 @@ ax.set_ylim(top=y+0.6+0.55*len(tests)+0.5)
 ax.set_title("CLDN4 in TCGA lung cohorts (UCSC Xena / Toil recompute)",
              fontsize=8.5,color=INK,loc="left")
 for s_ in ("top","right"): ax.spines[s_].set_visible(False)
-fig.text(0.0,-0.06,"ALTERNATIVE PANEL — does not reproduce the submitted Figure 1A; see script header.",
-         fontsize=6.5,color="#902000",transform=ax.transAxes)
+ax.annotate("ALTERNATIVE PANEL — does not reproduce the submitted Figure 1A; see script header.",
+            xy=(0.0,-0.26), xycoords="axes fraction", fontsize=6.5, color="#902000",
+            ha="left", va="top", annotation_clip=False)
 fig.savefig("../figures/Figure1A_ALTERNATIVE_Xena.pdf",bbox_inches="tight")
 fig.savefig("../figures/Figure1A_ALTERNATIVE_Xena.png",dpi=600,bbox_inches="tight")
 print("wrote alternative Figure 1A")

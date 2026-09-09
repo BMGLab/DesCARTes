@@ -69,11 +69,11 @@ for i, g in enumerate(ORD[1:], start=2):
         sig = st.loc[g, "signif_BH"]
         ax.text(i, ytop + 0.42, sig, ha="center", va="bottom", fontsize=9,
                 color=INK if sig != "ns" else INK2)
-ax.set_xticks(range(1, len(ORD) + 1)); ax.set_xticklabels(LAB, fontsize=7.5)
-ax.set_ylabel("CLDN4  log$_1$$_p$(CPM)", color=INK2)
+# n goes in the tick label, not inside the axes, so it cannot land on a data point
+ax.set_xticks(range(1, len(ORD) + 1))
+ax.set_xticklabels([f"{l}\nn={len(d)}" for l, d in zip(LAB, data)], fontsize=7.5)
+ax.set_ylabel("CLDN4  log(CPM+1)", color=INK2)
 ax.set_ylim(top=ytop + 1.15)
-for i, d in enumerate(data, start=1):
-    ax.text(i, ax.get_ylim()[0] + 0.12, f"n={len(d)}", ha="center", fontsize=6.5, color=INK2)
 ax.set_title("Donor-level CLDN4 in the LuCA atlas (Benjamini-Hochberg corrected)",
              fontsize=8.5, color=INK, loc="left")
 bare(ax); save(fig, "Figure1B_LuCA_stage")
@@ -120,9 +120,11 @@ a.plot(ts.time_ns[ok], ts.complex_backbone_rmsd[ok], lw=1.0, color=S1, label="Co
 a.plot(ts.time_ns[ok], ts.CLDN4_backbone_rmsd[ok], lw=1.0, color=S3c, label="CLDN4 backbone")
 a.plot(ts.time_ns[ok], ts.interface_rmsd[ok], lw=1.0, color=S2c, label="Interface")
 a.axvspan(0, 100, color="#efeee9", zorder=0)
-a.text(50, a.get_ylim()[1] * 0.94, "relaxation", ha="center", fontsize=6, color=INK2)
 a.set_xlabel("Time (ns)"); a.set_ylabel("RMSD (Å)")
 a.legend(fontsize=6.5, frameon=False, loc="upper left")
+# label the shaded band along the bottom of the axes, clear of the legend
+a.text(50, a.get_ylim()[0] + 0.04 * (a.get_ylim()[1] - a.get_ylim()[0]),
+       "relaxation", ha="center", va="bottom", fontsize=6, color=INK2)
 a.set_title("Structural stability", fontsize=8.5, color=INK, loc="left"); bare(a)
 b = axes[1]
 b.plot(bsa.time_ns, bsa.bsa, lw=1.0, color=S1)
