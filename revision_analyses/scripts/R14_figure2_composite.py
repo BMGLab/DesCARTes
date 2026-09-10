@@ -99,6 +99,20 @@ for fx, fy, txt, ha in [(0.033, 0.784, "Light chain", "left"),
 axD = fig.add_subplot(gs[2, 0]); imgpanel(axD, "D_heavy.png", "D", "VH-CLDN4 contacts", dx=-0.055)
 axE = fig.add_subplot(gs[2, 1]); imgpanel(axE, "E_light.png", "E", "VL-CLDN4 contacts", dx=-0.055)
 
+# ------------------------------------------------- individual panel files ---
+# Emitted so the figure can also be hand-assembled: vector PDF for the plotted panel,
+# native-resolution PNG for the renders.
+import shutil
+P = F + "panels/"
+os.makedirs(P, exist_ok=True)
+for src, dst in [("A_workflow.png", "Fig2_A_workflow.png"),
+                 ("C_complex.png", "Fig2_C_complex.png"),
+                 ("D_heavy.png", "Fig2_D_VH_contacts.png"),
+                 ("E_light.png", "Fig2_E_VL_contacts.png")]:
+    shutil.copyfile(F + "source_figure2/" + src, P + dst)
+shutil.copyfile(F + "Figure2B_specificity.pdf", P + "Fig2_B_specificity.pdf")
+print("  wrote panels/Fig2_A..E")
+
 assert_no_text_overlap(fig, "Figure2_composite")
 fig.savefig(F + "Figure2_composite.pdf", bbox_inches="tight")
 fig.savefig(F + "Figure2_composite.png", dpi=600, bbox_inches="tight")
