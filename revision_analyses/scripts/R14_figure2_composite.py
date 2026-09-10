@@ -9,10 +9,13 @@ Composite Figure 2 (panels A-E).
   D  VH-CLDN4 interface contacts
   E  VL-CLDN4 interface contacts
 
-Panels A and C-E are the authors' renders, re-extracted at native resolution from the
-figure sources rather than re-screenshotted. Panels C-E are raster at 144-200 ppi in the
-supplied files; at print size that is below 300 dpi and they should be re-rendered from
-PyMOL before final submission.
+Panels A and C-E are the authors' renders, taken at native resolution from the embedded
+images of Gocmenetal_figures_highquality.pdf and composited onto white using their
+accompanying soft masks (which is how the black PyMOL background is knocked out in the
+published figure). Effective resolution in the published layout is 506 ppi for panel C
+and ~320 ppi for D and E, i.e. already above the 300 dpi print threshold - the low ppi
+reported by the standalone CLDN4_scfv73_0*.pdf wrappers reflects their 960x540 pt page
+size, not the images.
 
 Outputs: figures/Figure2_composite.{pdf,png}
 """
@@ -23,6 +26,7 @@ import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 from matplotlib.lines import Line2D
+from matplotlib.patches import Rectangle, Circle
 from figcheck import assert_no_text_overlap
 
 O, F = "output/", "../figures/"
@@ -47,6 +51,15 @@ gs = fig.add_gridspec(3, 2, height_ratios=[1.42, 1.28, 0.72], hspace=0.30, wspac
 
 # ------------------------------------------------------------------- A ------
 axA = fig.add_subplot(gs[0, :]); imgpanel(axA, "A_workflow.png", "A", dx=-0.022)
+# Two defects in the source artwork are corrected as overlays (data coordinates of the
+# 2916x1944 raster) rather than by editing the authors' file: the design step was
+# labelled "RFDiffussion", and the MD counter-ions were drawn as Na+ although the
+# production system was neutralised with 61 K+ and 45 Cl- (~0.15 M KCl; Supplementary Methods S5).
+axA.add_patch(Rectangle((812, 649), 259, 54, facecolor="#edf7f9", ec="none", zorder=4))
+axA.text(941, 676, "RFdiffusion", fontsize=7.5, color=INK, ha="center", va="center", zorder=5)
+for cx, cy in [(2588, 1520), (2426, 1617), (2703, 1748)]:
+    axA.add_patch(Circle((cx, cy), 18.5, facecolor="#288a7a", ec="none", zorder=4))
+    axA.text(cx, cy, "K", fontsize=3.4, color="white", ha="center", va="center", zorder=5)
 
 # ------------------------------------------------------------------- B ------
 axB = fig.add_subplot(gs[1, 0])
@@ -70,6 +83,17 @@ panel(axB, "B", dx=-0.16)
 
 # ------------------------------------------------------------------- C ------
 axC = fig.add_subplot(gs[1, 1]); imgpanel(axC, "C_complex.png", "C", dx=-0.02)
+# The chain labels are vector text on the source page, not part of the embedded raster,
+# so they are re-set here. Positions are the source page's own label boxes mapped into
+# the padded image (the raster was padded 14% left / 20% right to give them the same
+# margins they had on the page); given in data coordinates so they track the image
+# rather than the letterboxed axes box.
+cW, cH = mpimg.imread(F + "source_figure2/C_complex.png").shape[1::-1]
+for fx, fy, txt, ha in [(0.033, 0.784, "Light chain", "left"),
+                        (0.987, 0.690, "Heavy chain", "right"),
+                        (0.714, 0.523, "scFv-73-0", "left"),
+                        (0.039, 0.251, "CLDN4", "left")]:
+    axC.text(fx * cW, (1 - fy) * cH, txt, fontsize=7.5, color=INK, ha=ha, va="center")
 
 # ---------------------------------------------------------------- D and E ---
 axD = fig.add_subplot(gs[2, 0]); imgpanel(axD, "D_heavy.png", "D", "VH-CLDN4 contacts", dx=-0.055)
