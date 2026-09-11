@@ -89,6 +89,12 @@ _body = _z.read("word/document.xml").decode("utf8", "ignore")
 _stale = [v for v in ("1.67", "2.58", "1.33 ", "5.25", "1.82", "2.86") if v in _body]
 (ok if not _stale else fail)(f"superseded p-values in the file: {_stale or 'none'}")
 
+_gap = [f"[{i}] {t.strip()[:50]}" for i, t in
+        enumerate(p.text for p in docx.Document(CLEAN).paragraphs)
+        if re.search(r'\S {2,}\S', t) and not t.strip().startswith("ETHICS")]
+(ok if not _gap else fail)(f"paragraphs with a swallowed symbol (internal double space): "
+                           f"{_gap or 'none'}")
+
 print("\n== references ==")
 cited = set()
 for m in re.finditer(r'\[([\d,\s]+)\]', body):
