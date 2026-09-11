@@ -5,9 +5,19 @@ scoring table (replaces the raster panel from
 notebooks/scfv_specificity_decision_notebook.ipynb).
 
 Reproduces the notebook's logic exactly - R_spec = STRIVE(CLDN4) / sqrt(mean_off x max_off),
-tiered at 1.0 / 1.2 / 1.5 - and additionally plots the worst-case ratio R_max, which is
-the quantity relevant to safety and which the original panel did not show. The notebook's
-category labels used emoji that render as missing glyphs; they are plain text here.
+tiered at 1.0 / 1.2 / 1.5. The notebook's category labels used emoji that render as missing
+glyphs; they are plain text here.
+
+An earlier version paired this with a 39-row bar chart of the worst-case ratio R_max. That
+chart has been dropped: 39 legible rows need about 135 mm of height, and the panel gets
+roughly a third of that in any realistic layout, so its labels came out at 3 pt. The
+worst-case result it carried is reported in Table 1 (per-candidate R_max and a pass/fail
+column), in Section 3.4, in the Figure 2 legend, and as the annotation below - none of which
+depends on reading 39 tick labels.
+
+SIZE. Drawn 90 x 75 mm so that placing it at 90 mm wide reproduces the type sizes here 1:1
+(7.5 pt body, 6.8 pt legend). Placed narrower, multiply through: at 70 mm the body type is
+7.5 x 70/90 = 5.8 pt, below the legibility floor.
 
 Outputs: figures/Figure2B_specificity.{pdf,png}
 """
@@ -20,52 +30,40 @@ from matplotlib.lines import Line2D
 from figcheck import assert_no_text_overlap
 
 O, F = "output/", "../figures/"
+MM = 1 / 25.4
 SURF, INK, INK2 = "#fcfcfb", "#0b0b0b", "#52514e"
 # ordered tiers -> one-hue sequential ramp (the quantity is ordinal, not nominal)
 TIERS = [("Not specific (<= 1.0)", "#b7d3f6"), ("Acceptable (1.0-1.2)", "#6da7ec"),
          ("Good (1.2-1.5)", "#2a78d6"), ("Excellent (> 1.5)", "#104281")]
-plt.rcParams.update({"font.size":8,"axes.edgecolor":"#c9c8c4","axes.labelcolor":INK2,
-                     "xtick.color":INK2,"ytick.color":INK2,"figure.facecolor":SURF,
-                     "axes.facecolor":SURF,"savefig.facecolor":SURF})
+plt.rcParams.update({"font.size": 7.5, "axes.edgecolor": "#c9c8c4", "axes.labelcolor": INK2,
+                     "xtick.color": INK2, "ytick.color": INK2, "figure.facecolor": SURF,
+                     "axes.facecolor": SURF, "savefig.facecolor": SURF})
 
 d = pd.read_csv(O + "TableS_specificity_full.csv")
 d["label"] = d.scFv.str.replace("scfv_", "scFv-", regex=False).str.replace("_", "-", regex=False)
-def tier(r):
-    return 3 if r > 1.5 else 2 if r > 1.2 else 1 if r > 1.0 else 0
-d["tier"] = d.R_spec.map(tier)
+d["tier"] = d.R_spec.map(lambda r: 3 if r > 1.5 else 2 if r > 1.2 else 1 if r > 1.0 else 0)
 d["colour"] = d.tier.map(lambda t: TIERS[t][1])
 
-fig, (axL, axR) = plt.subplots(1, 2, figsize=(9.2, 4.0),
-                               gridspec_kw={"width_ratios": [1.0, 1.15]})
-
-# ---- left: on-target score vs specificity ratio -----------------------------
-axL.axhline(1.0, color="#9a9994", lw=0.8, ls="--")
-axL.scatter(d.CLDN4, d.R_spec, s=34, c=d.colour, edgecolor=SURF, linewidth=0.6, zorder=3)
+fig, ax = plt.subplots(figsize=(90 * MM, 75 * MM))
+ax.axhline(1.0, color="#9a9994", lw=0.8, ls="--")
+ax.scatter(d.CLDN4, d.R_spec, s=30, c=d.colour, edgecolor=SURF, linewidth=0.6, zorder=3)
+# scFv-48-1 sits just right of and below scFv-73-0, so the default up-left offset
+# would drop its label on top of the scFv-73-0 marker; it is placed below instead.
+OFFSET = {"scFv-48-1": (-6, -11)}
 for _, r in d[d.R_spec > 1.2].iterrows():
-    axL.annotate(r.label, (r.CLDN4, r.R_spec), textcoords="offset points",
-                 xytext=(-6, 6), ha="right", fontsize=6.5, color=INK)
-axL.set_xlabel("On-target CLDN4 STRIVE score")
-axL.set_ylabel("R$_{spec}$  (specificity ratio)")
-axL.set_title("Specificity ratio vs on-target score", fontsize=8.5, color=INK, loc="left")
-axL.legend(handles=[Line2D([], [], marker="o", ls="", markersize=5.5, markerfacecolor=c,
-                           markeredgecolor=SURF, label=l) for l, c in TIERS],
-           fontsize=6.3, frameon=False, loc="upper left", handletextpad=0.4,
-           borderpad=0.2, labelspacing=0.35)
-for s in ("top", "right"): axL.spines[s].set_visible(False)
-
-# ---- right: worst-case margin, which the original panel omitted -------------
-s = d.sort_values("R_max")
-y = np.arange(len(s))
-axR.barh(y, s.R_max, color=s.colour, edgecolor=SURF, linewidth=0.5, height=0.74)
-axR.axvline(1.0, color="#9a9994", lw=0.9, ls="--")
-axR.axvline(1.2, color="#eb6834", lw=1.0, ls="--")
-axR.text(1.205, len(s) - 0.4, "prespecified\n1.20-fold margin", fontsize=6.2,
-         color="#eb6834", va="top", ha="left")
-axR.set_yticks(y); axR.set_yticklabels(s.label, fontsize=5.6)
-axR.set_xlabel("R$_{max}$  (on-target / worst off-target)")
-axR.set_title("Worst-case margin: no candidate clears 1.20", fontsize=8.5, color=INK, loc="left")
-axR.set_ylim(-0.8, len(s) - 0.2)
-for sp in ("top", "right"): axR.spines[sp].set_visible(False)
+    ax.annotate(r.label, (r.CLDN4, r.R_spec), textcoords="offset points",
+                xytext=OFFSET.get(r.label, (-6, 6)), ha="right", fontsize=6.8, color=INK)
+ax.set_xlabel("On-target CLDN4 STRIVE score")
+ax.set_ylabel("R$_{spec}$  (specificity ratio)")
+ax.legend(handles=[Line2D([], [], marker="o", ls="", markersize=5, markerfacecolor=c,
+                          markeredgecolor=SURF, label=l) for l, c in TIERS],
+          fontsize=6.8, frameon=False, loc="upper left", handletextpad=0.4,
+          borderpad=0.2, labelspacing=0.35)
+# the worst-case result the dropped bar chart carried, stated rather than plotted
+ax.text(0.985, 0.03, "No candidate clears the prespecified\nworst-case margin "
+        "(R$_{max}$ $\\geq$ 1.20; Table 1)", transform=ax.transAxes, fontsize=6.8,
+        color="#eb6834", ha="right", va="bottom", linespacing=1.35)
+for s in ("top", "right"): ax.spines[s].set_visible(False)
 
 fig.tight_layout()
 assert_no_text_overlap(fig, "Figure2B_specificity")

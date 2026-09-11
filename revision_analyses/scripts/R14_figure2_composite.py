@@ -70,15 +70,19 @@ d["tier"] = d.R_spec.map(lambda r: 3 if r > 1.5 else 2 if r > 1.2 else 1 if r > 
 axB.axhline(1.0, color="#9a9994", lw=0.8, ls="--")
 axB.scatter(d.CLDN4, d.R_spec, s=26, c=d.tier.map(lambda t: TIERS[t][1]),
             edgecolor=SURF, linewidth=0.5, zorder=3)
+OFFSET = {"scFv-48-1": (-5, -10)}     # keeps its label off the scFv-73-0 marker
 for _, r in d[d.R_spec > 1.2].iterrows():
     axB.annotate(r.label, (r.CLDN4, r.R_spec), textcoords="offset points",
-                 xytext=(-5, 5), ha="right", fontsize=6, color=INK)
+                 xytext=OFFSET.get(r.label, (-5, 5)), ha="right", fontsize=6.8, color=INK)
 axB.set_xlabel("On-target CLDN4 STRIVE score")
 axB.set_ylabel("R$_{spec}$  (specificity ratio)")
 axB.legend(handles=[Line2D([], [], marker="o", ls="", markersize=5, markerfacecolor=c,
                            markeredgecolor=SURF, label=l) for l, c in TIERS],
-           fontsize=5.8, frameon=False, loc="upper left", handletextpad=0.4,
+           fontsize=6.8, frameon=False, loc="upper left", handletextpad=0.4,
            borderpad=0.15, labelspacing=0.3)
+axB.text(0.985, 0.03, "No candidate clears the prespecified\nworst-case margin "
+         "(R$_{max}$ $\\geq$ 1.20; Table 1)", transform=axB.transAxes, fontsize=6.3,
+         color="#eb6834", ha="right", va="bottom", linespacing=1.35)
 for s in ("top", "right"): axB.spines[s].set_visible(False)
 panel(axB, "B", dx=-0.16)
 
