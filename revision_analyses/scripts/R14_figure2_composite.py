@@ -25,6 +25,7 @@ import numpy as np, pandas as pd
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
+from PIL import Image
 from matplotlib.lines import Line2D
 from matplotlib.patches import Rectangle, Circle
 from figcheck import assert_no_text_overlap
@@ -123,6 +124,11 @@ def standalone(path, out, overlay):
     overlay(ax, w, h)
     f.savefig(P + out, dpi=DPI, facecolor="white")
     plt.close(f)
+    # flatten to RGB: matplotlib writes RGBA, and a fully opaque alpha channel still
+    # becomes an /SMask in the placed PDF, which prepress checks flag for no reason
+    im = Image.open(P + out)
+    if im.mode != "RGB":
+        Image.alpha_composite(Image.new("RGBA", im.size, "white"), im).convert("RGB").save(P + out)
 
 def _a_overlay(ax, w, h):
     ax.add_patch(Rectangle((812, 649), 259, 54, facecolor="#edf7f9", ec="none", zorder=4))
@@ -133,10 +139,18 @@ def _a_overlay(ax, w, h):
         ax.text(cx, cy, "K", fontsize=px_fontsize(14), color="white",
                 ha="center", va="center", zorder=5)
 
+# Panel C label size. 56 px of cap height is the largest that still clears the molecule
+# on both sides at this crop - bigger labels collide with it or run off the panel - so the
+# panel has to carry its own legibility through the width it is given in the layout:
+#   label type size (pt) = 56 * (placed_width_pt / 1872) / 0.72
+# which needs a placed width of >= 168 pt (59 mm) to reach 7 pt. At the 34 mm the current
+# hand assembly gives panel C, the labels land at 4.2 pt.
+C_LABEL_CAP_PX = 56
+
 def _c_overlay(ax, w, h):
     for fx, fy, txt, ha in C_LABELS:
-        ax.text(fx * w, (1 - fy) * h, txt, fontsize=px_fontsize(56), color=INK,
-                ha=ha, va="center")
+        ax.text(fx * w, (1 - fy) * h, txt, fontsize=px_fontsize(C_LABEL_CAP_PX),
+                color=INK, ha=ha, va="center")
 
 standalone("A_workflow.png", "Fig2_A_workflow.png", _a_overlay)
 standalone("C_complex.png", "Fig2_C_complex.png", _c_overlay)
