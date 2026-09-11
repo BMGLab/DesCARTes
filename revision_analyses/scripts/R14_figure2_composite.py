@@ -89,10 +89,11 @@ axC = fig.add_subplot(gs[1, 1]); imgpanel(axC, "C_complex.png", "C", dx=-0.02)
 # margins they had on the page); given in data coordinates so they track the image
 # rather than the letterboxed axes box.
 cW, cH = mpimg.imread(F + "source_figure2/C_complex.png").shape[1::-1]
-for fx, fy, txt, ha in [(0.033, 0.784, "Light chain", "left"),
-                        (0.987, 0.690, "Heavy chain", "right"),
-                        (0.714, 0.523, "scFv-73-0", "left"),
-                        (0.039, 0.251, "CLDN4", "left")]:
+C_LABELS = [(0.033, 0.784, "Light chain", "left"),
+            (0.987, 0.690, "Heavy chain", "right"),
+            (0.714, 0.523, "scFv-73-0", "left"),
+            (0.039, 0.251, "CLDN4", "left")]
+for fx, fy, txt, ha in C_LABELS:
     axC.text(fx * cW, (1 - fy) * cH, txt, fontsize=7.5, color=INK, ha=ha, va="center")
 
 # ---------------------------------------------------------------- D and E ---
@@ -101,17 +102,49 @@ axE = fig.add_subplot(gs[2, 1]); imgpanel(axE, "E_light.png", "E", "VL-CLDN4 con
 
 # ------------------------------------------------- individual panel files ---
 # Emitted so the figure can also be hand-assembled: vector PDF for the plotted panel,
-# native-resolution PNG for the renders.
+# PNG for the renders. A and C are re-rendered rather than copied, so the stand-alone
+# files carry the same corrections and labels the composite does - copying the raw
+# source would silently drop them. Type is sized in source pixels, so it keeps its
+# proportion to the baked-in artwork however the panel is later scaled.
 import shutil
 P = F + "panels/"
 os.makedirs(P, exist_ok=True)
-for src, dst in [("A_workflow.png", "Fig2_A_workflow.png"),
-                 ("C_complex.png", "Fig2_C_complex.png"),
-                 ("D_heavy.png", "Fig2_D_VH_contacts.png"),
+DPI = 300
+
+def px_fontsize(cap_px, dpi=DPI):
+    """Point size whose cap height is cap_px pixels of the source raster."""
+    return cap_px / dpi * 72 / 0.72
+
+def standalone(path, out, overlay):
+    img = mpimg.imread(F + "source_figure2/" + path)
+    h, w = img.shape[:2]
+    f = plt.figure(figsize=(w / DPI, h / DPI), dpi=DPI)
+    ax = f.add_axes([0, 0, 1, 1]); ax.imshow(img); ax.set_axis_off()
+    overlay(ax, w, h)
+    f.savefig(P + out, dpi=DPI, facecolor="white")
+    plt.close(f)
+
+def _a_overlay(ax, w, h):
+    ax.add_patch(Rectangle((812, 649), 259, 54, facecolor="#edf7f9", ec="none", zorder=4))
+    ax.text(941, 676, "RFdiffusion", fontsize=px_fontsize(31), color=INK,
+            ha="center", va="center", zorder=5)
+    for cx, cy in [(2588, 1520), (2426, 1617), (2703, 1748)]:
+        ax.add_patch(Circle((cx, cy), 18.5, facecolor="#288a7a", ec="none", zorder=4))
+        ax.text(cx, cy, "K", fontsize=px_fontsize(14), color="white",
+                ha="center", va="center", zorder=5)
+
+def _c_overlay(ax, w, h):
+    for fx, fy, txt, ha in C_LABELS:
+        ax.text(fx * w, (1 - fy) * h, txt, fontsize=px_fontsize(56), color=INK,
+                ha=ha, va="center")
+
+standalone("A_workflow.png", "Fig2_A_workflow.png", _a_overlay)
+standalone("C_complex.png", "Fig2_C_complex.png", _c_overlay)
+for src, dst in [("D_heavy.png", "Fig2_D_VH_contacts.png"),
                  ("E_light.png", "Fig2_E_VL_contacts.png")]:
     shutil.copyfile(F + "source_figure2/" + src, P + dst)
 shutil.copyfile(F + "Figure2B_specificity.pdf", P + "Fig2_B_specificity.pdf")
-print("  wrote panels/Fig2_A..E")
+print("  wrote panels/Fig2_A..E (A and C carry the corrections and labels)")
 
 assert_no_text_overlap(fig, "Figure2_composite")
 fig.savefig(F + "Figure2_composite.pdf", bbox_inches="tight")
