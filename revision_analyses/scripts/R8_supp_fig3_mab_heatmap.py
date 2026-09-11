@@ -91,7 +91,9 @@ targets = piv.pop("_t").to_dict()
 piv.pop("_s")
 
 nrow, ncol = piv.shape
-fig, ax = plt.subplots(figsize=(0.46 * ncol + 4.4, 0.46 * nrow + 2.6))
+# drawn at 170 mm, the journal's double-column width, so the type sizes below are
+# the sizes that reach the page - scaling a wider drawing down shrinks them with it
+fig, ax = plt.subplots(figsize=(6.69, 0.30 * nrow + 2.2))
 fig.patch.set_facecolor(SURFACE); ax.set_facecolor(SURFACE)
 norm = Normalize(0.0, 1.0)
 im = ax.imshow(piv.values, cmap=CMAP, norm=norm, aspect="equal")
@@ -102,11 +104,9 @@ ax.set_yticks(np.arange(-0.5, nrow, 1), minor=True)
 ax.grid(which="minor", color=SURFACE, linewidth=2)
 ax.tick_params(which="minor", length=0)
 
-for i in range(nrow):
-    for j in range(ncol):
-        v = piv.values[i, j]
-        ax.text(j, i, f"{v:.2f}", ha="center", va="center", fontsize=6.0,
-                color="#ffffff" if v > 0.62 else INK)
+# The per-cell values are not printed: at 170 mm a column is 6.8 mm wide and a
+# four-character number set small enough to fit is illegible. The colour scale carries
+# the magnitude and Supplementary Table S5 carries every score to three decimals.
 
 # outline each antibody's cognate cell -- identity is not colour-alone
 cols = list(piv.columns)
@@ -130,20 +130,15 @@ cb.set_label("STRIVE score (model-derived prioritization value)", fontsize=8, co
 cb.ax.tick_params(labelsize=7, length=2, color=INK_2)
 cb.outline.set_visible(False)
 
-ax.set_title("Clinical-stage claudin-targeting monoclonal antibodies scored against "
-             "the 25-antigen claudin panel",
-             fontsize=10, color=INK, pad=14, loc="left")
-fig.text(0.005, 0.012,
-         "Orange outline marks each antibody's cognate target. Scores are model-derived and are "
-         "not measured affinities; differences below ~0.07 units lie within the run-to-run\n"
-         "variability of the predictor. eclutatug (ALE.C04) and lixudebart (ALE.F02) share an "
-         "identical Fv and differ only in the IgG1 Fc, outside the modelled interface, so they\n"
-         "score identically and are shown as one row.",
-         fontsize=7, color=INK_2, va="bottom")
-fig.tight_layout(rect=[0, 0.105, 1, 0.94])
+ax.set_title("Clinical-stage claudin-targeting monoclonal antibodies\n"
+             "scored against the 25-antigen claudin panel",
+             fontsize=9, color=INK, pad=10, loc="left")
+# The explanatory block that used to sit under the panel now lives in the figure
+# legend in the manuscript, which is where a reader looks for it.
+fig.tight_layout(rect=[0, 0.01, 1, 0.95])
 assert_no_text_overlap(fig, "SupplementaryFigure3")
-fig.savefig(OUTDIR + "SupplementaryFigure3_mAb_panel.pdf", facecolor=SURFACE)
-fig.savefig(OUTDIR + "SupplementaryFigure3_mAb_panel.png", dpi=600, facecolor=SURFACE)
+fig.savefig(OUTDIR + "SupplementaryFigure3_mAb_panel.pdf", facecolor=SURFACE, bbox_inches="tight")
+fig.savefig(OUTDIR + "SupplementaryFigure3_mAb_panel.png", dpi=600, facecolor=SURFACE, bbox_inches="tight")
 print(f"wrote figures for {nrow} antibodies x {ncol} antigens")
 
 # ---- how often is the cognate target the top-ranked antigen? -----------------

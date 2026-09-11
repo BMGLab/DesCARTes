@@ -148,7 +148,10 @@ fig.tight_layout(); save(fig, "Figure3_MD_panels")
 
 # ---------------------------------------------------------------- Fig S2 ----
 sc = pd.read_csv("/mnt/ssd1/Projects/DesCARTes_wd/DesCARTes_ozan/results/3_rf2.sc", sep="\t")
-fig, axes = plt.subplots(1, 4, figsize=(12.2, 2.9))
+# 2 x 2 at 170 mm rather than 1 x 4 at 310 mm: the row layout only fits the page
+# by being scaled to 55%, which took its labels to 3.6 pt
+fig, axes = plt.subplots(2, 2, figsize=(6.69, 5.0))
+axes = axes.ravel()
 for ax, (col, lab, thr, keep_below) in zip(axes, [
         ("pae", "Global PAE", 10, True), ("pred_lddt", "Predicted lDDT", None, None),
         ("framework_aligned_cdr_rmsd", "Framework-aligned CDR RMSD (Å)", None, None),
@@ -161,7 +164,7 @@ for ax, (col, lab, thr, keep_below) in zip(axes, [
         n = int((sc[col] <= thr).sum())
         ax.text(0.97, 0.93, f"≤{thr}: n={n}", transform=ax.transAxes, ha="right",
                 fontsize=6.5, color=INK2)
-    ax.set_xlabel(lab); ax.set_ylabel("Designs" if ax is axes[0] else ""); bare(ax)
+    ax.set_xlabel(lab); ax.set_ylabel("Designs" if ax in (axes[0], axes[2]) else "")   # left column of the 2x2; bare(ax)
 fig.suptitle(f"RoseTTAFold2 filtering metrics for all {len(sc):,} de novo designs",
              fontsize=9, color=INK, x=0.005, ha="left", y=1.03)
 fig.tight_layout(); save(fig, "SupplementaryFigure2_RF2_metrics")
@@ -173,7 +176,7 @@ def ckey(c):
 mat = mat[sorted(mat.columns, key=ckey)]
 mat.index = [i.replace("scfv_", "scFv-").replace("_", "-") for i in mat.index]
 mat = mat.loc[mat["CLDN4"].sort_values(ascending=False).index]
-fig, ax = plt.subplots(figsize=(9.6, 9.0))
+fig, ax = plt.subplots(figsize=(6.69, 6.6))   # 170 mm, the double-column width
 im = ax.imshow(mat.values, cmap=CMAP, vmin=0, vmax=1, aspect="auto")
 ax.set_xticks(range(mat.shape[1])); ax.set_xticklabels(mat.columns, rotation=90, fontsize=6.5)
 ax.set_yticks(range(mat.shape[0])); ax.set_yticklabels(mat.index, fontsize=6.5)
@@ -194,7 +197,8 @@ NUM = {"Not detected": 0, "Low": 1, "Medium": 2, "High": 3}
 nt["v"] = nt.level.map(NUM)
 piv = (nt.groupby(["organ_system", "tissue"]).v.max().reset_index()
          .sort_values(["organ_system", "v"], ascending=[True, False]))
-fig, ax = plt.subplots(figsize=(6.4, 9.4))
+# 160 mm wide, inside the 170 mm double-column width
+fig, ax = plt.subplots(figsize=(6.3, 9.4))
 ypos = np.arange(len(piv))[::-1]
 ax.barh(ypos, piv.v, color=[CMAP(0.12 + 0.26 * v) for v in piv.v],
         edgecolor=SURF, linewidth=1.6, height=0.74)

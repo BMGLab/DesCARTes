@@ -29,6 +29,7 @@ import numpy as np, pandas as pd
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
+from PIL import Image
 from figcheck import assert_no_text_overlap
 
 O, F = "output/", "../figures/"
@@ -119,9 +120,28 @@ for letter, draw in [("B", draw_B), ("C", draw_C), ("D", draw_D), ("E", draw_E)]
     assert_no_text_overlap(fig, f"Fig3_{letter}")
     fig.savefig(f"{P}Fig3_{letter}_{NAMES[letter]}.pdf", bbox_inches="tight")
     plt.close(fig)
-shutil.copyfile(F + "source_figure3/A_membrane_system.png",
-                P + "Fig3_A_membrane_system.png")
-print("  wrote panels/Fig3_A (PNG) and Fig3_B..E (vector PDF)")
+# Panel A is re-rendered rather than copied so the stand-alone file carries the same
+# labels the composite draws - copying the raw render drops all of them but the baked-in
+# "VL". Type is sized in source pixels, so it holds its proportion at any placement.
+DPI = 300
+_img = mpimg.imread(F + "source_figure3/A_membrane_system.png")
+_h, _w = _img.shape[:2]
+_f = plt.figure(figsize=(_w / DPI, _h / DPI), dpi=DPI)
+_ax = _f.add_axes([0, 0, 1, 1]); _ax.imshow(_img); _ax.set_axis_off()
+for _fx, _fy, _txt, _ha, _col in [(0.66, 0.955, "scFv-73-0", "center", INK),
+                                  (0.86, 0.845, "VH", "center", S1),
+                                  (0.12, 0.560, "CLDN4", "left", INK),
+                                  (0.50, 0.030, "Asymmetric mammalian plasma membrane",
+                                   "center", INK2)]:
+    _ax.text(_fx * _w, (1 - _fy) * _h, _txt, fontsize=56 / DPI * 72 / 0.72, color=_col,
+             ha=_ha, va="center")
+_f.savefig(P + "Fig3_A_membrane_system.png", dpi=DPI, facecolor="white")
+plt.close(_f)
+_im = Image.open(P + "Fig3_A_membrane_system.png")
+if _im.mode != "RGB":
+    Image.alpha_composite(Image.new("RGBA", _im.size, "white"), _im).convert("RGB") \
+         .save(P + "Fig3_A_membrane_system.png")
+print("  wrote panels/Fig3_A (PNG, labelled) and Fig3_B..E (vector PDF)")
 
 # -------------------------------------------------------------- composite ----
 fig = plt.figure(figsize=(7.2, 7.6))
