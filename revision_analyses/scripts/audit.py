@@ -70,6 +70,25 @@ for i, p in enumerate(_d.paragraphs):
 (ok if not _bad_l else fail)(f"legends wholly bold: {len(_bad_l) or 'none'}"
                              + (f" -- {_bad_l}" if _bad_l else ""))
 
+print("\n== leftover objects ==")
+_M = "http://schemas.openxmlformats.org/officeDocument/2006/math"
+_orphans = []
+for i, p in enumerate(docx.Document(CLEAN).paragraphs):
+    mt = "".join(t.text or "" for t in p._p.iter(f"{{{_M}}}t"))
+    if mt and p.text.strip():
+        _orphans.append(f"[{i}] {mt[:45]!r} in {p.text.strip()[:40]!r}")
+(ok if not _orphans else fail)(
+    f"equation objects stranded in rewritten paragraphs: {len(_orphans) or 'none'}")
+for o in _orphans: print(f"        {o}")
+import zipfile as _zf, re as _re
+_z = _zf.ZipFile(CLEAN)
+_heads = " ".join("".join(_re.findall(r'<w:t[^>]*>([^<]*)</w:t>', _z.read(n).decode("utf8", "ignore")))
+                  for n in _z.namelist() if _re.match(r'word/header\d+\.xml', n))
+(ok if "De novo design of CLDN4 binders for CAR-T" not in _heads else fail)("running head matches the revised title")
+_body = _z.read("word/document.xml").decode("utf8", "ignore")
+_stale = [v for v in ("1.67", "2.58", "1.33 ", "5.25", "1.82", "2.86") if v in _body]
+(ok if not _stale else fail)(f"superseded p-values in the file: {_stale or 'none'}")
+
 print("\n== references ==")
 cited = set()
 for m in re.finditer(r'\[([\d,\s]+)\]', body):

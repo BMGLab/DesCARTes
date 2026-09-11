@@ -30,9 +30,22 @@ def uid():
 def para_text(p):
     return "".join(n.text or "" for n in p.findall(".//" + qn("w:t")))
 
+OMML = "http://schemas.openxmlformats.org/officeDocument/2006/math"
+
 def clear_runs(p):
+    """Strip a paragraph's content before writing the replacement.
+
+    This must include the OMML equation objects (<m:oMath>, <m:oMathPara>), not only the
+    <w:r> runs. They are siblings of the runs, so removing runs alone left the original
+    inline equations behind and the new text was appended after them - which is how
+    superseded p-values (p = 1.67 x 10-31), an obsolete thermostat constant and the old
+    R_specificity nomenclature survived into paragraphs that had been rewritten. The
+    stand-alone display equations in the Methods live in their own paragraphs, which carry
+    no text and are never edit targets, so they are untouched.
+    """
     for child in list(p):
-        if child.tag in (qn("w:r"), qn("w:ins"), qn("w:del"), qn("w:hyperlink")):
+        if child.tag in (qn("w:r"), qn("w:ins"), qn("w:del"), qn("w:hyperlink"),
+                         f"{{{OMML}}}oMath", f"{{{OMML}}}oMathPara"):
             p.remove(child)
 
 def rpr_of(p):
